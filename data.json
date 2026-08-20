@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20 15:11 UTC",
+ "generated_at": "20 Aug 2026, 17:29 UTC",
  "last_run": "2026-08-20",
  "first_run": "2026-07-05",
  "n_runs": 47,
@@ -8,119 +8,174 @@
   "jrc/gpt-oss-120b",
   "jrc/llama-3.3-70b-instruct"
  ],
- "has_conditional": true,
- "cards": [
+ "model_short": {
+  "ec/gpt-5.1": "gpt-5.1",
+  "jrc/gpt-oss-120b": "gpt-oss-120b",
+  "jrc/llama-3.3-70b-instruct": "llama-3.3-70b-instruct"
+ },
+ "hero": {
+  "var": "us_cpi_yoy",
+  "short": "US inflation",
+  "name": "US CPI inflation (YoY %, all items)",
+  "unit": "% YoY",
+  "last_period": "2026-07",
+  "last_period_pretty": "July 2026",
+  "last_value": 3.3648,
+  "target": "2026-08",
+  "target_pretty": "August 2026",
+  "consensus": 3.29,
+  "lo": 3.25,
+  "hi": 3.5,
+  "n": 5,
+  "stale": false,
+  "run": "2026-08-20"
+ },
+ "tiles": [
   {
    "var": "us_cpi_yoy",
+   "short": "US inflation",
    "name": "US CPI inflation (YoY %, all items)",
-   "group": "Inflation",
+   "unit": "% YoY",
    "last_period": "2026-07",
+   "last_period_pretty": "July 2026",
    "last_value": 3.3648,
    "target": "2026-08",
-   "run": "2026-08-20",
-   "consensus": 3.27,
+   "target_pretty": "August 2026",
+   "consensus": 3.29,
    "lo": 3.25,
-   "hi": 3.29,
-   "n": 3
+   "hi": 3.5,
+   "n": 5,
+   "stale": false,
+   "run": "2026-08-20"
   },
   {
    "var": "ea_hicp_yoy",
+   "short": "Euro area inflation",
    "name": "Euro area HICP inflation (YoY %, all items)",
-   "group": "Inflation",
+   "unit": "% YoY",
    "last_period": "2026-07",
+   "last_period_pretty": "July 2026",
    "last_value": 2.9,
    "target": "2026-08",
-   "run": "2026-08-20",
-   "consensus": 2.8,
+   "target_pretty": "August 2026",
+   "consensus": 2.88,
    "lo": 2.8,
-   "hi": 2.95,
-   "n": 3
+   "hi": 3.1,
+   "n": 6,
+   "stale": false,
+   "run": "2026-08-20"
   },
   {
    "var": "us_unrate",
+   "short": "US unemployment",
    "name": "US unemployment rate (%, seasonally adjusted)",
-   "group": "Labour market",
+   "unit": "%",
    "last_period": "2026-07",
+   "last_period_pretty": "July 2026",
    "last_value": 4.1,
    "target": "2026-08",
-   "run": "2026-08-20",
-   "consensus": 4.05,
+   "target_pretty": "August 2026",
+   "consensus": 4.1,
    "lo": 4.0,
-   "hi": 4.1,
-   "n": 3
+   "hi": 4.15,
+   "n": 6,
+   "stale": false,
+   "run": "2026-08-20"
   },
   {
    "var": "ea_unrate",
+   "short": "Euro area unemployment",
    "name": "Euro area unemployment rate (%, seasonally adjusted, 15-74)",
-   "group": "Labour market",
+   "unit": "%",
    "last_period": "2026-06",
+   "last_period_pretty": "June 2026",
    "last_value": 6.3,
    "target": "2026-07",
-   "run": "2026-08-15",
+   "target_pretty": "July 2026",
    "consensus": 6.3,
    "lo": 6.3,
    "hi": 6.3,
-   "n": 1
+   "n": 2,
+   "stale": true,
+   "run": "2026-08-15"
   },
   {
    "var": "us_gdp_qoq",
+   "short": "US GDP growth",
    "name": "US real GDP growth (quarter-on-quarter %, not annualised, SA)",
-   "group": "Activity",
+   "unit": "% QoQ",
    "last_period": "2026-Q2",
+   "last_period_pretty": "Q2 2026",
    "last_value": 0.3729,
    "target": "2026-Q3",
-   "run": "2026-08-20",
-   "consensus": 0.55,
+   "target_pretty": "Q3 2026",
+   "consensus": 0.5,
    "lo": 0.28,
    "hi": 0.55,
-   "n": 3
+   "n": 6,
+   "stale": false,
+   "run": "2026-08-20"
   },
   {
    "var": "ea_gdp_qoq",
+   "short": "Euro area GDP growth",
    "name": "Euro area real GDP growth (quarter-on-quarter %, calendar and seasonally adjusted, chain-linked volume)",
-   "group": "Activity",
+   "unit": "% QoQ",
    "last_period": "2026-Q1",
+   "last_period_pretty": "Q1 2026",
    "last_value": -0.0053,
    "target": "2026-Q2",
-   "run": "2026-07-30",
-   "consensus": 0.25,
-   "lo": 0.22,
+   "target_pretty": "Q2 2026",
+   "consensus": 0.23,
+   "lo": 0.12,
    "hi": 0.28,
-   "n": 3
+   "n": 6,
+   "stale": true,
+   "run": "2026-07-30"
   },
   {
    "var": "us_ip_yoy",
+   "short": "US industrial production",
    "name": "US industrial production (YoY %, seasonally adjusted)",
-   "group": "Activity",
+   "unit": "% YoY",
    "last_period": "2026-07",
+   "last_period_pretty": "July 2026",
    "last_value": 1.0795,
    "target": "2026-08",
-   "run": "2026-08-20",
-   "consensus": 1.1,
-   "lo": 1.0,
+   "target_pretty": "August 2026",
+   "consensus": 1.01,
+   "lo": 0.65,
    "hi": 1.23,
-   "n": 3
+   "n": 6,
+   "stale": false,
+   "run": "2026-08-20"
   },
   {
    "var": "ea_ip_yoy",
+   "short": "Euro area industrial production",
    "name": "Euro area industrial production, total industry excl. construction (YoY %, working day and seasonally adjusted)",
-   "group": "Activity",
+   "unit": "% YoY",
    "last_period": "2025-09",
+   "last_period_pretty": "September 2025",
    "last_value": 1.1846,
    "target": "2025-10",
-   "run": "2026-07-19",
-   "consensus": 0.81,
-   "lo": 0.59,
+   "target_pretty": "October 2025",
+   "consensus": 0.59,
+   "lo": 0.5,
    "hi": 1.03,
-   "n": 2
+   "n": 4,
+   "stale": true,
+   "run": "2026-07-19"
   }
  ],
  "variables": {
   "us_cpi_yoy": {
    "name": "US CPI inflation (YoY %, all items)",
-   "group": "Inflation",
+   "short": "US inflation",
+   "unit": "% YoY",
+   "area": "US",
    "freq": "M",
-   "window": 72,
+   "stale": false,
    "history": [
     [
      "2016-01",
@@ -623,16 +678,44 @@
      3.884
     ]
    ],
+   "spark": [
+    2.971,
+    2.895,
+    2.531,
+    2.441,
+    2.598,
+    2.749,
+    2.888,
+    3.0,
+    2.822,
+    2.391,
+    2.311,
+    2.355,
+    2.669,
+    2.705,
+    2.916,
+    3.013,
+    2.679,
+    2.714,
+    3.057,
+    2.869,
+    3.488,
+    4.134,
+    4.466,
+    3.884
+   ],
    "last_official": {
     "period": "2026-07",
     "value": 3.3648
    },
    "target": "2026-08",
+   "target_pretty": "August 2026",
    "forecast_run": "2026-08-20",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
+     "label": "gpt-5.1",
      "value": 3.25,
      "web": false,
      "reasoning": "The July 2026 reading of 3.36% continues a clear re‑acceleration from early 2026, driven mainly by energy and some goods prices, after inflation had hovered around 2.3–3.0% for much of 2024–25. Year‑on‑year base effects for August point to only modest upward pressure: the comparison month, August 2025, was 2.92%, which is higher than the roughly 2.5% trough in late 2024 but still below current readings, so even flat or slightly firm monthly price increases now will keep the YoY rate somewhat above 3%. At the same time, the recent path (3.26% in March, 3.81% in April, 4.25% in May, then easing to 3.53% in June and 3.36% in July) suggests that the earlier energy‑driven spike has already peaked and is fading, consistent with stabilising fuel prices and some normalisation in food and traded‑goods disinflation. Monetary policy remains relatively restrictive in real terms, with the Federal Reserve having kept rates moderately high to ensure inflation expectations stay anchored, which should limit the upside momentum and gradually cool domestic demand. Taken together, these factors imply a mild further drift down from July rather than a renewed upswing, so a forecast of 3.25% for August balances the still‑elevated current level, modestly adverse base effects, and the dampening influence of tight policy and fading energy impacts."
@@ -640,6 +723,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 3.5,
      "web": false,
      "reasoning": "The CPI YoY profile shows a clear re-acceleration from roughly 2½–3% in late 2024/early 2025 to 4.25% in May 2026, followed by a modest easing to 3.53% in June and 3.36% in July, suggesting the main energy-driven shock has peaked but underlying inflation remains above the 2% target. On base effects, the August 2025 reading was 2.92%, so even a relatively normal monthly increase in the CPI index in August 2026 (say 0.2–0.3% m/m, annualised 2½–3½%) will mechanically keep the YoY rate in the mid-3s; matching the very low August 2025 base would require an unusually weak monthly print, which looks unlikely given war-related supply frictions. Social media commentary points to a disrupted Strait of Hormuz, stalled Iranian exports and earlier Brent around $100–110, but also notes that Brent is now closer to the high‑80s and that alternative supplies and US net-exporter status are cushioning the shock; that constellation is consistent with elevated but not spiralling gasoline prices. Food prices are likely seeing some pass‑through from higher energy and Middle East disruptions (fertiliser, shipping), while shelter inflation in the US tends to be sticky and is probably still running in the 4–5% range, preventing a rapid drop in core. Monetary policy has been restrictive for some time and is weighing on demand, which explains why headline inflation has rolled off its May peak, but policy lags and the persistence of shelter and services suggest only gradual further disinflation. Putting these elements together, I expect August’s monthly CPI to be slightly firmer than July, but not a renewed surge, leading to a small uptick in the YoY rate to about 3.5%, close to the recent 3.3–3.8 range and consistent with partial fading of energy shocks but still above-target inflation pressure in services and housing."
@@ -647,6 +731,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
+     "label": "gpt-oss-120b",
      "value": 3.27,
      "web": false,
      "reasoning": "The series shows a clear short‑term peak in May 2026 (4.25 %) followed by a rapid decline to 3.36 % in July, indicating that the recent upward pressure from energy and food price spikes is easing. The year‑on‑year base effect is also supportive of a higher August reading than the 2.92 % observed in August 2025, but the momentum is now negative, with the three‑month moving average falling from 4.04 % (Apr‑Jun) to 3.66 % (May‑Jul). Current macro‑economic conditions – stable oil prices around $80 per barrel, modest food‑price growth, and a Federal Reserve policy stance that remains restrictive (policy rate near 5.25 % with no imminent cuts) – suggest that inflation will continue to moderate without a sharp reversal. Consequently, a point forecast of roughly 3.3 % for August 2026 balances the residual base‑effect lift with the observed downward trend."
@@ -654,6 +739,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
      "value": 3.42,
      "web": true,
      "reasoning": "My point forecast for the US CPI inflation rate in August 2026 is 3.42%, slightly higher than the July 2026 rate of 3.36%. Recent social media conversations suggest that oil prices have been volatile due to tensions in the Strait of Hormuz, but the market seems to be pricing in an optimistic scenario of a compromise being reached. However, the reality on the ground looks different, with Iran's oil exports stalling and the US blockade in place. This could lead to higher oil prices, which would contribute to higher inflation. Additionally, the conversations on Reddit's r/inflation subreddit suggest that many people feel that the official inflation numbers do not reflect their personal experiences of price increases, which could indicate that inflation is higher than reported. Taking these factors into account, I expect the CPI inflation rate to tick up slightly in August 2026. I also considered the historical series of US CPI inflation rates, which shows a general downward trend since 2022, but with some volatility in recent months. Overall, my forecast reflects a balance between the current economic conditions, the potential impact of oil price volatility, and the historical trends in the data."
@@ -661,9 +747,104 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
      "value": 3.29,
      "web": true,
      "reasoning": "My point forecast for the US CPI inflation rate for 2026-08 is 3.29%, slightly above the most recent release of 3.36% in 2026-07. Recent momentum in the series has been mixed, with a decline from 4.25% in 2026-05 to 3.36% in 2026-07, suggesting some moderation in inflation pressures. Base effects are also at play, as the strong inflation readings from 2021 are gradually falling out of the year-over-year calculation. According to recent data, energy prices have been relatively stable, while food prices have shown some signs of easing. The Federal Reserve's policy stance remains hawkish, with a focus on bringing inflation back to its 2% target, which should help to keep inflation expectations anchored. After searching the web, I found that the latest nowcasts from various institutions suggest a continued gradual decline in inflation, with some predicting a reading around 3.2-3.3% for August. Taking all these factors into account, I expect the US CPI inflation rate to edge down slightly in August, to 3.29%."
+    }
+   ],
+   "hindcasts": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "t": "2026-06",
+     "f": 4.4,
+     "a": 3.884,
+     "rw": 0.364
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "t": "2026-06",
+     "f": 4.4,
+     "a": 3.884,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "t": "2026-06",
+     "f": 4.5,
+     "a": 3.884,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "t": "2026-06",
+     "f": 4.55,
+     "a": 3.884,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "t": "2026-06",
+     "f": 4.5,
+     "a": 3.884,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "t": "2026-06",
+     "f": 4.5,
+     "a": 3.884,
+     "rw": 0.364
+    }
+   ],
+   "track": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.516,
+     "rw": 0.364
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.516,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.616,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.666,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.616,
+     "rw": 0.364
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.616,
+     "rw": 0.364
     }
    ],
    "revisions": {
@@ -672,6 +853,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -702,6 +884,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -732,6 +915,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -760,6 +944,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -790,6 +975,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -812,6 +998,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -839,6 +1026,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-16",
         "2026-07-17",
@@ -905,6 +1093,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-16",
         "2026-07-17",
@@ -971,6 +1160,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-16",
         "2026-07-17",
@@ -1025,6 +1215,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-16",
         "2026-07-17",
@@ -1081,6 +1272,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-16",
         "2026-07-17",
@@ -1147,6 +1339,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-16",
         "2026-07-17",
@@ -1216,6 +1409,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-08-14",
         "2026-08-15",
@@ -1238,6 +1432,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-08-14",
         "2026-08-15",
@@ -1260,6 +1455,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-08-14",
         "2026-08-15",
@@ -1278,6 +1474,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-08-16",
         "2026-08-17",
@@ -1296,6 +1493,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-08-15",
         "2026-08-16",
@@ -1316,6 +1514,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-08-16",
         "2026-08-17",
@@ -1334,111 +1533,15 @@
      ],
      "realized": null
     }
-   },
-   "track": [
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.516,
-     "bias": 0.516,
-     "rw": 0.364,
-     "ratio": 1.415,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 4.4,
-       "a": 3.884
-      }
-     ]
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.516,
-     "bias": 0.516,
-     "rw": 0.364,
-     "ratio": 1.415,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 4.4,
-       "a": 3.884
-      }
-     ]
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.616,
-     "bias": 0.616,
-     "rw": 0.364,
-     "ratio": 1.69,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 4.5,
-       "a": 3.884
-      }
-     ]
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.616,
-     "bias": 0.616,
-     "rw": 0.364,
-     "ratio": 1.69,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 4.5,
-       "a": 3.884
-      }
-     ]
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.616,
-     "bias": 0.616,
-     "rw": 0.364,
-     "ratio": 1.69,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 4.5,
-       "a": 3.884
-      }
-     ]
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.666,
-     "bias": 0.666,
-     "rw": 0.364,
-     "ratio": 1.827,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 4.55,
-       "a": 3.884
-      }
-     ]
-    }
-   ]
+   }
   },
   "ea_hicp_yoy": {
    "name": "Euro area HICP inflation (YoY %, all items)",
-   "group": "Inflation",
+   "short": "Euro area inflation",
+   "unit": "% YoY",
+   "area": "EA",
    "freq": "M",
-   "window": 72,
+   "stale": false,
    "history": [
     [
      "2010-01",
@@ -2237,16 +2340,44 @@
      2.9
     ]
    ],
+   "spark": [
+    2.2,
+    1.7,
+    2.0,
+    2.2,
+    2.4,
+    2.5,
+    2.3,
+    2.2,
+    2.2,
+    1.9,
+    2.0,
+    2.0,
+    2.0,
+    2.2,
+    2.1,
+    2.1,
+    2.0,
+    1.7,
+    1.9,
+    2.6,
+    3.0,
+    3.2,
+    2.8,
+    2.9
+   ],
    "last_official": {
     "period": "2026-07",
     "value": 2.9
    },
    "target": "2026-08",
+   "target_pretty": "August 2026",
    "forecast_run": "2026-08-20",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
+     "label": "gpt-5.1",
      "value": 2.8,
      "web": false,
      "reasoning": "The profile from late 2025 through mid‑2026 shows headline HICP drifting around the ECB’s 2% target, with a clear but moderate re‑acceleration in spring 2026 (1.7% in January rising to 3.2% in May, then easing slightly to 2.8–2.9% in June–July). That pattern is consistent with earlier sharp disinflation from energy and goods having largely played out, while some combination of higher energy prices, fading favourable base effects, and still‑firm services and wage growth is giving a temporary upward push. The year‑earlier comparison for August 2026 is against 2.2% in August 2024, a relatively low base, which mechanically supports an annual rate in the high‑2s absent a new negative shock; at the same time, the underlying trend in the series suggests the peak of this mini‑upswing was around April–May and that monthly price increases are no longer accelerating. With monetary policy still restrictive in real terms and pipeline cost pressures generally contained, I assume a very slight moderation from July’s 2.9% but ongoing support from energy and services, yielding a forecast of 2.8% year‑on‑year for August 2026."
@@ -2254,6 +2385,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 2.8,
      "web": true,
      "reasoning": "The July euro area HICP headline rate at 2.9% confirms that inflation has moved back slightly above the ECB’s 2% target, with the spring/summer uptick largely driven by energy and some services components rather than a broad-based re-acceleration. The recent profile – 1.7% in January, then a gradual rise to 3.2% in May before easing to 2.8–2.9% in June–July – suggests upward momentum has already peaked, with sequential month‑on‑month increases moderating. Base effects in August 2026 work in both directions: the comparison point is 2.2% in August 2025, so mechanically that supports a relatively elevated year‑on‑year rate, but the sharp disinflation through late 2024 and early 2025 means the worst of the negative base effects is behind us. Live information from oil markets indicates Brent trading in the high‑80s per barrel, below the $100+ levels seen a month earlier and far below the $110 peak in May, despite severe geopolitical tensions around the Strait of Hormuz and US actions against Iranian exports; that points to a smaller incremental energy shock than headlines suggest, limiting further upside to euro area energy inflation, although some pass‑through from earlier price spikes is still working through transport fuels and utility tariffs. Food prices in the euro area remain relatively contained compared with the 2022–23 surge and recent data do not show a renewed broad food shock. The ECB, having tightened substantially in 2022–23, is now broadly in a ‘higher for longer’ stance with only cautious discussion of rate cuts; financing conditions remain restrictive enough to dampen core inflation pressures in 2026H2, even as activity stabilises. Social media perceptions that ‘3% inflation feels like a lie’ are consistent with pockets of high price increases (e.g. rents, some services) rather than a renewed aggregate surge. Putting these elements together, I expect a very slight easing in headline HICP from 2.9% to 2.8% in August, reflecting fading sequential energy momentum and stable core inflation near current levels, while positive base effects keep the rate clearly above 2%."
@@ -2261,6 +2393,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
+     "label": "gpt-oss-120b",
      "value": 2.95,
      "web": false,
      "reasoning": "The series has risen from a low of 1.7 % in January 2026 to 2.9 % in July, with a brief peak of 3.2 % in May, indicating a re‑acceleration after the early‑year dip. The upward momentum over the last three months (June 2.8 % → July 2.9 %) suggests the inflation rate is stabilising around the ECB’s medium‑term target of just under 3 %. Base‑effects are diminishing as the 2025‑2026 price level is now higher, reducing the downward pull from the low‑inflation months of early 2026. Energy prices have moderated since the 2022‑2023 shock, with oil and gas trading near pre‑crisis levels, while food price growth remains modest (around 2‑3 %). Monetary policy remains restrictive, with the ECB policy rate unchanged at a high level, but markets anticipate a cautious easing later in the year, which would not yet be fully reflected in August data. Given these factors, a modest increase to about 2.95 % for August 2026 is a calibrated point forecast."
@@ -2268,6 +2401,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
      "value": 3.1,
      "web": true,
      "reasoning": "My point forecast for the Euro area HICP inflation in August 2026 is 3.10%. Recent momentum in the series has been increasing, with the last release in July 2026 at 2.90%. However, base effects from the previous year are still influencing the current inflation rate. Energy prices, particularly oil, have been a significant driver of inflation, and the current geopolitical tensions in the Middle East, such as the Strait of Hormuz situation, may lead to higher oil prices. According to recent posts on Reddit, oil prices have been relatively stable, but there are concerns about potential supply disruptions. Additionally, food prices have been increasing, which may also contribute to higher inflation. The European Central Bank's policy stance has been focused on controlling inflation, but the current economic conditions may require a more nuanced approach. Overall, considering these factors, I expect the inflation rate to increase slightly in August 2026."
@@ -2275,6 +2409,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
      "value": 2.8,
      "web": true,
      "reasoning": "My point forecast for the Euro area HICP inflation for 2026-08 is 2.80%, considering the recent momentum in the series, which has been relatively stable around 2-3% since the beginning of 2026. The base effects from the previous year are also favorable, as the high inflation rates in 2022 are being replaced by lower rates in 2023 and 2024. According to recent data, energy prices have been relatively stable, and food prices have been increasing at a moderate pace. The European Central Bank has maintained a cautious stance, keeping interest rates high to combat inflation. After searching the web, I found that the latest nowcasts suggest a slight increase in inflation in the coming months, driven by a rebound in energy prices and a pickup in economic activity. However, this increase is expected to be moderate, and the overall inflation rate is likely to remain below 3%. Taking into account these factors, I expect the HICP inflation rate to increase slightly from 2.90% in July to 2.80% in August, reflecting the ongoing stability in the Euro area economy and the ECB's commitment to price stability."
@@ -2282,9 +2417,104 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
      "value": 2.95,
      "web": false,
      "reasoning": "The series shows a clear upward swing from the low of 1.7 % in January 2026 to 2.9 % in July, with a peak of 3.2 % in May and a slight dip in June. The recent momentum suggests a continuation of the upward trend, but the June‑July bounce indicates some moderation. Base‑effects are limited because the comparable July‑2025 figure was 2.0 %, so the rise is not merely statistical. Current oil price discussions on Reddit point to Brent around $88, implying modest energy‑price pressure, while no major food‑price shocks are evident. ECB policy remains restrictive after the recent inflation surge, likely keeping headline inflation near the upper‑mid‑range of the target band. Balancing these factors leads to a forecast of roughly 2.9‑3.0 % for August, set at 2.95 %."
+    }
+   ],
+   "hindcasts": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "t": "2026-07",
+     "f": 2.9,
+     "a": 2.9,
+     "rw": 0.1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "t": "2026-07",
+     "f": 2.7,
+     "a": 2.9,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "t": "2026-07",
+     "f": 2.7,
+     "a": 2.9,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "t": "2026-07",
+     "f": 2.7,
+     "a": 2.9,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "t": "2026-07",
+     "f": 2.95,
+     "a": 2.9,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "t": "2026-07",
+     "f": 2.5,
+     "a": 2.9,
+     "rw": 0.1
+    }
+   ],
+   "track": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.0,
+     "rw": 0.1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.2,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.2,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.2,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.05,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.4,
+     "rw": 0.1
     }
    ],
    "revisions": {
@@ -2293,6 +2523,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -2355,6 +2586,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -2417,6 +2649,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -2473,6 +2706,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -2535,6 +2769,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -2589,6 +2824,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -2648,6 +2884,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-08-01",
         "2026-08-02",
@@ -2696,6 +2933,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-08-01",
         "2026-08-02",
@@ -2744,6 +2982,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-08-03",
         "2026-08-05",
@@ -2770,6 +3009,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-08-01",
         "2026-08-02",
@@ -2804,6 +3044,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-08-01",
         "2026-08-02",
@@ -2846,6 +3087,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-08-01",
         "2026-08-02",
@@ -2886,111 +3128,15 @@
      ],
      "realized": null
     }
-   },
-   "track": [
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.0,
-     "bias": 0.0,
-     "rw": 0.1,
-     "ratio": 0.0,
-     "points": [
-      {
-       "t": "2026-07",
-       "f": 2.9,
-       "a": 2.9
-      }
-     ]
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.05,
-     "bias": 0.05,
-     "rw": 0.1,
-     "ratio": 0.5,
-     "points": [
-      {
-       "t": "2026-07",
-       "f": 2.95,
-       "a": 2.9
-      }
-     ]
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.2,
-     "bias": -0.2,
-     "rw": 0.1,
-     "ratio": 2.0,
-     "points": [
-      {
-       "t": "2026-07",
-       "f": 2.7,
-       "a": 2.9
-      }
-     ]
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.2,
-     "bias": -0.2,
-     "rw": 0.1,
-     "ratio": 2.0,
-     "points": [
-      {
-       "t": "2026-07",
-       "f": 2.7,
-       "a": 2.9
-      }
-     ]
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.2,
-     "bias": -0.2,
-     "rw": 0.1,
-     "ratio": 2.0,
-     "points": [
-      {
-       "t": "2026-07",
-       "f": 2.7,
-       "a": 2.9
-      }
-     ]
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.4,
-     "bias": -0.4,
-     "rw": 0.1,
-     "ratio": 4.0,
-     "points": [
-      {
-       "t": "2026-07",
-       "f": 2.5,
-       "a": 2.9
-      }
-     ]
-    }
-   ]
+   }
   },
   "us_unrate": {
    "name": "US unemployment rate (%, seasonally adjusted)",
-   "group": "Labour market",
+   "short": "US unemployment",
+   "unit": "%",
+   "area": "US",
    "freq": "M",
-   "window": 72,
+   "stale": false,
    "history": [
     [
      "2015-01",
@@ -3541,16 +3687,44 @@
      4.2
     ]
    ],
+   "spark": [
+    4.1,
+    4.2,
+    4.2,
+    4.1,
+    4.1,
+    4.2,
+    4.1,
+    4.0,
+    4.2,
+    4.2,
+    4.2,
+    4.3,
+    4.1,
+    4.3,
+    4.3,
+    4.4,
+    4.5,
+    4.4,
+    4.3,
+    4.4,
+    4.3,
+    4.3,
+    4.3,
+    4.2
+   ],
    "last_official": {
     "period": "2026-07",
     "value": 4.1
    },
    "target": "2026-08",
+   "target_pretty": "August 2026",
    "forecast_run": "2026-08-20",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
+     "label": "gpt-5.1",
      "value": 4.1,
      "web": false,
      "reasoning": "The unemployment rate has drifted up gradually from around 3.5–3.9% in 2023 to just above 4% through 2024–2026, but the recent pattern since early 2026 shows mild easing in slack: 4.4% in February, then 4.3% in March–May, 4.2% in June, and 4.1% in July. This suggests some softening from tighter monetary policy and past real-income squeezes has already materialised, but the rise in unemployment is modest and appears to be stabilising rather than accelerating. With inflation pressures having eased compared with the 2022–23 peak and energy prices off their highs, real wage growth is no longer strongly negative, supporting consumption and limiting further labour-market deterioration. At the same time, policy is still restrictive relative to pre-pandemic norms, keeping demand from re-accelerating and preventing a rapid reversion to sub-4% unemployment. Given this balance of forces, base effects and the recent slow downward drift within a narrow 4.1–4.4% band, the most plausible near-term outcome is a near-flat reading; I therefore forecast 4.1% for August, implying essentially unchanged labour-market conditions with only very slight scope for further improvement."
@@ -3558,6 +3732,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 4.1,
      "web": false,
      "reasoning": "The unemployment rate has drifted up from around 3.5–3.7% in 2023 to the low‑4s in 2024–26, but the recent pattern is of a very mild loosening with some mean‑reversion rather than a sharp deterioration: after peaking near 4.4–4.5% in late 2025, it has edged down to 4.3% in early 2026 and then to 4.1% in July. That trajectory is consistent with a labour market moving closer to a ‘soft‑landing’ equilibrium, where slower demand growth and restrictive monetary policy cool vacancies and wage growth without triggering large job losses. Energy‑market chatter and the Iran/Hormuz situation point to elevated and volatile oil prices (Brent in the high‑80s, down from higher peaks), which act as a tax on real incomes and could trim consumption and hiring at the margin, but these shocks primarily influence inflation and expectations; they typically affect unemployment only with a lag and are being partly offset by alternative supplies and the US’s net‑exporter status. At the same time, household complaints about still‑high inflation suggest real wage gains remain modest, again consistent with firms being cautious but not aggressively shedding labour. Given this backdrop, base effects and recent momentum argue against either a renewed rapid decline or a sudden spike in joblessness; the most likely outcome is that the August rate broadly holds near July’s level, with the historical volatility (±0.1–0.2 percentage points month‑to‑month) making a flat print at 4.1% the most calibrated point forecast."
@@ -3565,6 +3740,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
      "value": 4.1,
      "web": false,
      "reasoning": "The series has been gradually sliding from a peak of 5.4 % in mid‑2021 to 4.1 % in July 2026, with the last six months showing a modest downward drift (4.30 % in Jan 2026 → 4.10 % in Jul 2026). Seasonal patterns in the historical data suggest August usually matches or is slightly above July (e.g., 2022‑2025), but the recent decline and the absence of any new shock imply little room for further fall. Energy markets have stabilised after the Hormuz‑related turmoil, with Brent around $88 bbl, easing inflationary pressure and allowing the Federal Reserve to keep policy rates steady rather than tighten further. Consequently, labour market slack is unlikely to increase, and the unemployment rate is expected to hold at roughly 4.1 % for the August 2026 release."
@@ -3572,6 +3748,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
+     "label": "gpt-oss-120b",
      "value": 4.0,
      "web": false,
      "reasoning": "The unemployment rate has been on a modest downward trajectory over the last six months, falling from 4.30 % in January 2026 to 4.10 % in July 2026, indicating a base‑effect that supports a further small decline. Internally, the US labour market remains tight but not overheated; recent wage growth has moderated and the Federal Reserve has kept policy rates near the neutral level after a series of hikes in 2023‑24, reducing the risk of a sharp slowdown. Energy and food price inflation has eased considerably since the 2022‑23 spikes, limiting cost‑push pressures on firms and preserving hiring momentum. Given these factors, a continuation of the recent trend to around 4.0 % for August 2026 appears the most plausible point estimate."
@@ -3579,6 +3756,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
      "value": 4.15,
      "web": true,
      "reasoning": "My point forecast for the US unemployment rate in 2026-08 is 4.15%, slightly higher than the most recent release of 4.10% in 2026-07. Recent social media conversations suggest that oil prices are a concern, with some users discussing the potential for higher prices due to tensions in the Strait of Hormuz. However, others note that the market is pricing in an optimistic scenario and that alternate oil supplies have become available. I also considered the historical series, which shows a generally stable unemployment rate in recent months. Given the current economic conditions, including the potential for higher oil prices and ongoing geopolitical tensions, I expect the unemployment rate to tick up slightly. The Federal Reserve's policy stance and recent economic data releases also support a modest increase in the unemployment rate. Overall, my forecast reflects a balance of these factors and the recent momentum in the series."
@@ -3586,17 +3764,21 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
      "value": 4.05,
      "web": true,
      "reasoning": "My point forecast for the US unemployment rate in 2026-08 is 4.05%, slightly below the most recent release of 4.10% in 2026-07. Recent momentum in the series has been relatively stable, with a slight downward trend over the past few months. According to the latest data from the Bureau of Labor Statistics, job growth has been steady, with an average monthly gain of 375,000 jobs over the past quarter. Additionally, initial jobless claims have remained low, indicating a strong labor market. I also considered the current policy stance, with the Federal Reserve keeping interest rates steady in recent meetings, which should support continued economic growth. Furthermore, a web search revealed that energy prices have decreased slightly over the past month, which could help reduce inflationary pressures and support consumer spending. Overall, taking into account the stable labor market, steady job growth, and supportive monetary policy, I expect the unemployment rate to edge down slightly to 4.05% in 2026-08."
     }
    ],
+   "hindcasts": [],
+   "track": [],
    "revisions": {
     "2026-07": {
      "lines": [
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -3673,6 +3855,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -3749,6 +3932,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -3815,6 +3999,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -3889,6 +4074,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -3955,6 +4141,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -4026,6 +4213,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-08-08",
         "2026-08-09",
@@ -4060,6 +4248,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-08-08",
         "2026-08-09",
@@ -4094,6 +4283,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-08-09",
         "2026-08-10",
@@ -4124,6 +4314,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-08-08",
         "2026-08-09",
@@ -4154,6 +4345,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-08-08",
         "2026-08-09",
@@ -4186,6 +4378,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-08-08",
         "2026-08-10",
@@ -4216,14 +4409,15 @@
      ],
      "realized": null
     }
-   },
-   "track": []
+   }
   },
   "ea_unrate": {
    "name": "Euro area unemployment rate (%, seasonally adjusted, 15-74)",
-   "group": "Labour market",
+   "short": "Euro area unemployment",
+   "unit": "%",
+   "area": "EA",
    "freq": "M",
-   "window": 72,
+   "stale": true,
    "history": [
     [
      "2015-01",
@@ -4774,16 +4968,44 @@
      6.3
     ]
    ],
+   "spark": [
+    6.4,
+    6.4,
+    6.3,
+    6.3,
+    6.3,
+    6.2,
+    6.3,
+    6.3,
+    6.3,
+    6.4,
+    6.3,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.4,
+    6.3,
+    6.3,
+    6.3,
+    6.4,
+    6.4,
+    6.3,
+    6.3
+   ],
    "last_official": {
     "period": "2026-06",
     "value": 6.3
    },
    "target": "2026-07",
+   "target_pretty": "July 2026",
    "forecast_run": "2026-08-15",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
+     "label": "gpt-5.1",
      "value": 6.3,
      "web": false,
      "reasoning": "The euro area unemployment rate has been remarkably stable around 6.3–6.4% for the past two years, with the latest six months oscillating narrowly between 6.3% and 6.4% and no sign of a clear trend break: 6.30 in January, 6.40 in February, then back to 6.30 in March–June. This pattern suggests a labour market close to balance, where modest cyclical forces and sectoral shifts largely offset each other. Historical seasonality in mid‑year months is weak, and there is no evident mid‑summer tendency for either sharp declines or increases. Against that backdrop, and given the absence of pronounced recent momentum, the most likely outcome is continued sideways movement. With underlying euro area growth modest, monetary policy still restrictive but no longer tightening, and energy and food prices off their peaks but not collapsing (which reduces the likelihood of a sharp demand-driven labour market improvement), the balance of risks around the next print is roughly symmetric around the current level. Calibrating to the recent 0.1 percentage point month‑to‑month variability, a forecast of 6.3% for July 2026 assumes the rate remains at the lower end of its recent range but does not yet embark on a new downward trend, consistent with a broadly stable macro environment and limited new shocks over the forecast horizon."
@@ -4791,17 +5013,21 @@
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 6.3,
      "web": false,
      "reasoning": "The unemployment rate series has been remarkably stable around 6.3–6.4% for roughly the past two years, with very low month‑to‑month volatility (almost all moves are 0.1 percentage point and frequently flat). The most recent data for 2026 show 6.3–6.4% with June at 6.30, suggesting a near‑term equilibrium where cyclical forces are roughly balanced. While the recent oil‑market chatter points to geopolitical tensions around the Strait of Hormuz and some earlier increases in Brent above $100, current prices mentioned near $88 and the availability of alternative supplies imply an energy cost shock that is moderate rather than extreme. This may keep headline inflation somewhat elevated and weigh on real incomes, but it is unlikely to generate a sharp, immediate deterioration in euro area labour demand strong enough to shift the aggregate unemployment rate by more than 0.1 percentage point in a single month. At the same time, monetary policy in the euro area is in a restrictive but gradually easing stance as inflation has declined from its peak; this supports a soft‑landing narrative rather than a sudden downturn, limiting both job destruction and new hiring. Base effects in the unemployment series are minimal given the flat profile since mid‑2024, and there is no evident trend break: the rate has oscillated tightly in a 6.3–6.4% band. Household perceptions of high inflation in social media discussions reflect relative price changes rather than a fresh macro shock large enough to rapidly push unemployment higher. Putting these elements together, the most likely outcome is another print at the current level, so I forecast 6.30% for July 2026."
     }
    ],
+   "hindcasts": [],
+   "track": [],
    "revisions": {
     "2026-06": {
      "lines": [
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -4832,6 +5058,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -4862,6 +5089,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -4890,6 +5118,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -4922,6 +5151,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -4946,6 +5176,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -4975,6 +5206,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5015,6 +5247,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5055,6 +5288,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-31",
         "2026-08-03",
@@ -5087,6 +5321,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5123,6 +5358,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5159,6 +5395,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5191,14 +5428,15 @@
      ],
      "realized": null
     }
-   },
-   "track": []
+   }
   },
   "us_gdp_qoq": {
    "name": "US real GDP growth (quarter-on-quarter %, not annualised, SA)",
-   "group": "Activity",
+   "short": "US GDP growth",
+   "unit": "% QoQ",
+   "area": "US",
    "freq": "Q",
-   "window": 24,
+   "stale": false,
    "history": [
     [
      "2015-Q2",
@@ -5377,16 +5615,44 @@
      0.518
     ]
    ],
+   "spark": [
+    -7.877,
+    7.762,
+    1.134,
+    1.396,
+    1.702,
+    0.825,
+    1.716,
+    -0.255,
+    0.157,
+    0.722,
+    0.69,
+    0.724,
+    0.628,
+    1.154,
+    0.844,
+    0.21,
+    0.885,
+    0.825,
+    0.46,
+    -0.163,
+    0.946,
+    1.076,
+    0.12,
+    0.518
+   ],
    "last_official": {
     "period": "2026-Q2",
     "value": 0.3729
    },
    "target": "2026-Q3",
+   "target_pretty": "Q3 2026",
    "forecast_run": "2026-08-20",
    "forecasts": [
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
+     "label": "gpt-oss-120b",
      "value": 0.28,
      "web": false,
      "reasoning": "The most recent quarters show a clear deceleration: real GDP grew 0.52 % q/q in 2026‑Q1 and slowed to 0.37 % q/q in 2026‑Q2, reflecting the cumulative impact of tighter monetary policy after the Fed kept the policy rate above 5 % throughout 2025‑2026, as well as modestly higher energy and food prices that have eroded disposable income. The base‑effect of the relatively strong 2026‑Q1 growth also dampens the incremental contribution of the Q2‑Q3 period. Historical volatility suggests that after a slowdown the series typically settles around 0.2‑0.4 % q/q, as seen after the 2025‑Q1 dip and the 2024‑Q2 peak. Given the current outlook—stable but subdued consumption, a gradual easing of credit conditions, and no major supply‑side shocks—I estimate a modest rebound to about 0.28 % q/q for 2026‑Q3."
@@ -5394,6 +5660,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
      "value": 0.28,
      "web": false,
      "reasoning": "The series shows a clear deceleration after a strong rebound in 2025‑Q3 (1.08 %) and a modest rebound in 2026‑Q1 (0.52 %) followed by a drop to 0.37 % in Q2, indicating a weakening momentum. Base‑effects from the 2025‑Q4 dip (0.12 %) are fading, but the recent slowdown suggests the economy is still operating under a relatively tight monetary stance, with the Federal Reserve likely keeping policy rates elevated or only beginning modest cuts. Energy markets have been volatile due to the Hormuz tension, yet Brent has stabilised around $88, limiting any major cost‑push inflation. Household sentiment on Reddit reflects concerns about oil‑related price pressures and inflation, but not a sharp deterioration. Combining the modest negative trend, the still‑restrictive policy environment and the absence of a strong positive shock, a forecast of about 0.28 % quarter‑on‑quarter real GDP growth for 2026‑Q3 is a calibrated estimate."
@@ -5401,6 +5668,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 0.45,
      "web": false,
      "reasoning": "The recent GDP profile shows moderate but steady growth after the 2025 soft patch, with 2026-Q1 at 0.52% and 2026-Q2 easing slightly to 0.37%, broadly in line with the post‑pandemic expansion pace of around 0.5–0.8% q‑o‑q. That sequence suggests underlying demand remains resilient but is being tempered by tight monetary policy and a gradual normalisation of earlier strength in consumer spending and investment. Compared with the stronger episodes in 2023–24, the current level of growth is closer to potential, implying that much of the earlier upside from reopening and fiscal support has already passed through, which lowers the probability of a return to above‑1% quarterly prints absent a clear new impulse. The social‑media snippets indicate both elevated geopolitical tensions around Iran and the Strait of Hormuz and concerns over oil shocks, yet they also point to Brent trading in the high‑80s and below recent peaks above $100, with market participants emphasising alternative supplies and partial flows; that configuration is consistent with a modest, not extreme, energy‑price drag on real income and consumption. Households complaining that 3% inflation feels like a lie fit a narrative of continued cost‑of‑living pressure, which likely restrains real spending growth but does not by itself imply an imminent contraction. Policy‑wise, US rates are still relatively restrictive, working through credit conditions and interest‑sensitive sectors, but there is no evidence here of a sudden tightening that would trigger a sharp downturn within a single quarter. Putting these elements together, the most plausible outlook is slightly firmer growth than in Q2, as inventories and net exports may contribute and domestic demand continues to expand, but still below the stronger mid‑cycle pace of previous years. I therefore forecast US real GDP growth in 2026‑Q3 at 0.45% q‑o‑q (SA), a small positive step‑up from Q2 but comfortably within the recent 0.3–0.8% range, balancing geopolitical energy risks and ongoing restrictive monetary policy against underlying momentum in the real economy."
@@ -5408,6 +5676,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
+     "label": "gpt-5.1",
      "value": 0.55,
      "web": false,
      "reasoning": "The recent pattern of US real GDP growth shows moderately firm but volatile momentum: after a soft patch in early 2024 and a brief contraction in 2025-Q1, quarterly growth has generally run in the 0.5–1.0% range, with 2026-Q1 at 0.52% and 2026-Q2 easing slightly to 0.37%. This suggests the economy is growing somewhat above a 0.4–0.5% q-o-q medium-run pace but with intermittent downside surprises. With inflation having moderated from its post-pandemic peaks and the Federal Reserve likely having kept policy rates restrictive but no longer tightening aggressively, domestic demand should remain supported by a still-solid labour market and real income gains, while higher real rates and past tightening restrain credit-sensitive components (housing, some business investment). Energy prices are assumed not to have experienced a major renewed shock in mid-2026, limiting drag from real income compression, and base effects from the earlier swings in 2025 are fading, allowing underlying growth to be more closely aligned with trend. Balancing these factors, and the small step down from Q1 to Q2, I forecast a modest re-acceleration to 0.55% q-o-q in 2026-Q3, slightly above the latest outturn but within the prevailing post-2023 range and consistent with an economy that is decelerating gradually rather than entering recession."
@@ -5415,6 +5684,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
      "value": 0.55,
      "web": true,
      "reasoning": "My point forecast for US real GDP growth in 2026-Q3 is 0.55%. Recent momentum in the series has been moderate, with 2026-Q2 growth at 0.37%. However, I expect a slight pickup in growth due to the ongoing recovery in consumer spending and business investment. The current geopolitical tensions in the Middle East, particularly the situation with Iran, have led to concerns about oil price volatility, but the market seems to be pricing in an optimistic scenario. According to recent posts on Reddit, the current WTI/Brent price is around $88, which is below the $100+ level seen last month. While this could lead to some upward pressure on prices, I expect the impact on GDP growth to be limited. Additionally, the Federal Reserve's policy stance remains accommodative, which should support economic growth. Overall, I expect the US economy to continue growing at a moderate pace, driven by domestic demand and supported by monetary policy. The soft, noisy signals from household perceptions on Reddit suggest that consumers are feeling the effects of inflation, but this is not expected to significantly impact GDP growth in the near term."
@@ -5422,17 +5692,21 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
      "value": 0.55,
      "web": true,
      "reasoning": "My point forecast for 2026-Q3 US real GDP growth is 0.55%, slightly above the recent release for 2026-Q2. Recent momentum in the series has been moderate, with the last two quarters averaging 0.44%. I've retrieved information on the latest releases, including the July 2026 jobs report showing a moderate increase of 175,000 jobs, and the July 2026 CPI report indicating a 0.2% monthly increase, suggesting that inflation pressures remain contained. Additionally, the latest nowcasts from the Atlanta Fed's GDPNow model and the New York Fed's Nowcasting Report indicate a Q3 growth pace around 0.5-0.6%. Energy prices have been relatively stable, with WTI crude oil prices hovering around $70 per barrel, while food prices have shown some moderation. The policy stance remains accommodative, with the Federal Reserve keeping interest rates on hold at its latest meeting. Considering these factors, I expect the US economy to continue growing at a moderate pace, driven by consumer spending and business investment, resulting in a 0.55% quarter-on-quarter growth rate in Q3."
     }
    ],
+   "hindcasts": [],
+   "track": [],
    "revisions": {
     "2026-Q2": {
      "lines": [
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -5487,6 +5761,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -5541,6 +5816,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -5601,6 +5877,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -5661,6 +5938,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -5713,6 +5991,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -5770,6 +6049,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5820,6 +6100,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5870,6 +6151,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5908,6 +6190,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5954,6 +6237,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -5998,6 +6282,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-31",
         "2026-08-01",
@@ -6040,14 +6325,15 @@
      ],
      "realized": null
     }
-   },
-   "track": []
+   }
   },
   "ea_gdp_qoq": {
    "name": "Euro area real GDP growth (quarter-on-quarter %, calendar and seasonally adjusted, chain-linked volume)",
-   "group": "Activity",
+   "short": "Euro area GDP growth",
+   "unit": "% QoQ",
+   "area": "EA",
    "freq": "Q",
-   "window": 24,
+   "stale": true,
    "history": [
     [
      "2015-Q1",
@@ -6230,16 +6516,44 @@
      -0.005
     ]
    ],
+   "spark": [
+    -11.147,
+    11.537,
+    0.314,
+    0.843,
+    2.158,
+    1.817,
+    0.737,
+    0.729,
+    0.952,
+    0.533,
+    -0.065,
+    -0.129,
+    0.215,
+    0.135,
+    0.01,
+    0.342,
+    0.212,
+    0.502,
+    0.296,
+    0.569,
+    -0.013,
+    0.312,
+    0.194,
+    -0.005
+   ],
    "last_official": {
     "period": "2026-Q1",
     "value": -0.0053
    },
    "target": "2026-Q2",
+   "target_pretty": "Q2 2026",
    "forecast_run": "2026-07-30",
    "forecasts": [
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
      "value": 0.12,
      "web": false,
      "reasoning": "The euro area has shown a pattern of modest quarterly growth after the pandemic bounce, with most quarters since 2022 hovering between +0.2% and +0.5% and only occasional small negatives. The most recent observation, Q1 2026, was essentially flat at –0.01%, indicating little downside momentum and a negligible base‑effect drag. Energy markets have been volatile – recent Reddit chatter points to heightened geopolitical risk and a temporary oil price spike – but the impact on real output is limited as higher energy costs are largely reflected in inflation rather than immediate production. The ECB has kept policy relatively tight after a series of rate hikes, but with inflation easing it is likely to pause or modestly ease, supporting a gentle rebound. Combining the recent positive trend in the latter half of 2025, the near‑zero base, and the limited real‑economy drag from energy price swings, a modest expansion of about +0.12 % quarter‑on‑quarter is a calibrated point forecast for Q2 2026."
@@ -6247,6 +6561,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
+     "label": "gpt-5.1",
      "value": 0.28,
      "web": false,
      "reasoning": "Given the mildly negative outturn in 2026-Q1 (-0.01) but the preceding run of modest positive growth, I forecast euro area real GDP to expand by 0.28% q-o-q in 2026-Q2. The recent profile suggests the economy has moved from the strong post-pandemic rebound into a low-growth environment, with quarterly rates mostly in the 0.2–0.5% range since early 2024 and only short, shallow pauses (2025-Q2 and 2026-Q1). This implies underlying momentum around 0.3% per quarter once temporary drags fade. Energy and food prices, while still above pre-2020 norms in my prior knowledge, are no longer surging, reducing real-income headwinds compared with 2022; at the same time, tighter monetary policy and restrictive financing conditions continue to cap investment and durable consumption, preventing a robust acceleration above trend. Base effects from the weak 2026-Q1 level should support a mechanical rebound in headline growth as any small improvement in demand—especially in services and tourism during spring and early summer—translates into a slightly stronger q-o-q print. Overall, combining the moderate underlying trend, the absence of large new negative shocks in my information set, and the typical pattern of modest recoveries after flat or slightly negative quarters, I calibrate the forecast to 0.28%, close to but a bit above the recent 0.2–0.3% observations and consistent with a cautious pick-up rather than a strong upswing."
@@ -6254,6 +6569,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 0.28,
      "web": false,
      "reasoning": "With euro area quarterly GDP essentially flat in 2026 Q1 (-0.01%), the recent pattern since 2023 points to a weak but positive underlying trend: after the shallow technical recession in late 2022–early 2023, growth has stabilised around 0.2–0.5% per quarter, with occasional small negatives. Monetary policy is still relatively tight compared with pre‑pandemic norms, but by mid‑2026 the ECB is likely in, or close to, an easing phase in response to core inflation gradually returning towards target and a prolonged period of subdued activity; this tends to support domestic demand with a lag, contributing perhaps 0.1–0.2 percentage points to quarterly growth relative to the recent trough. Energy prices, while volatile due to geopolitical tensions around Iran and Gulf infrastructure, are not clearly in a sustained spike based on the mixed social‑media chatter; the absence of widespread consumer alarm about fuel or food costs suggests that real income headwinds from energy are moderate rather than severe, avoiding a drag of more than a tenth of a point on Q2 output. Base effects in the national accounts are also neutral to slightly positive: the level of GDP is no longer far above trend as in the immediate post‑COVID rebound, so there is less risk of automatic payback declines. Taken together—modest cyclical recovery in services and consumption, slightly improving financial conditions, and no major negative shock from energy or food—this argues for a small rebound from the Q1 stagnation into the low‑to‑mid 0.2–0.3% range. I therefore forecast euro area real GDP growth in 2026 Q2 at 0.28% quarter‑on‑quarter, consistent with continued but fragile expansion rather than a renewed downturn."
@@ -6261,6 +6577,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
+     "label": "gpt-oss-120b",
      "value": 0.22,
      "web": false,
      "reasoning": "The euro area showed a flat quarter in Q1 2026 (‑0.01 %). Historically, a modest rebound follows a stagnant or slightly negative Q1, as seen in 2023‑Q2 (+0.21 %) and 2024‑Q2 (+0.21 %). Recent macro‑economic conditions suggest that the sharp energy‑price shock of 2022‑23 has largely stabilised, with oil and gas prices near pre‑crisis levels, reducing cost pressures and supporting consumption. Inflation has fallen to around 2 % and the ECB has paused its rate hikes, keeping monetary conditions relatively tight but not contractionary. Labour market indicators remain resilient, with unemployment around 6.5 % and wage growth modestly above inflation, providing a favourable backdrop for demand. Given the limited base effect from the near‑zero Q1 figure, a modest quarter‑on‑quarter expansion of roughly 0.2 % appears consistent with the prevailing momentum and the easing of energy‑price headwinds."
@@ -6268,6 +6585,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
      "value": 0.25,
      "web": true,
      "reasoning": "My point forecast for Euro area real GDP growth in 2026-Q2 is 0.25%, reflecting a modest rebound from the slight contraction in 2026-Q1. Recent momentum in the series has been mixed, with a decline in Q1 following a slowdown in the second half of 2025. However, base effects from the weak Q2 2025 reading should provide some support. Energy prices have eased somewhat since their peak, which should help alleviate pressure on households and businesses, while food prices remain a concern. The European Central Bank's (ECB) policy stance remains cautious, with interest rates still elevated, but the pace of tightening has slowed. According to the latest ECB staff macroeconomic projections, the euro area economy is expected to grow at a moderate pace in 2026, driven by a recovery in domestic demand. Nowcasts from reputable institutions, such as the Eurozone Nowcasting Indicator, suggest a similar pace of growth. Overall, these factors suggest a gradual improvement in economic activity, leading to a forecast of 0.25% growth in Q2 2026."
@@ -6275,17 +6593,21 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
      "value": 0.2,
      "web": true,
      "reasoning": "My point forecast for Euro area real GDP growth in 2026-Q2 is 0.2%. Recent momentum in the series has been weak, with a contraction of 0.01% in 2026-Q1. However, base effects from the strong growth in 2025-Q1 and 2025-Q2 should support a modest rebound. Energy prices have been a key concern, but the recent stability in oil prices, with WTI and Brent prices fluctuating around current levels, should limit the downside risks. The ECB's policy stance remains accommodative, which should also support growth. Additionally, the Reddit conversations suggest that households are concerned about prices and the economy, but there is no clear indication of a significant downturn. The escalation of tensions in the Middle East, particularly between Iran and the US, poses a risk to oil prices and global growth, but for now, I assume that the conflict will not significantly impact the Euro area economy. Overall, I expect a modest growth rebound in 2026-Q2, driven by base effects, stable energy prices, and accommodative monetary policy."
     }
    ],
+   "hindcasts": [],
+   "track": [],
    "revisions": {
     "2026-Q2": {
      "lines": [
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -6346,6 +6668,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -6406,6 +6729,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-08",
@@ -6460,6 +6784,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -6518,6 +6843,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -6570,6 +6896,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -6622,14 +6949,15 @@
      ],
      "realized": null
     }
-   },
-   "track": []
+   }
   },
   "us_ip_yoy": {
    "name": "US industrial production (YoY %, seasonally adjusted)",
-   "group": "Activity",
+   "short": "US industrial production",
+   "unit": "% YoY",
+   "area": "US",
    "freq": "M",
-   "window": 72,
+   "stale": false,
    "history": [
     [
      "2016-01",
@@ -7136,16 +7464,44 @@
      1.144
     ]
    ],
+   "spark": [
+    -0.923,
+    -0.405,
+    -1.2,
+    -0.995,
+    -1.558,
+    -0.274,
+    0.849,
+    0.812,
+    0.58,
+    0.882,
+    0.102,
+    0.579,
+    1.919,
+    1.189,
+    1.863,
+    1.759,
+    1.754,
+    1.163,
+    0.973,
+    0.818,
+    0.571,
+    1.277,
+    1.58,
+    1.144
+   ],
    "last_official": {
     "period": "2026-07",
     "value": 1.0795
    },
    "target": "2026-08",
+   "target_pretty": "August 2026",
    "forecast_run": "2026-08-20",
    "forecasts": [
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
+     "label": "gpt-oss-120b",
      "value": 1.1,
      "web": false,
      "reasoning": "The series has stabilised around the 1 %‑1.5 % range after a volatile 2022‑2023 period. The 12‑month average (1.29 %) is pulled up by the strong May‑June 2025‑2026 run, but the most recent three months show a clear downward drift from 1.53 % in May to 1.08 % in July, suggesting a modest easing. The YoY calculation benefits from a relatively benign base (1.19 % in August 2025), so any modest month‑on‑month increase would translate into a YoY figure close to the recent level. With the Federal Reserve likely maintaining a restrictive stance and energy prices expected to be stable, there is little impetus for a sharp rebound. Consequently, a point forecast of about 1.1 % for August 2026 balances the recent momentum, base‑effect considerations and prevailing policy conditions."
@@ -7153,6 +7509,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
      "value": 0.65,
      "web": true,
      "reasoning": "The series has been slipping from a May 2026 peak of 1.53% to 1.08% in July, reflecting a recent downward momentum and a strong base effect – July’s YoY figure is measured against June 2025, which was a low‑growth month (0.58%). August will be compared with July 2025 (1.92%), a much higher base, so even a flat‑lined production level would translate into a lower YoY rate. Oil prices remain modest (Brent around $88), easing input costs, but the ongoing Strait of Hormuz tension and a still‑tight monetary stance after the Fed’s 2025‑26 tightening cycle keep demand subdued. Combining these factors suggests a modest further decline, leading to a forecast of roughly 0.65% YoY for August 2026."
@@ -7160,6 +7517,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
      "value": 1.02,
      "web": true,
      "reasoning": "My point forecast for US industrial production in 2026-08 is 1.02%, slightly lower than the recent release for 2026-07. Recent momentum in the series has been positive, with the last few releases showing a gradual increase. However, base effects from the previous year may start to weigh on the year-over-year growth rate. Energy prices, particularly oil, have been a key factor in the recent developments, with the Strait of Hormuz situation and Iran's oil exports stalling under the US blockade. Despite the tensions, oil prices have not exploded higher, with Brent sitting around $88, well below the $100+ peak in May. The market seems to be pricing in an optimistic scenario, with traders expecting a messy compromise to eventually restore oil flows through Hormuz. I incorporated this information into my forecast, assuming that the current oil price levels will not significantly impact industrial production in the short term. Additionally, the Reddit conversations reflect household perceptions of prices and the economy, with some users questioning the official inflation numbers and feeling that inflation is higher than reported. However, these perceptions do not seem to be significantly impacting the overall trend in industrial production. Overall, my forecast reflects a moderate growth rate, taking into account the recent momentum, base effects, and the current energy price environment."
@@ -7167,6 +7525,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
      "value": 1.23,
      "web": true,
      "reasoning": "My point forecast for the US industrial production year-over-year percentage change in 2026-08 is 1.23. Recent momentum in the series has been positive, with the last few releases showing a steady increase, and I expect this trend to continue. Base effects are also favorable, as the comparison period in 2025 was relatively weak. According to the latest data from the Energy Information Administration, energy prices have been stable in recent months, which should support industrial production. Additionally, the Federal Reserve's current policy stance is neutral, which should not hinder economic growth. I retrieved information from recent releases, including the July 2026 ISM Manufacturing Index, which showed a slight increase to 51.1, indicating expansion in the manufacturing sector. Furthermore, the latest nowcasts from the Atlanta Fed's GDPNow model suggest a moderate pace of economic growth in the third quarter, which should also support industrial production. Taking all these factors into account, I expect the US industrial production to continue growing at a moderate pace, resulting in a year-over-year increase of 1.23% in August 2026."
@@ -7174,6 +7533,7 @@
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
+     "label": "gpt-5.1",
      "value": 1.0,
      "web": false,
      "reasoning": "The year-on-year profile shows US industrial production having emerged from a shallow contraction in 2024 into a modest, fairly stable expansion in 2025–26, fluctuating roughly in a 0.7–1.9% range over the past year, with the latest readings easing from 1.53% (May) and 1.29% (June) to 1.08% (July). That pattern suggests underlying output is growing slowly but faces soft global manufacturing demand, tighter credit, and ongoing post-pandemic realignment, while base effects are no longer strongly negative as the weak 2023–24 levels roll out of the comparison window. Energy prices and supply chains have generally normalised compared with earlier shocks, limiting both upside volatility and downside risk, and the Federal Reserve’s restrictive stance keeps overall demand from re-accelerating strongly. Given this context, the recent mild loss of momentum, and the tendency of the series to move in small increments rather than sharp breaks in the current regime, a slight further drift lower but still near 1% year-on-year growth is most plausible, leading to a forecast of about 1.0% for August, only marginally below July’s 1.08%."
@@ -7181,9 +7541,104 @@
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 0.9,
      "web": false,
      "reasoning": "The year-on-year profile of US industrial production shows a clear transition from mild contraction in 2024 to modest, but easing, positive growth through 2025–26: after hovering around 0.6–1.9% in mid–late 2025, the rate has stepped down from 1.53% in May 2026 to 1.29% in June and 1.08% in July, suggesting momentum is softening rather than re-accelerating. Base effects for August are slightly less supportive than in July, because the 2025-08 comparison point (1.19%) was already moderately positive, so even a small sequential gain in the level of the index now translates into a YoY rate that is likely to be at or below the recent 1–1.5% band. War-related disruptions around Iran, Hormuz and Kharg Island, together with US strategic aims to keep oil prices contained, point to an environment where energy prices are volatile but not spiralling upwards (social media discussion cites Brent near the high-80s, below earlier peaks), so there is no strong additional impulse to US heavy industry from either a demand surge or a severe energy price shock at this horizon. With the Federal Reserve having already tightened policy and overall demand running at a more sustainable pace, manufacturing and mining output tend to grow slowly, and recent data on activity and orders (as embedded in my training) are consistent with a modest expansion rather than a new slump or boom. Balancing these factors, I expect a further small deceleration in YoY industrial production, with the August 2026 rate edging down to around 0.9%, essentially flat to slightly lower than July but still clearly positive."
+    }
+   ],
+   "hindcasts": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "t": "2026-06",
+     "f": 1.5,
+     "a": 1.144,
+     "rw": 0.522
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "t": "2026-06",
+     "f": 1.5,
+     "a": 1.144,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "t": "2026-06",
+     "f": 1.9,
+     "a": 1.144,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "t": "2026-06",
+     "f": 2.0,
+     "a": 1.144,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "t": "2026-06",
+     "f": 1.83,
+     "a": 1.144,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "t": "2026-06",
+     "f": 1.85,
+     "a": 1.144,
+     "rw": 0.522
+    }
+   ],
+   "track": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.356,
+     "rw": 0.522
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.356,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.756,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.856,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "mae": 0.686,
+     "rw": 0.522
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "mae": 0.706,
+     "rw": 0.522
     }
    ],
    "revisions": {
@@ -7192,6 +7647,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -7222,6 +7678,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -7252,6 +7709,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -7280,6 +7738,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -7308,6 +7767,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -7330,6 +7790,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-06",
@@ -7357,6 +7818,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-18",
         "2026-07-19",
@@ -7423,6 +7885,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-18",
         "2026-07-19",
@@ -7489,6 +7952,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-18",
         "2026-07-19",
@@ -7551,6 +8015,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-18",
         "2026-07-19",
@@ -7617,6 +8082,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-18",
         "2026-07-19",
@@ -7679,6 +8145,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-18",
         "2026-07-19",
@@ -7746,6 +8213,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-08-19",
         "2026-08-20"
@@ -7758,6 +8226,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-08-19",
         "2026-08-20"
@@ -7770,6 +8239,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-08-19",
         "2026-08-20"
@@ -7782,6 +8252,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-08-19",
         "2026-08-20"
@@ -7794,6 +8265,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-08-19",
         "2026-08-20"
@@ -7806,6 +8278,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-08-19",
         "2026-08-20"
@@ -7818,111 +8291,15 @@
      ],
      "realized": null
     }
-   },
-   "track": [
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.356,
-     "bias": 0.356,
-     "rw": 0.522,
-     "ratio": 0.682,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 1.5,
-       "a": 1.144
-      }
-     ]
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.356,
-     "bias": 0.356,
-     "rw": 0.522,
-     "ratio": 0.682,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 1.5,
-       "a": 1.144
-      }
-     ]
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.686,
-     "bias": 0.686,
-     "rw": 0.522,
-     "ratio": 1.314,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 1.83,
-       "a": 1.144
-      }
-     ]
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.706,
-     "bias": 0.706,
-     "rw": 0.522,
-     "ratio": 1.353,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 1.85,
-       "a": 1.144
-      }
-     ]
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.756,
-     "bias": 0.756,
-     "rw": 0.522,
-     "ratio": 1.449,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 1.9,
-       "a": 1.144
-      }
-     ]
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.856,
-     "bias": 0.856,
-     "rw": 0.522,
-     "ratio": 1.64,
-     "points": [
-      {
-       "t": "2026-06",
-       "f": 2.0,
-       "a": 1.144
-      }
-     ]
-    }
-   ]
+   }
   },
   "ea_ip_yoy": {
    "name": "Euro area industrial production, total industry excl. construction (YoY %, working day and seasonally adjusted)",
-   "group": "Activity",
+   "short": "Euro area industrial production",
+   "unit": "% YoY",
+   "area": "EA",
    "freq": "M",
-   "window": 72,
+   "stale": true,
    "history": [
     [
      "2016-01",
@@ -8393,16 +8770,44 @@
      1.185
     ]
    ],
+   "spark": [
+    -5.413,
+    -3.92,
+    -1.564,
+    -5.444,
+    -5.352,
+    -3.34,
+    -3.21,
+    -4.586,
+    -3.973,
+    -2.096,
+    -0.84,
+    -2.314,
+    -0.97,
+    -2.087,
+    -1.801,
+    -0.32,
+    0.942,
+    3.743,
+    0.311,
+    3.03,
+    0.706,
+    1.937,
+    1.211,
+    1.185
+   ],
    "last_official": {
     "period": "2025-09",
     "value": 1.1846
    },
    "target": "2025-10",
+   "target_pretty": "October 2025",
    "forecast_run": "2026-07-19",
    "forecasts": [
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
      "value": 0.59,
      "web": false,
      "reasoning": "Baseline is the random-walk forecast. Given recent volatility, a moderate m/m increase of 0.2% is expected, implying a YoY of 0.59%. Scenario probabilities are assigned based on historical patterns and recent trends, with a slight bias towards continuation."
@@ -8410,6 +8815,7 @@
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
      "value": 0.59,
      "web": false,
      "reasoning": "Baseline starts at 1.18. Considering recent m/m pace, seasonal norms, and partial reversal, weighted scenarios lead to a moderate m/m increase of 0.2%, implying a YoY of 0.59%."
@@ -8417,6 +8823,7 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
+     "label": "gpt-oss-120b",
      "value": 1.03,
      "web": false,
      "reasoning": "Baseline is the random‑walk YoY 1.18, implying a m/m change of ~+0.79 %. Scenario a keeps the recent high pace but caps m/m at the table maximum (+0.8 %, YoY ≈ 1.19). Scenario b returns to the seasonal norm (+0.79 %, YoY ≈ 1.18). Scenario c assumes a partial reversal to the 24‑month mean m/m (+0.28 %, YoY ≈ 0.67). Probabilities reflect low confidence in a repeat of the extreme September swing. The weighted YoY forecast is 1.03 %."
@@ -8424,17 +8831,21 @@
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
      "value": 0.5,
      "web": false,
      "reasoning": "Baseline random‑walk YoY = 1.18 (no m/m change). Zero m/m gives YoY 0.39. Seasonal norm for Oct ≈ -0.17% m/m → YoY ≈ 0.22. Recent small positive average (+0.28% m/m) → YoY ≈ 0.67. Continuation of strong positive m/m (capped at +0.8%) → YoY ≈ 1.18. Assign probabilities 0.15, 0.55, 0.30 respectively. Weighted YoY ≈ 0.5%, corresponding to an expected m/m of ≈0.11%."
     }
    ],
+   "hindcasts": [],
+   "track": [],
    "revisions": {
     "2025-10": {
      "lines": [
       {
        "model": "ec/gpt-5.1",
        "type": "conditional",
+       "label": "gpt-5.1 · cond.",
        "x": [
         "2026-07-05"
        ],
@@ -8445,6 +8856,7 @@
       {
        "model": "ec/gpt-5.1",
        "type": "unconditional",
+       "label": "gpt-5.1",
        "x": [
         "2026-07-05"
        ],
@@ -8455,6 +8867,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-07-05",
         "2026-07-19"
@@ -8467,6 +8880,7 @@
       {
        "model": "jrc/gpt-oss-120b",
        "type": "unconditional",
+       "label": "gpt-oss-120b",
        "x": [
         "2026-07-05",
         "2026-07-19"
@@ -8479,6 +8893,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-07-05",
         "2026-07-19"
@@ -8491,6 +8906,7 @@
       {
        "model": "jrc/llama-3.3-70b-instruct",
        "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-07-05",
         "2026-07-19"
@@ -8503,54 +8919,240 @@
      ],
      "realized": null
     }
-   },
-   "track": []
+   }
   }
  },
- "overall": [
+ "scoreboard": [
   {
    "model": "ec/gpt-5.1",
    "type": "conditional",
+   "label": "gpt-5.1 · cond.",
+   "skill": 0.623,
    "n": 3,
    "vars": 3,
-   "ratio": 0.699
+   "wins": 2,
+   "clipped": 1,
+   "loo_lo": 1,
+   "loo_hi": 1,
+   "mae": 0.291,
+   "bias": 0.291,
+   "rw": 0.329,
+   "rank": 1
   },
   {
    "model": "jrc/llama-3.3-70b-instruct",
    "type": "conditional",
+   "label": "llama-3.3-70b-instruct · cond.",
+   "skill": 1.036,
    "n": 3,
    "vars": 3,
-   "ratio": 1.168
+   "wins": 1,
+   "clipped": 0,
+   "loo_lo": 2,
+   "loo_hi": 3,
+   "mae": 0.451,
+   "bias": 0.451,
+   "rw": 0.329,
+   "rank": 2
   },
   {
    "model": "ec/gpt-5.1",
    "type": "unconditional",
+   "label": "gpt-5.1",
+   "skill": 1.245,
    "n": 3,
    "vars": 3,
-   "ratio": 1.366
+   "wins": 1,
+   "clipped": 0,
+   "loo_lo": 2,
+   "loo_hi": 3,
+   "mae": 0.357,
+   "bias": 0.224,
+   "rw": 0.329,
+   "rank": 3
   },
   {
    "model": "jrc/gpt-oss-120b",
    "type": "conditional",
+   "label": "gpt-oss-120b · cond.",
+   "skill": 1.698,
    "n": 3,
    "vars": 3,
-   "ratio": 1.713
+   "wins": 0,
+   "clipped": 0,
+   "loo_lo": 4,
+   "loo_hi": 5,
+   "mae": 0.524,
+   "bias": 0.391,
+   "rw": 0.329,
+   "rank": 4
   },
   {
    "model": "jrc/gpt-oss-120b",
    "type": "unconditional",
+   "label": "gpt-oss-120b",
+   "skill": 1.816,
    "n": 3,
    "vars": 3,
-   "ratio": 1.822
+   "wins": 0,
+   "clipped": 0,
+   "loo_lo": 5,
+   "loo_hi": 5,
+   "mae": 0.574,
+   "bias": 0.441,
+   "rw": 0.329,
+   "rank": 5
   },
   {
    "model": "jrc/llama-3.3-70b-instruct",
    "type": "unconditional",
+   "label": "llama-3.3-70b-instruct",
+   "skill": 2.091,
    "n": 3,
    "vars": 3,
-   "ratio": 2.348
+   "wins": 0,
+   "clipped": 0,
+   "loo_lo": 4,
+   "loo_hi": 6,
+   "mae": 0.574,
+   "bias": 0.307,
+   "rw": 0.329,
+   "rank": 6
   }
  ],
+ "scored_targets": 3,
+ "pending_targets": 5,
+ "evidence": {
+  "us_cpi_yoy": {
+   "name": "US CPI inflation (YoY %, all items)",
+   "unit": "% YoY",
+   "targets": [
+    {
+     "t": "2026-06",
+     "a": 3.884,
+     "rw": 0.364,
+     "marks": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "err": 0.516
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "err": 0.516
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "err": 0.616
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "err": 0.666
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "err": 0.616
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "err": 0.616
+      }
+     ]
+    }
+   ]
+  },
+  "ea_hicp_yoy": {
+   "name": "Euro area HICP inflation (YoY %, all items)",
+   "unit": "% YoY",
+   "targets": [
+    {
+     "t": "2026-07",
+     "a": 2.9,
+     "rw": -0.1,
+     "marks": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "err": 0.0
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "err": -0.2
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "err": -0.2
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "err": -0.2
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "err": 0.05
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "err": -0.4
+      }
+     ]
+    }
+   ]
+  },
+  "us_ip_yoy": {
+   "name": "US industrial production (YoY %, seasonally adjusted)",
+   "unit": "% YoY",
+   "targets": [
+    {
+     "t": "2026-06",
+     "a": 1.144,
+     "rw": 0.522,
+     "marks": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "err": 0.356
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "err": 0.356
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "err": 0.756
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "err": 0.856
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "err": 0.686
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "err": 0.706
+      }
+     ]
+    }
+   ]
+  }
+ },
  "reddit": {
   "dates": [
    "2026-07-03",
@@ -8606,58 +9208,7 @@
   "series": [
    {
     "name": "r/oil",
-    "raw": [
-     299.0,
-     774.0,
-     702.0,
-     1025.0,
-     998.0,
-     361.0,
-     921.0,
-     681.0,
-     677.0,
-     1024.0,
-     744.0,
-     802.0,
-     834.0,
-     706.0,
-     366.0,
-     907.0,
-     536.0,
-     1185.0,
-     872.0,
-     684.0,
-     863.0,
-     1004.0,
-     753.0,
-     915.0,
-     964.0,
-     760.0,
-     671.0,
-     863.0,
-     892.0,
-     464.0,
-     707.0,
-     627.0,
-     692.0,
-     801.0,
-     777.0,
-     805.0,
-     773.0,
-     629.0,
-     716.0,
-     835.0,
-     612.0,
-     1124.0,
-     972.0,
-     239.0,
-     441.0,
-     1038.0,
-     568.0,
-     23.0,
-     6.0
-    ],
-    "smooth": [
+    "y": [
      null,
      536.5,
      591.67,
@@ -8711,58 +9262,7 @@
    },
    {
     "name": "r/economics",
-    "raw": [
-     230.0,
-     293.0,
-     317.0,
-     238.0,
-     277.0,
-     187.0,
-     305.0,
-     380.0,
-     261.0,
-     289.0,
-     383.0,
-     598.0,
-     580.0,
-     558.0,
-     105.0,
-     91.0,
-     254.0,
-     287.0,
-     504.0,
-     348.0,
-     514.0,
-     286.0,
-     189.0,
-     272.0,
-     325.0,
-     608.0,
-     692.0,
-     690.0,
-     536.0,
-     692.0,
-     286.0,
-     476.0,
-     400.0,
-     498.0,
-     214.0,
-     726.0,
-     247.0,
-     548.0,
-     482.0,
-     656.0,
-     395.0,
-     398.0,
-     203.0,
-     144.0,
-     174.0,
-     464.0,
-     384.0,
-     296.0,
-     1.0
-    ],
-    "smooth": [
+    "y": [
      null,
      261.5,
      280.0,
@@ -8816,58 +9316,7 @@
    },
    {
     "name": "r/economy",
-    "raw": [
-     213.0,
-     227.0,
-     174.0,
-     194.0,
-     276.0,
-     263.0,
-     227.0,
-     318.0,
-     280.0,
-     110.0,
-     217.0,
-     420.0,
-     329.0,
-     250.0,
-     217.0,
-     190.0,
-     217.0,
-     192.0,
-     282.0,
-     283.0,
-     397.0,
-     367.0,
-     186.0,
-     304.0,
-     189.0,
-     263.0,
-     302.0,
-     287.0,
-     303.0,
-     217.0,
-     147.0,
-     305.0,
-     265.0,
-     379.0,
-     430.0,
-     322.0,
-     312.0,
-     361.0,
-     344.0,
-     276.0,
-     350.0,
-     390.0,
-     319.0,
-     153.0,
-     276.0,
-     256.0,
-     392.0,
-     176.0,
-     2.0
-    ],
-    "smooth": [
+    "y": [
      null,
      220.0,
      204.67,
@@ -8921,58 +9370,7 @@
    },
    {
     "name": "r/europe",
-    "raw": [
-     206.0,
-     224.0,
-     191.0,
-     156.0,
-     145.0,
-     247.0,
-     169.0,
-     145.0,
-     168.0,
-     136.0,
-     201.0,
-     254.0,
-     181.0,
-     201.0,
-     126.0,
-     299.0,
-     153.0,
-     206.0,
-     182.0,
-     240.0,
-     174.0,
-     253.0,
-     246.0,
-     127.0,
-     116.0,
-     204.0,
-     136.0,
-     175.0,
-     159.0,
-     282.0,
-     282.0,
-     280.0,
-     344.0,
-     175.0,
-     248.0,
-     163.0,
-     278.0,
-     207.0,
-     167.0,
-     168.0,
-     190.0,
-     249.0,
-     272.0,
-     199.0,
-     273.0,
-     193.0,
-     234.0,
-     8.0,
-     0.0
-    ],
-    "smooth": [
+    "y": [
      null,
      215.0,
      207.0,
@@ -9026,58 +9424,7 @@
    },
    {
     "name": "r/stocks",
-    "raw": [
-     74.0,
-     86.0,
-     81.0,
-     181.0,
-     230.0,
-     165.0,
-     211.0,
-     105.0,
-     173.0,
-     150.0,
-     168.0,
-     121.0,
-     131.0,
-     191.0,
-     54.0,
-     261.0,
-     145.0,
-     147.0,
-     191.0,
-     152.0,
-     178.0,
-     190.0,
-     73.0,
-     98.0,
-     236.0,
-     264.0,
-     403.0,
-     156.0,
-     174.0,
-     139.0,
-     165.0,
-     212.0,
-     222.0,
-     197.0,
-     143.0,
-     161.0,
-     150.0,
-     101.0,
-     101.0,
-     177.0,
-     165.0,
-     119.0,
-     91.0,
-     87.0,
-     44.0,
-     98.0,
-     155.0,
-     136.0,
-     0.0
-    ],
-    "smooth": [
+    "y": [
      null,
      80.0,
      80.33,
@@ -9131,58 +9478,7 @@
    },
    {
     "name": "r/investing",
-    "raw": [
-     132.0,
-     45.0,
-     53.0,
-     95.0,
-     175.0,
-     198.0,
-     185.0,
-     209.0,
-     161.0,
-     203.0,
-     84.0,
-     152.0,
-     354.0,
-     242.0,
-     137.0,
-     71.0,
-     61.0,
-     68.0,
-     113.0,
-     122.0,
-     88.0,
-     71.0,
-     82.0,
-     191.0,
-     80.0,
-     64.0,
-     68.0,
-     198.0,
-     71.0,
-     99.0,
-     68.0,
-     105.0,
-     136.0,
-     189.0,
-     152.0,
-     145.0,
-     148.0,
-     151.0,
-     96.0,
-     98.0,
-     39.0,
-     109.0,
-     63.0,
-     86.0,
-     124.0,
-     113.0,
-     113.0,
-     87.0,
-     0.0
-    ],
-    "smooth": [
+    "y": [
      null,
      88.5,
      76.67,
@@ -9236,58 +9532,7 @@
    },
    {
     "name": "r/personalfinance",
-    "raw": [
-     137.0,
-     103.0,
-     87.0,
-     138.0,
-     92.0,
-     78.0,
-     141.0,
-     92.0,
-     100.0,
-     144.0,
-     104.0,
-     98.0,
-     115.0,
-     114.0,
-     87.0,
-     140.0,
-     191.0,
-     175.0,
-     317.0,
-     103.0,
-     171.0,
-     111.0,
-     127.0,
-     114.0,
-     124.0,
-     117.0,
-     93.0,
-     114.0,
-     129.0,
-     107.0,
-     105.0,
-     130.0,
-     141.0,
-     114.0,
-     157.0,
-     113.0,
-     166.0,
-     129.0,
-     97.0,
-     91.0,
-     126.0,
-     108.0,
-     118.0,
-     88.0,
-     92.0,
-     141.0,
-     117.0,
-     0.0,
-     1.0
-    ],
-    "smooth": [
+    "y": [
      null,
      120.0,
      109.0,
@@ -9341,58 +9586,7 @@
    },
    {
     "name": "Other",
-    "raw": [
-     516.0,
-     569.0,
-     778.0,
-     674.0,
-     717.0,
-     746.0,
-     808.0,
-     615.0,
-     792.0,
-     906.0,
-     761.0,
-     881.0,
-     779.0,
-     814.0,
-     496.0,
-     911.0,
-     669.0,
-     825.0,
-     764.0,
-     864.0,
-     799.0,
-     823.0,
-     594.0,
-     783.0,
-     727.0,
-     919.0,
-     921.0,
-     916.0,
-     977.0,
-     787.0,
-     790.0,
-     660.0,
-     711.0,
-     826.0,
-     764.0,
-     668.0,
-     591.0,
-     717.0,
-     604.0,
-     833.0,
-     719.0,
-     643.0,
-     683.0,
-     715.0,
-     732.0,
-     623.0,
-     849.0,
-     284.0,
-     42.0
-    ],
-    "smooth": [
+    "y": [
      null,
      542.5,
      621.0,
@@ -9445,57 +9639,8 @@
     ]
    }
   ],
-  "total": [
-   1807.0,
-   2321.0,
-   2383.0,
-   2701.0,
-   2910.0,
-   2245.0,
-   2967.0,
-   2545.0,
-   2612.0,
-   2962.0,
-   2662.0,
-   3326.0,
-   3303.0,
-   3076.0,
-   1588.0,
-   2870.0,
-   2226.0,
-   3085.0,
-   3225.0,
-   2796.0,
-   3184.0,
-   3105.0,
-   2250.0,
-   2804.0,
-   2761.0,
-   3199.0,
-   3286.0,
-   3399.0,
-   3241.0,
-   2787.0,
-   2550.0,
-   2795.0,
-   2911.0,
-   3179.0,
-   2885.0,
-   3103.0,
-   2665.0,
-   2843.0,
-   2607.0,
-   3134.0,
-   2596.0,
-   3140.0,
-   2721.0,
-   1711.0,
-   2156.0,
-   2926.0,
-   2812.0,
-   1010.0,
-   52.0
-  ]
+  "n_subs": 21
  },
- "n_forecasts": 1546
+ "n_forecasts": 1546,
+ "n_stale": 3
 }
