@@ -405,8 +405,15 @@ def build_payload(master: pd.DataFrame, series: dict, reddit: pd.DataFrame) -> d
                 mae = float(np.mean(np.abs(g["error"])))
                 rwv = g["rw_error"].dropna()
                 track.append({"model": mid, "type": ftype, "n": int(len(g)),
+                              "label": short_model(mid) +
+                                       (" · cond." if ftype == "conditional" else ""),
                               "mae": round(mae, 3),
-                              "rw": round(float(np.mean(np.abs(rwv))), 3) if len(rwv) else None})
+                              "rw": round(float(np.mean(np.abs(rwv))), 3) if len(rwv) else None,
+                              # ogni singola previsione valutata: con n=1 o 2 la media
+                              # da sola nasconderebbe quanto è sottile l'evidenza
+                              "points": [{"t": str(t), "e": round(float(e), 3)}
+                                         for t, e in zip(g["target"], g["error"])]})
+            track.sort(key=lambda d: d["mae"])
             hind.sort(key=lambda d: d["t"])
             hind = [h for h in hind
                     if h["t"] in sorted({x["t"] for x in hind})[-MAX_HINDCASTS:]]
@@ -636,6 +643,10 @@ button[aria-pressed="true"]:not(.tile){background:var(--text-primary);color:var(
   align-items:center;gap:6px;cursor:pointer}
 .body{height:470px}
 .rankbody{height:380px}
+.split2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:900px){.split2{grid-template-columns:1fr;gap:24px}}
+.subh{font-size:13.5px;font-weight:600;margin:0 0 2px}
+.subnote{font-weight:400;color:var(--muted);font-size:12px;margin-left:6px}
 .scrollbody{height:470px;overflow-y:auto;padding-right:6px}
 .cap{font-size:12px;color:var(--muted);margin:10px 0 0}
 .warnstrip{border:1px solid var(--warning);border-radius:8px;padding:9px 12px;
@@ -729,8 +740,18 @@ footer a{color:var(--text-secondary)}
 <div class="panel">
   <div class="ebar"><i id="ebarFill"></i></div>
   <p class="cap" id="ebarCap" style="margin:0 0 14px"></p>
-  <div id="chartRank" class="rankbody"></div>
-  <details id="evDetails"><summary>Show every scored forecast</summary>
+  <div class="split2">
+    <div>
+      <div class="subh">All indicators together</div>
+      <div id="chartRank" class="rankbody"></div>
+    </div>
+    <div>
+      <div class="subh">Just <span id="vrName"></span>
+        <span class="subnote">follows the indicator selected above</span></div>
+      <div id="chartVarRank" class="rankbody"></div>
+    </div>
+  </div>
+  <details id="evDetails"><summary>Show every scored forecast, indicator by indicator</summary>
     <div id="evidence"></div></details>
   <details><summary>Show the numbers</summary><div id="tblRank"></div></details>
 </div>
@@ -875,7 +896,8 @@ function renderTiles(){
       <div class="tmeta">${esc(t.target)} · ${t.n} forecasts · ${fmt(t.lo)}–${fmt(t.hi)}</div>
       ${sparkSVG(v.spark, false)}</button>`;
   }).join('');
-  $$('.tile').forEach(b => b.onclick = () => { curVar = b.dataset.var; syncTiles(); renderPanel(); });
+  $$('.tile').forEach(b => b.onclick = () => {
+    curVar = b.dataset.var; syncTiles(); renderPanel(); renderVarRank(); });
 }
 function syncTiles(){
   $$('.tile').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.var === curVar)));
@@ -1161,31 +1183,32 @@ function renderRank(){
       'The scoreboard fills in on its own as the statistics come out.');
     $('#tblRank').innerHTML = ''; return;
   }
-  const nar0 = NARROW();
+  const nar0 = ($('#chartRank').clientWidth || 800) < 640;
   const shortLab = r => {
     let s = D.model_short[r.model];
     if(nar0 && s.length > 10) s = s.split('-').slice(0,2).join('-');
     return s + (r.type==='conditional' ? ' · cond.' : '');
   };
-  const labels = rows.map(shortLab);
+  const disp = rows.slice().reverse();          /* migliore in alto */
+  const labels = disp.map(shortLab);
   const traces = [{
-    x: rows.map(r => r.skill), y: labels, type:'scatter', mode:'markers',
-    marker:{size: nar0 ? 13 : 15, color: rows.map(r => MODEL_COLOR[r.model]),
-            symbol: rows.map(r => SYM(r.type)),
+    x: disp.map(r => r.skill), y: labels, type:'scatter', mode:'markers',
+    marker:{size: nar0 ? 13 : 15, color: disp.map(r => MODEL_COLOR[r.model]),
+            symbol: disp.map(r => SYM(r.type)),
             line:{color:css('--surface-1'), width:2}},
-    customdata: rows.map(r => [r.wins, r.n, r.mae, r.rw, r.loo_lo, r.loo_hi]),
+    customdata: disp.map(r => [r.wins, r.n, r.mae, r.rw, r.loo_lo, r.loo_hi]),
     hovertemplate:'skill <b>%{x:.2f}</b> × the naive error'+
       '<br>beat the benchmark on %{customdata[0]} of %{customdata[1]} forecasts'+
       '<br>MAE %{customdata[2]:.2f} vs naive %{customdata[3]:.2f}'+
       '<extra>%{y}</extra>', showlegend:false
   }];
   const segX=[], segY=[];
-  rows.forEach(r => { const L = shortLab(r);
+  disp.forEach(r => { const L = shortLab(r);
     segX.push(1, r.skill, null); segY.push(L, L, null); });
   traces.unshift({x:segX, y:segY, type:'scatter', mode:'lines',
     line:{color:css('--axis'), width:1.5}, hoverinfo:'skip', showlegend:false});
 
-  const nar = NARROW();
+  const nar = ($('#chartRank').clientWidth || 800) < 640;
   plot('chartRank', traces, baseLayout({
     margin: nar ? {l:104, r:22, t:30, b:50} : {l:190, r:120, t:46, b:52},
     xaxis:{type:'log', range:[Math.log10(0.42), Math.log10(2.6)],
@@ -1230,6 +1253,82 @@ function renderRank(){
      each ratio clipped to [0.25, 4]. "Rank if one dropped" recomputes the ranking with a
      single scored forecast removed, one at a time: the spread is how much the ordering
      depends on any one observation.</p>`;
+}
+
+/* ── scoreboard della singola variabile ─────────────────────────
+   Qui n è 1 o 2 per modello: una media sarebbe un numero solo travestito
+   da classifica. Quindi ordino per errore medio ma DISEGNO ogni singola
+   previsione, così si vede su quanto poco si sta giudicando. */
+function renderVarRank(){
+  const v = D.variables[curVar];
+  $('#vrName').textContent = v.short;
+  const rows = (v.track || []).slice().reverse();   /* migliore in alto */
+  if(!rows.length){
+    empty('chartVarRank', 'No release of this indicator has been published yet ' +
+      'after a forecast.');
+    return;
+  }
+  const nar = ($('#chartVarRank').clientWidth || 500) < 640;
+  const lab = r => {
+    let s = D.model_short[r.model];
+    if(nar && s.length > 10) s = s.split('-').slice(0,2).join('-');
+    return s + (r.type==='conditional' ? ' · cond.' : '');
+  };
+  const rw = rows.map(r => r.rw).find(x => x !== null && x !== undefined);
+  const ns = rows.map(r => r.n), nmin = Math.min(...ns), nmax = Math.max(...ns);
+
+  const traces = [];
+  /* il segmento va dal benchmark al valore del modello: la lunghezza È il divario */
+  const segX=[], segY=[];
+  rows.forEach(r => { const L = lab(r);
+    segX.push(rw === undefined ? 0 : rw, r.mae, null); segY.push(L, L, null); });
+  traces.push({x:segX, y:segY, type:'scatter', mode:'lines',
+    line:{color:css('--axis'), width:1.5}, hoverinfo:'skip', showlegend:false});
+
+  /* ogni previsione valutata, in chiaro */
+  D.models.forEach(m => {
+    const xs=[], ys=[], syms=[], cd=[];
+    rows.filter(r => r.model===m).forEach(r => r.points.forEach(pt => {
+      xs.push(Math.abs(pt.e)); ys.push(lab(r)); syms.push(SYM(r.type));
+      cd.push([pt.t, pt.e]);
+    }));
+    if(xs.length) traces.push({x:xs, y:ys, type:'scatter', mode:'markers',
+      marker:{size:9, color:MODEL_COLOR[m], opacity:0.45, symbol:syms,
+              line:{color:css('--surface-1'), width:1.5}},
+      customdata:cd, showlegend:false,
+      hovertemplate:'%{customdata[0]}: missed by %{customdata[1]:+.2f} pp<extra></extra>'});
+  });
+  /* la media, il mark grande */
+  rows.forEach(r => traces.push({
+    x:[r.mae], y:[lab(r)], type:'scatter', mode:'markers',
+    marker:{size:14, color:MODEL_COLOR[r.model], symbol:SYM(r.type),
+            line:{color:css('--surface-1'), width:2}},
+    customdata:[[r.n, r.rw]], showlegend:false,
+    hovertemplate:'average miss <b>%{x:.2f} pp</b> over %{customdata[0]} forecast(s)'+
+      '<br>naive missed %{customdata[1]:.2f} pp<extra>'+esc(lab(r))+'</extra>'}));
+
+  const shapes = [], annos = [];
+  if(rw !== undefined){
+    shapes.push({type:'line', x0:rw, x1:rw, xref:'x', yref:'paper', y0:0, y1:1,
+      line:{color:css('--axis'), width:1, dash:'dot'}});
+    shapes.push({type:'rect', xref:'x', yref:'paper', x0:0, x1:rw, y0:0, y1:1,
+      fillcolor:css('--text-primary'), opacity:0.03, line:{width:0}, layer:'below'});
+    annos.push({x:rw, y:1, xref:'x', yref:'paper', yanchor:'bottom', xanchor:'left',
+      text:' naive missed '+fmt(rw), showarrow:false,
+      font:{size:11, color:css('--muted')}});
+  }
+  plot('chartVarRank', traces, baseLayout({
+    margin: nar ? {l:104, r:26, t:30, b:50} : {l:150, r:34, t:30, b:52},
+    xaxis:{rangemode:'tozero', showgrid:false, zeroline:false,
+      linecolor:css('--axis'), ticksuffix:' pp',
+      tickfont:{color:css('--muted'), size: nar ? 10.5 : 11.5},
+      title:{text:'average miss · faint marks are the individual forecasts (' +
+             (nmin===nmax ? 'n = '+nmin : 'n = '+nmin+'–'+nmax) + ' per model)',
+             font:{size:11, color:css('--muted')}}},
+    yaxis:{automargin:true, showgrid:false, linecolor:'rgba(0,0,0,0)',
+      tickfont:{color:css('--text-secondary'), size: nar ? 10.5 : 12}},
+    shapes, annotations:annos
+  }));
 }
 
 /* ── evidence strip (una tacca per previsione valutata) ─────── */
@@ -1288,7 +1387,7 @@ function renderAll(){
   refreshColors();
   $('#legend1').innerHTML = legendHTML();
   $('#legend2').innerHTML = legendHTML();
-  renderHead(); renderTiles(); renderPanel(); renderRank();
+  renderHead(); renderTiles(); renderPanel(); renderRank(); renderVarRank();
   if(evidenceDrawn) renderEvidence();
 }
 
@@ -1315,7 +1414,7 @@ window.addEventListener('resize', () => {
   if(Math.abs(window.innerWidth - _w) < 40) return;
   _w = window.innerWidth;
   clearTimeout(_rz);
-  _rz = setTimeout(() => { renderPanel(); renderRank(); }, 250);
+  _rz = setTimeout(() => { renderPanel(); renderRank(); renderVarRank(); }, 250);
 });
 
 renderAll();

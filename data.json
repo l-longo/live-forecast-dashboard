@@ -1,5 +1,5 @@
 {
- "generated_at": "20 Aug 2026, 17:29 UTC",
+ "generated_at": "20 Aug 2026, 18:22 UTC",
  "last_run": "2026-08-20",
  "first_run": "2026-07-05",
  "n_runs": 47,
@@ -808,43 +808,85 @@
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "n": 1,
+     "label": "gpt-5.1 · cond.",
      "mae": 0.516,
-     "rw": 0.364
+     "rw": 0.364,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.516
+      }
+     ]
     },
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "n": 1,
+     "label": "gpt-5.1",
      "mae": 0.516,
-     "rw": 0.364
+     "rw": 0.364,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.516
+      }
+     ]
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "n": 1,
+     "label": "gpt-oss-120b · cond.",
      "mae": 0.616,
-     "rw": 0.364
+     "rw": 0.364,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.616
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · cond.",
+     "mae": 0.616,
+     "rw": 0.364,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.616
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct",
+     "mae": 0.616,
+     "rw": 0.364,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.616
+      }
+     ]
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "n": 1,
+     "label": "gpt-oss-120b",
      "mae": 0.666,
-     "rw": 0.364
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.616,
-     "rw": 0.364
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.616,
-     "rw": 0.364
+     "rw": 0.364,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.666
+      }
+     ]
     }
    ],
    "revisions": {
@@ -2478,43 +2520,85 @@
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "n": 1,
+     "label": "gpt-5.1 · cond.",
      "mae": 0.0,
-     "rw": 0.1
+     "rw": 0.1,
+     "points": [
+      {
+       "t": "2026-07",
+       "e": 0.0
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · cond.",
+     "mae": 0.05,
+     "rw": 0.1,
+     "points": [
+      {
+       "t": "2026-07",
+       "e": 0.05
+      }
+     ]
     },
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "n": 1,
+     "label": "gpt-5.1",
      "mae": 0.2,
-     "rw": 0.1
+     "rw": 0.1,
+     "points": [
+      {
+       "t": "2026-07",
+       "e": -0.2
+      }
+     ]
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "n": 1,
+     "label": "gpt-oss-120b · cond.",
      "mae": 0.2,
-     "rw": 0.1
+     "rw": 0.1,
+     "points": [
+      {
+       "t": "2026-07",
+       "e": -0.2
+      }
+     ]
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "n": 1,
+     "label": "gpt-oss-120b",
      "mae": 0.2,
-     "rw": 0.1
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.05,
-     "rw": 0.1
+     "rw": 0.1,
+     "points": [
+      {
+       "t": "2026-07",
+       "e": -0.2
+      }
+     ]
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
      "n": 1,
+     "label": "llama-3.3-70b-instruct",
      "mae": 0.4,
-     "rw": 0.1
+     "rw": 0.1,
+     "points": [
+      {
+       "t": "2026-07",
+       "e": -0.4
+      }
+     ]
     }
    ],
    "revisions": {
@@ -7602,43 +7686,85 @@
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "n": 1,
+     "label": "gpt-5.1 · cond.",
      "mae": 0.356,
-     "rw": 0.522
+     "rw": 0.522,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.356
+      }
+     ]
     },
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "n": 1,
+     "label": "gpt-5.1",
      "mae": 0.356,
-     "rw": 0.522
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "n": 1,
-     "mae": 0.756,
-     "rw": 0.522
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "n": 1,
-     "mae": 0.856,
-     "rw": 0.522
+     "rw": 0.522,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.356
+      }
+     ]
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "n": 1,
+     "label": "llama-3.3-70b-instruct · cond.",
      "mae": 0.686,
-     "rw": 0.522
+     "rw": 0.522,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.686
+      }
+     ]
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
      "n": 1,
+     "label": "llama-3.3-70b-instruct",
      "mae": 0.706,
-     "rw": 0.522
+     "rw": 0.522,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.706
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-oss-120b · cond.",
+     "mae": 0.756,
+     "rw": 0.522,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.756
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-oss-120b",
+     "mae": 0.856,
+     "rw": 0.522,
+     "points": [
+      {
+       "t": "2026-06",
+       "e": 0.856
+      }
+     ]
     }
    ],
    "revisions": {
