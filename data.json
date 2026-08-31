@@ -1,8 +1,8 @@
 {
- "generated_at": "29 Aug 2026, 07:35 UTC",
- "last_run": "2026-08-29",
+ "generated_at": "31 Aug 2026, 08:34 UTC",
+ "last_run": "2026-08-31",
  "first_run": "2026-07-05",
- "n_runs": 53,
+ "n_runs": 54,
  "models": [
   "ec/gpt-5.1",
   "jrc/gpt-oss-120b",
@@ -23,12 +23,12 @@
   "last_value": 3.3648,
   "target": "2026-08",
   "target_pretty": "August 2026",
-  "consensus": 3.25,
-  "lo": 3.12,
-  "hi": 3.4,
-  "n": 6,
+  "consensus": 3.21,
+  "lo": 3.2,
+  "hi": 3.23,
+  "n": 2,
   "stale": false,
-  "run": "2026-08-29"
+  "run": "2026-08-31"
  },
  "tiles": [
   {
@@ -41,12 +41,12 @@
    "last_value": 3.3648,
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "consensus": 3.25,
-   "lo": 3.12,
-   "hi": 3.4,
-   "n": 6,
+   "consensus": 3.21,
+   "lo": 3.2,
+   "hi": 3.23,
+   "n": 2,
    "stale": false,
-   "run": "2026-08-29"
+   "run": "2026-08-31"
   },
   {
    "var": "ea_hicp_yoy",
@@ -58,12 +58,12 @@
    "last_value": 2.9,
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "consensus": 2.8,
-   "lo": 2.7,
-   "hi": 2.9,
-   "n": 6,
+   "consensus": 2.9,
+   "lo": 2.8,
+   "hi": 2.92,
+   "n": 3,
    "stale": false,
-   "run": "2026-08-29"
+   "run": "2026-08-31"
   },
   {
    "var": "us_unrate",
@@ -77,10 +77,10 @@
    "target_pretty": "August 2026",
    "consensus": 4.1,
    "lo": 4.0,
-   "hi": 4.15,
-   "n": 5,
+   "hi": 4.2,
+   "n": 3,
    "stale": false,
-   "run": "2026-08-29"
+   "run": "2026-08-31"
   },
   {
    "var": "ea_unrate",
@@ -96,7 +96,7 @@
    "lo": 6.3,
    "hi": 6.4,
    "n": 6,
-   "stale": false,
+   "stale": true,
    "run": "2026-08-29"
   },
   {
@@ -109,12 +109,12 @@
    "last_value": 0.3689,
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "consensus": 0.55,
-   "lo": 0.38,
-   "hi": 0.6,
-   "n": 6,
+   "consensus": 0.69,
+   "lo": 0.68,
+   "hi": 0.7,
+   "n": 2,
    "stale": false,
-   "run": "2026-08-29"
+   "run": "2026-08-31"
   },
   {
    "var": "ea_gdp_qoq",
@@ -126,12 +126,12 @@
    "last_value": 0.4433,
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "consensus": 0.32,
-   "lo": 0.25,
-   "hi": 0.38,
-   "n": 6,
+   "consensus": 0.4,
+   "lo": 0.38,
+   "hi": 0.42,
+   "n": 2,
    "stale": false,
-   "run": "2026-08-29"
+   "run": "2026-08-31"
   },
   {
    "var": "us_ip_yoy",
@@ -143,12 +143,12 @@
    "last_value": 1.0795,
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "consensus": 1.0,
-   "lo": 0.9,
-   "hi": 1.23,
-   "n": 5,
+   "consensus": 1.16,
+   "lo": 1.12,
+   "hi": 1.2,
+   "n": 2,
    "stale": false,
-   "run": "2026-08-29"
+   "run": "2026-08-31"
   },
   {
    "var": "ea_ip_yoy",
@@ -710,7 +710,7 @@
    },
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "forecast_run": "2026-08-29",
+   "forecast_run": "2026-08-31",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
@@ -718,47 +718,15 @@
      "label": "gpt-5.1",
      "value": 3.2,
      "web": false,
-     "reasoning": "The latest data show headline US CPI inflation re-accelerating from roughly 2½–3% in late 2025 and early 2026 to a peak of 4.25% in May 2026, then easing to 3.53% in June and 3.36% in July, suggesting that the spring energy/commodity and shelter upswing has already passed its peak but underlying price pressures remain above the Fed’s 2% target. Momentum over the last three months (May–July) averages just above 3.7% year-on-year, but the sequential pattern is clearly downward, consistent with fading energy price impulse and stabilising food inflation; historically, such mini-spikes in headline inflation in a disinflationary environment tend to unwind over two to four months rather than collapsing immediately. Base effects for August are moderately disinflationary: August 2025 inflation was 2.92%, above the roughly 2.5–2.7% range that prevailed in early 2025, so even if the August 2026 monthly change is in line with a typical late-summer pattern (around 0.2–0.3% seasonally adjusted), the year-on-year rate should drift slightly down from July. With monetary policy still restrictive in real terms, gradually cooling labour-market conditions, and core services and rent inflation easing but not yet fully normalised, it is plausible that headline CPI decelerates only modestly. Balancing these factors, a small step down to about 3.2% year-on-year in August 2026 is consistent with recent momentum, base effects, and a still-firm but slowly cooling underlying inflation environment."
+     "reasoning": "The latest reading, 3.36% in 2026-07, sits in a regime of moderate but somewhat volatile inflation after the sharp disinflation from the 2022 peak; the recent run-up from 2.39% in 2026-01 to 4.25% in 2026-05 and then partial pull-back to 3.53% and 3.36% suggests a short-lived upswing that is already correcting. Historically, episodes where inflation rose a couple of percentage points from a 2–3% base (for example 2010–11 and the smaller moves in 2017–18) typically saw subsequent monthly year-on-year prints oscillate rather than trend persistently higher, with average month-on-month changes in the YoY rate around ±0.1–0.3 percentage points once the peak was passed. Comparing 2026 to 2024–25, there is no strong sign of either runaway inflation or rapid reversion: changes in the YoY rate over the last six months range from +0.85 (Feb–Mar 2026) to -0.72 (May–Jun 2026), but the most recent move from 3.53 to 3.36 is a modest -0.17, consistent with stabilisation. August seasonality in this series is weak: over 2010–2025, August YoY inflation typically differs from July by only a few tenths (for instance +0.54 in 2012, -0.25 in 2018, -0.06 in 2019, +0.49 in 2023, +0.22 in 2025), with no consistent sign, so seasonal effects do not point to a large shift. Base effects from 2025-08 (2.92%) to 2026-08 work in the direction of keeping the YoY rate somewhat above the 2–3% norm, because the comparison month is already moderately elevated rather than exceptionally high or low, limiting mechanical disinflation. Synthesising these features, a small further easing from 3.36% is more probable than either a renewed surge or a sharp drop, and a movement of roughly -0.15 to -0.20 percentage points is in line with typical post-peak behaviour; I therefore forecast 3.20% for 2026-08, implying a slight continuation of the recent downward adjustment while remaining in the mid-3% range."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": 3.4,
+     "value": 3.23,
      "web": false,
-     "reasoning": "With headline CPI running at 3.36% y/y in July and having re-accelerated from around 2½–2¾% in late 2024/early 2025 to the 3–4¼% range since March 2026, the near-term profile is dominated by modestly positive underlying momentum, slightly adverse base effects and still-firm services inflation. In August 2025 the y/y rate was 2.92%, so the base is somewhat higher than in spring 2025, but still low enough that even a moderate 0.2–0.3% m/m rise in the August 2026 index would push the annual rate up or keep it roughly flat relative to July; given the pattern of recent months (March–May strength followed by some easing in June–July) and typical late-summer seasonality in core components, a small positive monthly print is more likely than a renewed surge, suggesting a y/y outcome very close to July’s 3.36%. Energy and food signals are mixed: social media discussions mention low US oil reserves and concerns about fuel and utility prices in Europe, but there are no clear indications of a sharp contemporaneous spike in US gasoline or household energy costs; I therefore treat these as implying a modest upside risk to the energy component rather than a full shock, equivalent to perhaps 0.1–0.2 percentage points on the annual rate. Policy-wise, the Federal Reserve appears still tight in real terms, with the post-pandemic inflation spike largely past and inflation expectations broadly anchored around 2–3%, which should cap any sustained acceleration but does not yet force a quick drop back to target given still-strong wage and rent dynamics. The Reddit material on rising bills, groceries and hygiene prices supports the notion that services and food-at-home inflation remain uncomfortable for households and nudged my forecast slightly above a purely mechanical projection (which would have been closer to 3.3%), but these anecdotal signals are noisy and not large enough to justify a move towards 3½% or higher. Balancing recent momentum, the August 2025 base, stable but elevated services inflation, and only modestly firm energy and food, I forecast headline US CPI inflation at 3.4% y/y for August 2026, with the social media information contributing a small upward bias of about 0.1 percentage points relative to a purely time-series-based estimate."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": 3.29,
-     "web": false,
-     "reasoning": "My point forecast for the US CPI inflation rate in 2026-08 is 3.29%, which is slightly higher than the most recent release of 3.36% in 2026-07. The key drivers behind this forecast are the recent momentum in the series, which has been steadily increasing since 2026-03, and the base effects from the previous year. Energy and food prices have been relatively stable, but I expect them to have a moderate upward impact on the inflation rate. The policy stance of the Federal Reserve has been tightening, which should help to curb inflation, but its effects may not be fully felt yet. Considering the historical series, I note that the inflation rate has been volatile in recent years, but it has generally been trending downward since the peak in 2022. Given the current economic conditions and the factors mentioned above, I expect the inflation rate to remain relatively stable, with a slight increase due to the base effects and the upward momentum in the series. The magnitude of the increase is expected to be moderate, around 0.07%, which is why my point forecast is 3.29%."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "label": "llama-3.3-70b-instruct · cond.",
-     "value": 3.29,
-     "web": false,
-     "reasoning": "The point forecast for the US CPI inflation rate in 2026-08 is 3.29%. This forecast is based on the historical series provided and my internal knowledge of current economic conditions. The recent momentum in the series, with a decrease from 3.53% in 2026-06 to 3.36% in 2026-07, suggests a continued downward trend. However, the social media material provided does not significantly impact this forecast, as it primarily discusses price hikes, energy prices, and inflation concerns in various countries, which are already reflected in the historical series. The material does not provide any new or surprising information that would alter the forecast. The forecast is also influenced by the base effects, energy and food prices, and policy stance, but these factors are already incorporated into the historical series. Overall, the forecast of 3.29% represents a moderate decrease from the previous month, reflecting the ongoing trends and conditions in the US economy."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 3.12,
-     "web": false,
-     "reasoning": "The series peaked at 4.25 % in May 2026 and has been falling steadily (‑0.72 pp to June, ‑0.17 pp to July). The pace of the decline is slowing, suggesting a modest further pull‑back rather than a sharp drop. The year‑on‑year base effect is favourable: August 2025 was 2.92 %, so even a small monthly price increase would lift the YoY rate above that level. Energy and food price indices have stabilised after the 2022‑23 spikes, providing little upward pressure, while the Federal Reserve is likely maintaining a restrictive stance, which continues to dampen demand‑side inflation. Combining the decelerating momentum, the modest base‑effect uplift and the absence of new shocks leads to a forecast of roughly 3.1 % for August 2026."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "label": "gpt-oss-120b · cond.",
-     "value": 3.2,
-     "web": false,
-     "reasoning": "The series peaked at 4.25% in May 2026 and has been falling to 3.53% in June and 3.36% in July, indicating a clear downward momentum after the May surge. The base‑effect for August compares the current price level with August 2025’s 2.92%, so even a modest month‑over‑month increase would translate to a YoY rate only slightly above 3%. The Federal Reserve is expected to keep policy rates restrictive, which should continue to dampen demand‑pull inflation. Reddit posts show active discussion of oil prices but no evidence of a sharp rise, suggesting energy price pressure is moderate rather than accelerating. Combining these factors leads to a forecast of roughly 3.2% YoY CPI for August 2026."
+     "reasoning": "Starting from the full series, the recent pattern shows US CPI YoY stabilising in the 2.3–3.5% range after the post‑pandemic spike, with a notable upswing in 2026 driven by energy and base effects: from 2.39 in 2026‑01 to a local peak of 4.25 in 2026‑05, then easing to 3.53 in June and 3.36 in July. Historically, episodes where inflation rises above 3% but remains well below the 2021–22 extremes (for example, 2011–12 and late 2018) tend to see a few months of gradual mean reversion rather than a sharp collapse, especially when the prior run‑up has been rapid. The month‑to‑month changes in 2026 have been sizeable (e.g. +0.85pp in March, +0.55pp in April, +0.44pp in May, then -0.72pp in June and -0.17pp in July), suggesting some volatility but an underlying drift back towards the 2½–3% band seen through 2024–25. Looking at earlier seasonal patterns, August does not systematically produce large downward moves relative to July; around the 2013–2019 and 2023–2025 periods, July–August changes are small and mixed in sign, consistent with modest adjustment rather than structural breaks. Combined with base effects (August 2025 was around 3%, so the base is not unusually high or low), this points to a slight further easing from 3.36 but remaining above 3%, hence a series‑only forecast of about 3.20. The social media material adds modest information: multiple discussions highlight persistent high energy and fuel costs (UK energy bills, Italian fuel prices, German fuel policy, worries about low US oil reserves and Venezuela), as well as strong concern about grocery prices and a generally non‑recessionary macro backdrop (\"recession probability has collapsed\" and debate about possible further rate hikes at Jackson Hole). These narratives suggest that households still feel significant price pressure in energy and food and that policy is at least debating tighter rates rather than emergency cuts; they do not point to an imminent sharp disinflation below 3%, and if anything they reinforce the idea that inflation is a bit stickier than the series‑only trajectory implies. Because these conversations are noisy, anecdotal and only loosely linked to the official CPI, I adjust the forecast only slightly upward by 0.03 percentage points, to 3.23, reflecting modestly stronger near‑term price pressure from energy and groceries than the historical dynamics alone would indicate, while keeping the forecast close to the series‑based mean‑reversion path."
     }
    ],
    "hindcasts": [
@@ -1473,7 +1441,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         3.5,
@@ -1488,7 +1457,8 @@
         3.45,
         3.3,
         3.3,
-        3.4
+        3.4,
+        3.23
        ]
       },
       {
@@ -1508,7 +1478,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         3.25,
@@ -1521,6 +1492,7 @@
         3.25,
         3.25,
         3.25,
+        3.2,
         3.2,
         3.2,
         3.2
@@ -2482,7 +2454,7 @@
    },
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "forecast_run": "2026-08-29",
+   "forecast_run": "2026-08-31",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
@@ -2490,47 +2462,23 @@
      "label": "gpt-5.1",
      "value": 2.8,
      "web": false,
-     "reasoning": "The July 2026 print at 2.9% sits modestly above the ECB’s 2% target but within the post‑2023 range where headline inflation has oscillated between roughly 1.7% and 3.2%, with recent readings showing a mild re‑acceleration from early‑2026 lows. Looking at seasonality, August tends not to be a month of sharp moves: in the pre‑shock period 2010–2019, August annual rates usually differed from July by only ±0.2 percentage points, and even in the 2021–23 shock period the month‑to‑month pattern was relatively smooth. The 2025 profile (fairly stable around 2%) and the 2024 run (soft patch mid‑year followed by normalisation) suggest that the underlying trend has returned close to 2–3%, with most of the large energy‑driven base effects having already washed out. Year‑on‑year comparisons for August 2026 will be against August 2025 at 2.0%, so there is a modest positive base effect: given current core momentum implied by the 2026 prints (1.7–3.2% range with an upward drift in spring), a 0.7–1.0 percentage point uplift versus last year is consistent with a normalisation of previously subdued energy prices, some persistent services and wage pressures, but no new major commodity shock. My internal assessment of macro conditions in mid‑2026 is that energy prices are somewhat firmer than in 2024–25 but not surging, food inflation is moderate, and services inflation (linked to wages and shelter) remains the main driver keeping headline above 2%. With the ECB likely still in a restrictive but gradually easing stance, policy is containing second‑round effects without fully dampening demand. Putting these elements together, I expect a very slight easing from 2.9% to 2.8% in August 2026, reflecting technical noise and fading of the small spring spike, while the underlying inflation trend remains close to the 2½–3% band rather than dropping back to 2% immediately."
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 2.8,
-     "web": false,
-     "reasoning": "The recent pattern shows euro area HICP moving back above 2% in early 2026, with a mini‑upswing from 1.7 in January to a 3.2 peak in May, then easing to 2.8 in June and 2.9 in July; that profile is consistent with fading energy‑related base effects from mid‑2025 lows and some residual services and food price strength, but not with a renewed, broad‑based surge. Year‑ago (2025‑08) inflation was 2.0, so August 2026 will compare against a relatively low base, adding slight upward pressure compared with earlier months where the base was closer to 2.5; however the fact that the July outcome (2.9) is only modestly above the ECB’s target suggests that core momentum is moderate and that tighter policy over 2023–25 is now largely restraining second‑round effects, especially in wages. Oil‑ and fuel‑related social media signals from Italy and Germany point to higher pump prices relative to earlier this year, and the Spain thread notes an energy‑linked upside risk to Spanish inflation around 3%, which is consistent with some temporary energy and food noise but not with a return to double‑digit euro area inflation; I treat these as soft indicators of slight upside risks to near‑term headline HICP (perhaps 0.1–0.2 percentage points) but also as noisy and biased toward visible price hikes, so they nudge the forecast only marginally upward from a purely mechanical extrapolation of recent euro area data. Taking these factors together—slightly positive base effects, some renewed energy price pressure, still‑firm services prices, and an overall monetary stance that is restrictive enough to keep inflation near but not far above target—I forecast a modest easing from July’s 2.9 to 2.8 in August, with the social media material reinforcing the notion that downside from current levels is limited in the very short term but not strong enough to push the forecast above 3%."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "label": "gpt-oss-120b · cond.",
-     "value": 2.8,
-     "web": false,
-     "reasoning": "The July 2026 HICP reading of 2.90% follows a peak of 3.20% in May and a modest dip to 2.80% in June, indicating a slight downward momentum. Base‑effect relief from the 2022‑23 inflation surge further supports a modest easing. Energy‑price chatter on social media (oil‑price threads, fuel‑price concerns in Poland and Norway) suggests no dramatic shock to oil or gas costs, implying that the recent decline in energy‑inflation components is likely to persist. The ECB has kept policy rates restrictive but is signalling a cautious approach, which together with the observed trend points to a modest further decline to around 2.8% in August."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": 2.7,
-     "web": false,
-     "reasoning": "My point forecast for the Euro area HICP inflation in 2026-08 is 2.70, driven by recent momentum in the series, which has been steadily increasing since 2026-01. The base effects from the previous year's low inflation rates will continue to support the current year's inflation. Energy and food prices, although volatile, have been relatively stable in recent months, which should contribute to a moderate inflation rate. The policy stance of the European Central Bank, which has been tightening monetary policy to combat inflation, may start to have an impact, but its effects may not be fully felt until later in the year. Considering these factors, I expect the inflation rate to increase slightly from the previous month's 2.90, resulting in a forecast of 2.70 for 2026-08. This forecast is also informed by the historical series, which shows that inflation rates tend to be relatively stable during the summer months, with some upward pressure due to seasonal effects."
+     "reasoning": "The current episode resembles a transition from a high‑inflation spike back towards the ECB’s target: after peaking in late 2022 around 10%, inflation fell to roughly 2–3% by late 2023, then hovered close to 2% through 2024 and early 2025, before a modest re‑acceleration in 2026 (from 1.7% in January to 3.2% in May and then easing to 2.8–2.9% in June–July). Historically, when headline HICP has risen moderately above 2% after a period near target (for example 2011–2012 or mid‑2018), the subsequent pattern tends to be a relatively shallow cycle rather than a renewed surge: peaks only 0.3–0.7 percentage points above the level reached a few months earlier, followed by gradual normalisation. The recent monthly changes from 2026‑02 onwards (+0.7, +0.4, +0.2, +0.2, −0.4, +0.1) suggest the upswing is already losing momentum, and the sequence 2.8 → 2.9 implies a levelling off rather than a strong renewed rise. Looking at earlier regimes, after large disinflation phases (e.g. post‑2013 and post‑2022), stabilisation around 2% has often been accompanied by small, noisy oscillations rather than sharp reversals. August seasonality in this long sample is weak and mixed: in normal‑inflation years (2010–2019, 2020–21) August typically lies within ±0.2 percentage points of July, and in the recent near‑target regime (2024–25) August readings (2.2% and 2.0%) were very close to adjacent months. Given the current level (2.9%), decelerating monthly increments, limited evidence of strong positive seasonality in August, and the pattern that past moderate overshoots above 2% tend to fade slowly rather than reverse abruptly, a slight easing to 2.8% for 2026‑08 is more consistent with the historical dynamics and base‑effect behaviour than either a continued rise or a sharp drop."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "label": "llama-3.3-70b-instruct · cond.",
-     "value": 2.8,
+     "value": 2.92,
      "web": false,
-     "reasoning": "The point forecast for the Euro area HICP inflation in 2026-08 is 2.80. This forecast is based on the historical series provided and internal knowledge of current economic conditions. The recent momentum in the series, with a slight increase from 2.60 in 2026-06 to 2.90 in 2026-07, suggests a potential continuation of this trend. However, base effects and energy prices may influence the inflation rate. The social media material provided did not significantly change the forecast, as it mostly discussed general concerns about inflation, price hikes, and energy costs, without providing specific, actionable information that would alter the forecast. The material did highlight the volatility of energy prices and the potential impact on inflation, but this was already considered in the initial forecast. Overall, the forecast remains relatively stable, with a slight increase expected in the next period."
+     "reasoning": "The historical series of Euro area HICP inflation suggests a slight increase in the inflation rate, driven by the recent upward trend and the current level of 2.90 in 2026-07. Based on the series alone, I forecast an inflation rate of 2.85 for 2026-08. However, considering the social media conversations, there are mentions of rising fuel prices, increasing energy bills, and concerns about inflation, which may indicate upward pressure on prices. Although these conversations are noisy and unrepresentative, they suggest a slightly higher inflation rate than implied by the series alone. Therefore, I recalibrate my forecast upwards by 0.07 to 2.92, reflecting the potential impact of these factors on the inflation rate. The adjustment is small, as the social media material is not a reliable indicator, but it suggests that households and market participants are experiencing price pressures that may not be fully captured by the historical series."
     },
     {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
      "value": 2.9,
      "web": false,
-     "reasoning": "The series has shown a clear rebound in early 2026 after a prolonged period around 2 % in 2025, moving from 1.7 % in January to 2.9 % in July, driven by a combination of higher energy and food price dynamics and a diminishing base‑effect from the low‑inflation months of 2025. The month‑on‑month increase from June (2.8 %) to July (2.9 %) suggests a modest upward momentum of roughly +0.1 pp, which, given the persistence of elevated energy costs (+0.2 pp) and a small but positive contribution from food (+0.1 pp), points to a continuation rather than a reversal. The ECB’s restrictive monetary stance is expected to gradually temper demand‑side pressures, but the lag in transmission means inflation is likely to stay just above the 2 % target in the near term. Consequently, a point forecast of 2.9 % for August 2026 reflects the balance of these forces."
+     "reasoning": "The recent euro area HICP profile shows a moderate re‑acceleration from 1.7% in January 2026 to 3.2% in May, followed by a modest easing to 2.8% in June and 2.9% in July. Looking back over the full history, episodes of post‑spike normalisation (e.g. 2011–12, 2018–19, and the post‑2022 correction) typically feature gradual moves towards 2% with month‑to‑month changes of about ±0.1–0.3 percentage points, and August rarely shows pronounced seasonal jumps in the annual rate; the 2024 pattern (2.6% in July, 2.2% in August) suggests mild negative seasonality as energy and travel components normalise. With current inflation slightly above 2% but clearly off the 2022–23 highs, a baseline projection using only the series is a small decline from 2.9% to 2.8% for August 2026, consistent with the recent mini‑hump (peaking at 3.2% in May) fading but still leaving inflation somewhat above target. The social‑media material, while noisy and US‑ and country‑specific, does contain several signals relevant for euro‑area prices: Spanish commentators note CPI at just above 3% and an ongoing energy crisis, Italian and German threads lament high fuel prices and renewed price‑support schemes, French debate centres on energy superprofits and price caps, and UK users complain about rising energy bills. Taken together, these point to persistent upward pressure in energy and related costs across Europe, suggesting that any downward seasonal drift in August may be weaker than implied by the historical average, and that the recent euro‑area uptick above 2% has not sharply reversed. Because these anecdotes are not systematically representative, the adjustment should be modest: I nudge the forecast up by 0.1 percentage point from 2.8% to 2.9%, implying essentially flat annual inflation between July and August as energy‑linked pressures offset the usual mild late‑summer softening."
     }
    ],
    "hindcasts": [
@@ -3063,7 +3011,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         2.8,
@@ -3091,7 +3040,8 @@
         3.0,
         3.0,
         2.8,
-        2.8
+        2.8,
+        2.9
        ]
       },
       {
@@ -3124,9 +3074,11 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
+        2.8,
         2.8,
         2.8,
         2.8,
@@ -3261,7 +3213,8 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-27",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         3.1,
@@ -3285,7 +3238,8 @@
         2.8,
         2.8,
         2.8,
-        2.8
+        2.8,
+        2.92
        ]
       },
       {
@@ -3933,39 +3887,23 @@
    },
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "forecast_run": "2026-08-29",
+   "forecast_run": "2026-08-31",
    "forecasts": [
-    {
-     "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "label": "gpt-5.1",
-     "value": 4.1,
-     "web": false,
-     "reasoning": "The unemployment rate has been drifting gradually higher from the 3.5–3.7% range of 2022–23 to around 4.1% in mid‑2026, but recent readings show very modest, stepwise movements (typically ±0.1 percentage point month‑to‑month) and no sign of a sharp turning point. From early 2025 onwards, the series has essentially oscillated between 4.0% and 4.4%, suggesting the economy is in a soft‑landing regime with labour demand cooling but still relatively resilient. Base effects from the very low pre‑pandemic unemployment rates have long since washed out, and the relevant comparison is the recent band around 4¼%, within which June and July 2026 came in at 4.2% and 4.1% respectively, indicating a slight easing rather than acceleration. My internal assessment of current conditions is that tighter monetary policy over 2023–24 has continued to restrain interest‑sensitive sectors, but not enough to generate a pronounced spike in joblessness; meanwhile, energy and food prices, after the sharp run‑ups of 2022, have been more stable, reducing real‑income stress and supporting consumption, which helps keep unemployment from rising quickly. Given the relatively stable macro backdrop, the lack of strong new shocks, and the observed tendency of the rate to revert toward about 4.1–4.2% in recent months, the most calibrated forecast is that August 2026 will hold at 4.1%, implying essentially flat momentum with any policy‑ and price‑related headwinds offset by still‑solid labour demand."
-    },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
      "value": 4.1,
      "web": false,
-     "reasoning": "The unemployment rate has been remarkably stable around a 4.1–4.4% corridor since early 2025, with a very shallow downward drift in 2026 (4.4% in February to 4.1% in July), consistent with a labour market that is gradually cooling but not weakening sharply. Given the long-run historical pattern in the series, once unemployment settles into a narrow band after a shock (as it did post-pandemic), month‑to‑month moves are typically only ±0.1 percentage point and often revert rather than trend strongly absent a major macro shock. My internal assessment of current US conditions is that monetary policy remains restrictive in real terms, dampening hiring, but that growth has not collapsed; wage growth is still positive but easing, and labour demand is softening moderately rather than falling off a cliff. The social media material points to persistent price pressures in essentials (energy, fuel, groceries, utilities, insurance) and ongoing public anxiety about inflation and living costs, which is consistent with a scenario of restrictive policy aiming to tame inflation while households feel squeezed. However, these posts are noisy, not directly tied to US labour market data, and do not indicate an abrupt shift such as a sudden spike in layoffs or a demand shock that would quickly push unemployment higher. They therefore reinforce a narrative of mild ongoing disinflationary pressure on demand rather than forcing a change in the forecast path. Balancing recent momentum (a small decline from 4.3–4.4% to 4.1%), base effects from last year’s modest rise into the low 4s, and a still‑tight but slowly normalising labour market under restrictive policy, I expect the August reading to be essentially unchanged at 4.1%, reflecting continued stability with only very limited scope for month‑to‑month variation at present. The social media material marginally nudges me away from forecasting a sharper drop (e.g. 4.0%) by highlighting that price and cost pressures remain elevated, but overall it leaves the forecast centred on a flat reading rather than a move outside the recent band."
+     "reasoning": "From the historical series, the unemployment rate has been in a remarkably stable 4.0–4.5% band since early 2024, with very small month‑to‑month moves: over the last twelve published observations, the average absolute monthly change is about 0.1 percentage points, and in 2026 specifically it has edged down only from 4.3 in January to 4.1 in July. Earlier episodes of comparable near‑full‑employment conditions (2017–2019 and 2022–early 2023) also show that once the rate is around 3½–4½%, the typical monthly change is only ±0.1 and reversals are common, rather than long smooth trends. There is no clear seasonal pattern in August: in the pre‑pandemic years with similar levels, August often deviated by only 0.0–0.1 from July, with both small rises and small falls observed. Given July 2026 at 4.1 and the recent slight downward drift, a mechanical time‑series projection would place August essentially unchanged, at 4.1, as the most probable single number. The social media material mentions inflation pressure, energy and fuel costs, gig work and concerns about affordability, but provides no direct, broad‑based signal of layoffs, surging joblessness or a sharp improvement in hiring; comments about gig workers being classified as employed in BLS surveys actually reinforce that measured unemployment will not respond strongly to underemployment or financial stress. Overall these conversations suggest some ongoing cost‑of‑living strain but do not indicate a clear contemporaneous macro shock that would plausibly move the official unemployment rate by more than the usual ±0.1 noise, or even reliably push it up or down within that band. Consequently, I leave the series‑only forecast unchanged at 4.1 and set the final point forecast for 2026‑08 at 4.1, with the social‑media information causing no adjustment."
     },
     {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "label": "gpt-oss-120b · cond.",
-     "value": 4.0,
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "value": 4.2,
      "web": false,
-     "reasoning": "The series has been on a modest downward swing from a February peak of 4.4% to 4.1% in July, reflecting the typical summer dip and a continuation of the post‑pandemic low‑unemployment regime. Base‑effects from the 2020 spike are now negligible, and the labour market is operating near the natural rate, so further modest declines are plausible. Monetary policy remains relatively tight as the Federal Reserve seeks to anchor inflation, which should keep unemployment from falling much below 4 %, while persistent energy‑price pressures noted in recent Reddit discussions (oil price threads, concerns about low U.S. oil reserves and high household energy bills) act as a soft drag on hiring. Balancing these forces leads to a forecast of roughly 4.0 % for August 2026."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "label": "llama-3.3-70b-instruct · cond.",
-     "value": 4.15,
-     "web": false,
-     "reasoning": "The point forecast for the US unemployment rate in 2026-08 is 4.15, which is slightly higher than the most recent release of 4.10 in 2026-07. The social media material did not significantly change my forecast, as it primarily discussed general concerns about inflation, price hikes, and energy costs, but did not provide specific information that would alter my expectations for the US labor market. The conversations on Reddit about prices and the economy suggest that households are experiencing financial strain, but this is already reflected in the current economic conditions and does not necessarily imply a significant change in the unemployment rate. Overall, my forecast is based on the historical series and my internal knowledge of current economic conditions, and the social media material did not provide any new or surprising information that would cause me to revise my forecast."
+     "reasoning": "The unemployment rate has been in a relatively stable 4.0–4.4% range since early 2024, with a very gradual upward drift from about 3.5–3.9% in 2022–23 to around 4.1–4.3% recently. The latest reading, 4.10% in 2026-07, follows a small sequence of declines from 4.40% (2025-12) to 4.30–4.20–4.10 over the first seven months of 2026, suggesting a modest easing after a mild, earlier uptick. Looking at earlier periods with similar levels (2015–16 and 2024–25), short-run month-on-month moves of ±0.1 percentage points are common, while larger jumps tend to coincide with clear macro shocks (e.g. 2020) that are not evident in the recent pattern. There is no strong, recurring seasonal pattern at this level: August often differs from July by only ±0.1 points (e.g. 2015, 2016, 2018, 2022, 2023), and the current regime resembles those relatively stable episodes more than the volatile 2020 period. Given the gentle downward drift through 2026 and the tendency for small reversals within narrow ranges, a slight uptick from 4.10 to 4.20 in 2026-08 is a calibrated compromise between continued easing and typical noise, consistent with past dynamics around similar unemployment levels and with the recent 4.1–4.3% band acting as a near-term equilibrium."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -3973,7 +3911,7 @@
      "label": "gpt-oss-120b",
      "value": 4.0,
      "web": false,
-     "reasoning": "The unemployment rate has been on a modest downward trajectory since early 2026, falling from 4.30 % in January to 4.10 % in July, a 0.20‑point decline over six months. This momentum reflects a tightening labour market after the post‑pandemic recovery, with the latest Fed policy stance being neutral following a series of rate hikes that have now been fully transmitted to the economy. Energy and food price inflation has stabilised at near‑target levels, removing a drag on real wages and supporting hiring. Seasonal patterns in the summer months typically see a slight dip in the rate, and the base effect of the recent 4.10 % reading provides room for a further modest reduction. Given these factors, a continuation of the trend to around 4.0 % for August 2026 is a plausible point forecast."
+     "reasoning": "The series has been falling from 4.30 in January 2026 to 4.10 in July 2026, a decline of 0.20 over six months (≈‑0.03 per month) and a sharper 0.10 drop between June and July. Historically, August values are usually close to July’s, sometimes a little higher (e.g., +0.2 in 2023) but often unchanged (e.g., 2024). Given the recent downward momentum and the lack of a strong seasonal uptick in the last few years, the most plausible continuation is a modest further decline of about 0.1 percentage point, bringing the August 2026 unemployment rate to roughly 4.0 %."
     }
    ],
    "hindcasts": [],
@@ -4439,7 +4377,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         4.1,
@@ -4457,6 +4396,7 @@
         4.1,
         4.1,
         4.2,
+        4.1,
         4.1,
         4.1,
         4.1,
@@ -4486,7 +4426,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         4.1,
@@ -4507,7 +4448,8 @@
         4.1,
         4.1,
         4.1,
-        4.1
+        4.1,
+        4.2
        ]
       },
       {
@@ -4571,7 +4513,8 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-27",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         4.0,
@@ -4586,6 +4529,7 @@
         4.05,
         4.0,
         4.05,
+        4.0,
         4.0,
         4.0,
         4.0,
@@ -4685,7 +4629,7 @@
    "unit": "%",
    "area": "EA",
    "freq": "M",
-   "stale": false,
+   "stale": true,
    "history": [
     [
      "2015-01",
@@ -5288,6 +5232,14 @@
     },
     {
      "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "value": 6.4,
+     "web": false,
+     "reasoning": "The unemployment rate has stabilised around the 6.3‑6.4 % band since early 2024, with only minor month‑to‑month fluctuations. The most recent six months show a flat pattern (6.30, 6.40, 6.30, 6.30, 6.30, 6.30), indicating limited momentum. Seasonal patterns historically see July slightly higher than June (e.g., 2024‑07 = 6.40, 2025‑07 = 6.40). Base‑effects are neutral, as the preceding months are already low, so there is no upward drag from a higher prior level. Energy and food price inflation has largely receded, reducing cost‑of‑living pressures that could otherwise sustain higher labour‑market participation. The ECB’s policy stance remains restrictive but is expected to hold steady, limiting growth and keeping the labour market tight but not expanding enough to push unemployment lower. Consequently, a modest rise back to 6.40 % for July 2026 is the most plausible point forecast."
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
      "value": 6.3,
@@ -5309,14 +5261,6 @@
      "value": 6.3,
      "web": false,
      "reasoning": "The social media material did not significantly change my point forecast for the Euro area unemployment rate in 2026-07. While there were discussions about inflation, energy prices, and economic conditions in various countries, including the US, UK, and European nations, these conversations did not provide concrete evidence to alter my forecast. The recent momentum in the series, with the unemployment rate stabilizing at 6.30% in 2026-06, suggests a continuation of this trend. The social media posts primarily focused on household perceptions of price increases, energy costs, and economic policies, but they did not offer substantial insights that would lead me to adjust my forecast. Therefore, I maintain my point forecast of 6.30% for 2026-07, reflecting the current stable trend in the Euro area unemployment rate."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 6.4,
-     "web": false,
-     "reasoning": "The unemployment rate has stabilised around the 6.3‑6.4 % band since early 2024, with only minor month‑to‑month fluctuations. The most recent six months show a flat pattern (6.30, 6.40, 6.30, 6.30, 6.30, 6.30), indicating limited momentum. Seasonal patterns historically see July slightly higher than June (e.g., 2024‑07 = 6.40, 2025‑07 = 6.40). Base‑effects are neutral, as the preceding months are already low, so there is no upward drag from a higher prior level. Energy and food price inflation has largely receded, reducing cost‑of‑living pressures that could otherwise sustain higher labour‑market participation. The ECB’s policy stance remains restrictive but is expected to hold steady, limiting growth and keeping the labour market tight but not expanding enough to push unemployment lower. Consequently, a modest rise back to 6.40 % for July 2026 is the most plausible point forecast."
     }
    ],
    "hindcasts": [],
@@ -5999,55 +5943,23 @@
    },
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "forecast_run": "2026-08-29",
+   "forecast_run": "2026-08-31",
    "forecasts": [
     {
-     "model": "jrc/gpt-oss-120b",
+     "model": "ec/gpt-5.1",
      "type": "conditional",
-     "label": "gpt-oss-120b · cond.",
-     "value": 0.38,
+     "label": "gpt-5.1 · cond.",
+     "value": 0.68,
      "web": false,
-     "reasoning": "The recent series shows a modest deceleration from 0.52% in Q1 2026 to 0.37% in Q2 2026, following a volatile 2025 where a strong Q3 (1.08%) was followed by a sharp drop in Q4 (0.12%). Historical quarterly growth, excluding the pandemic shock, averages around 0.5‑0.6%, suggesting a return to the medium‑term trend. Base‑effects imply that the lower Q2 figure provides a modest upward bias for Q3, but the momentum is still weakening. Current macro‑policy indications point to the Federal Reserve having begun a cautious easing cycle in 2026, which should support activity but not generate a strong rebound while inflationary pressures from energy and food prices remain elevated. The Reddit material mainly reflects ongoing concerns about high oil and consumer prices but does not signal any abrupt change in market expectations, so it does not materially alter the forecast. Consequently, a point estimate of 0.38% quarter‑on‑quarter growth for 2026‑Q3 is judged most consistent with the data and prevailing conditions."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 0.48,
-     "web": false,
-     "reasoning": "The forecast builds on the full 2010‑2026 series, noting that Q3 historically runs about 0.2‑0.3 percentage points above Q2, but recent momentum has been weakening: after a strong 0.52 % rise in Q1, growth fell to 0.37 % in Q2. Energy and food price inflation have stabilised at near‑pre‑pandemic levels, removing the drag that depressed Q2, while the Federal Reserve has paused rate cuts, keeping monetary conditions moderately tight. These factors suggest a modest seasonal uplift from the 0.37 % Q2 reading, tempered by the downward trend, leading to an estimated 0.48 % quarter‑on‑quarter increase for Q3 2026."
+     "reasoning": "Over 2010–2026 the underlying q‑o‑q GDPC1 growth, excluding the extreme 2020 pandemic swings, averages a little above 0.6%, with a noticeable tendency for expansions to run in multi‑quarter sequences around that pace and only occasional mild contractions. The recent pattern from 2024 onward is a broadly solid expansion with some volatility: 0.21, 0.89, 0.82, 0.46, then a brief dip to ‑0.16 in 2025‑Q1 followed by three strong quarters (0.95, 1.08, 0.12) and then 0.52, 0.37 in 2026‑Q1 and Q2. That looks like growth moderating from a temporarily very strong phase back toward its medium‑run mean rather than collapsing. Earlier episodes with similar sequences — for example 2013–2015 or 2017–2019 — show that after a couple of softer quarters (around 0.3–0.5) growth commonly reverts toward 0.6–0.8 unless hit by a clear shock. There is not a stable, large seasonal pattern at the q‑o‑q level beyond weak evidence that Q3 is often slightly stronger than adjacent quarters (e.g. 2014, 2019, 2023, 2025), consistent with an estimate nearer 0.7% than 0.4–0.5% for 2026‑Q3. On this basis, using the full series and treating 2026‑Q1–Q2 as a mild downshift within an ongoing expansion, the series‑only forecast is 0.70. The social‑media material adds colour but only limited incremental signal: discussions stress still‑high energy, fuel and grocery prices, hints of continuing inflation pressure and some strain on household budgets, while another thread notes recession probabilities seen as very low and focuses on technical aspects of monetary–fiscal interactions. Taken together, these suggest the economy is not sliding into recession but that persistent cost pressures and possible rate‑hike risks could be leaning growth slightly down from the series‑implied mean rather than up. Given how noisy and anecdotal these posts are, they warrant only a small adjustment, so I trim the forecast down by 0.02 percentage points to 0.68, keeping the central view of moderate positive growth with some headwinds rather than a marked slowdown or acceleration."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "label": "gpt-5.1",
-     "value": 0.6,
+     "value": 0.7,
      "web": false,
-     "reasoning": "The underlying quarterly growth trend in the post‑pandemic period has been around 0.6–0.8%, with occasional softer quarters when policy or external shocks bite, and the recent sequence of 0.52 (2026‑Q1) and 0.37 (2026‑Q2) suggests a temporary moderation rather than a break in trend. Historically, mild slowdowns of this sort are often followed by a partial rebound as inventories, trade and consumer spending normalise, helped by fading base effects from earlier strong quarters in 2025; the recent pattern (e.g. the weak 2024‑Q1 followed by a 0.89% upswing in 2024‑Q2) supports that view. My internal knowledge implies that by late 2026 inflation pressures from energy and food have eased somewhat relative to their peaks, improving real purchasing power, while the Federal Reserve has shifted from very restrictive territory towards a more neutral stance, with market expectations of gradual or partial rate cuts beginning to support interest‑sensitive demand in housing and durables without generating an immediate boom. At the same time, tighter credit conditions and waning fiscal impulse from earlier pandemic‑era and industrial‑policy measures (for example, infrastructure and semiconductor support) cap the upside, keeping growth below the strongest quarters of 2023–25. Putting these factors together—recent momentum, softer but stabilising price dynamics and a cautiously supportive policy mix—leads to a forecast of a moderate re‑acceleration to about 0.6% q‑o‑q (not annualised) for US real GDP in 2026‑Q3, close to but slightly below the post‑2021 average pace."
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 0.6,
-     "web": false,
-     "reasoning": "Given the post-pandemic normalisation, the quarterly profile since mid‑2022 suggests underlying US real GDP growth running a little above its 2010–2019 average of roughly 0.6–0.7% per quarter, with occasional soft patches: from 2022‑Q3 onwards we see a sequence of 0.7–1.1% quarters interspersed with weaker prints such as 2024‑Q1 (0.21) and 2025‑Q1 (-0.16), but without any sustained downturn. The latest readings for 2026‑Q1 (0.52) and 2026‑Q2 (0.37) indicate some moderation from the strong 2025‑mid‑2025 momentum (0.95, 1.08) yet are still positive, pointing to a gradual cooling rather than recession. My baseline is that restrictive monetary policy and tighter financial conditions, combined with real‑income pressure from persistent price increases in services and essentials, cap growth below the 2023 highs, but ongoing fiscal support and solid labour markets prevent a sharp retrenchment; this argues for 2026‑Q3 reverting modestly towards trend, around 0.6%. Energy and food signals in the social media material are mixed but useful as soft inputs: comments on low US oil reserves and European fuel and energy price tensions suggest global energy markets remain tight, but there is no clear evidence of a fresh oil price shock of the magnitude seen in 2022–early 2023, so I assume only a mild additional drag via slightly higher petrol and utility costs rather than a large negative shock. US household anecdotes about rising internet, insurance and grocery bills are consistent with still‑elevated but decelerating inflation in many services and food categories, implying real consumption growth is constrained but still positive, especially as nominal wage and income growth partially offsets these increases. The discussion of a shift towards more T‑bill issuance and ‘fiscal dominance’ points to continued high public borrowing and political pressure to avoid much tighter policy, which supports demand in the near term even if it raises medium‑term risks; for 2026‑Q3 this reinforces a view of moderate, not weak, growth. Overall, these social media signals nudge my forecast slightly below the 0.7–0.8% that a purely mechanical extrapolation of recent GDP momentum might suggest, because they highlight ongoing cost‑of‑living pressures and energy tightness, but they do not indicate imminent recessionary behaviour; hence I place 2026‑Q3 at 0.60% q‑o‑q, balancing recent softer quarterly outturns with still‑resilient underlying activity and only modest new headwinds from prices and policy."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": 0.55,
-     "web": false,
-     "reasoning": "My point forecast for 2026-Q3 US real GDP growth is 0.55%, reflecting a moderate expansion. Recent momentum in the series has been positive, with 2026-Q2 growth at 0.37% and 2026-Q1 at 0.52%, indicating a steady, albeit slow, pace of economic activity. Base effects from the previous quarter are relatively neutral, as the 0.37% growth in 2026-Q2 was not exceptionally high or low. Energy and food prices have been relatively stable in recent months, which should not exert significant downward pressure on growth. The policy stance, particularly monetary policy, has been cautious, with the Federal Reserve maintaining a watchful eye on inflation and economic growth, which suggests that interest rates will remain supportive of growth. Considering these factors and the historical series, which shows an average quarterly growth rate of around 0.6% over the past few years, I expect the US economy to continue its moderate expansion, leading to a 0.55% growth rate in 2026-Q3."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "label": "llama-3.3-70b-instruct · cond.",
-     "value": 0.55,
-     "web": false,
-     "reasoning": "The point forecast for US real GDP growth in 2026-Q3 is 0.55%. This forecast is based on the historical series provided, which shows a general trend of moderate growth with some fluctuations. The recent momentum in the series, with a growth rate of 0.37% in 2026-Q2, suggests a slight slowdown, but still a positive growth rate. The social media material provided does not significantly change this forecast, as it primarily discusses price hikes, inflation, and energy prices, which are already factored into the historical series. While some posts mention concerns about inflation and energy prices, they do not provide any new information that would significantly alter the forecast. The forecast is also influenced by the policy stance, with the US Treasury Department's move to swap long-dated bonds for T-bills, which could impact interest rates and economic growth. However, the overall impact of these factors is still uncertain and does not significantly change the forecast at this time."
+     "reasoning": "The full 2010–2026 series suggests a fairly stable underlying mean growth rate a bit above 0.6% q‑o‑q, with large outliers confined to the 2020 pandemic regime. Excluding the 2020 extremes, typical expansions show quarterly real GDP growth clustered in the 0.4–0.9% range, with some mild serial correlation: strong quarters are often followed by solid but slightly weaker ones, while soft or negative quarters are usually followed by a rebound. The recent pattern fits that: 2025 saw a dip in Q1 (-0.16) followed by three stronger quarters (0.95, 1.08, 0.12), then 2026 has moved to more moderate but still positive growth (0.52 in Q1, 0.37 in Q2). Earlier episodes with a modest slowdown after strong growth—for example 2014 (1.29, 1.22, then 0.51), 2019 (0.84, 1.17, then 0.68), and 2023–24 (1.15, 0.84, then 0.21)—typically reverted towards the underlying mean rather than continuing to weaken. Seasonally, there is no consistent pattern of systematically weak or strong specific quarters once the extreme pandemic movements are set aside. Given the current level (0.37) is somewhat below the historical mean and follows a sequence of above‑trend quarters in 2025, the most likely outcome for 2026‑Q3 is a partial re‑acceleration toward that mean but not back to the very strong prints of 2025. Calibrating to the typical post‑slowdown rebounds of roughly 0.2–0.4 percentage points, a forecast of 0.70% q‑o‑q for 2026‑Q3 balances the recent moderation with the prevailing expansionary dynamics observed in analogous past episodes."
     }
    ],
    "hindcasts": [],
@@ -6429,7 +6341,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         0.55,
@@ -6458,7 +6371,8 @@
         0.55,
         0.55,
         0.55,
-        0.6
+        0.6,
+        0.68
        ]
       },
       {
@@ -6492,7 +6406,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         0.6,
@@ -6521,7 +6436,8 @@
         0.55,
         0.55,
         0.55,
-        0.6
+        0.6,
+        0.7
        ]
       },
       {
@@ -6960,23 +6876,15 @@
    },
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "forecast_run": "2026-08-29",
+   "forecast_run": "2026-08-31",
    "forecasts": [
     {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 0.32,
-     "web": false,
-     "reasoning": "The forecast builds on the recent upward swing from a flat 0.00% in 2026‑Q1 to 0.44% in 2026‑Q2, indicating renewed momentum after a modest 2025‑Q4 slowdown. A four‑quarter moving average (0.31, 0.20, 0.00, 0.44) yields 0.24%, while the historical Q3 pattern for the euro area typically adds a seasonal lift of roughly 0.05‑0.10 percentage points. Energy and food price inflation have eased considerably since the 2022‑2023 spikes, reducing cost pressures and supporting consumption. The ECB, having kept policy rates high through 2025, began a gradual easing cycle in early 2026, which is expected to lower financing costs without reigniting inflation. Combining these factors – modest base‑effect from the low 2026‑Q1, a seasonal Q3 boost, and a slightly more accommodative monetary stance – leads to a point forecast of about 0.32% quarter‑on‑quarter growth for 2026‑Q3."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
+     "model": "ec/gpt-5.1",
      "type": "conditional",
-     "label": "gpt-oss-120b · cond.",
-     "value": 0.32,
+     "label": "gpt-5.1 · cond.",
+     "value": 0.42,
      "web": false,
-     "reasoning": "The most recent quarters show a clear rebound after a flat Q1 (0.00%) with Q2 delivering +0.44%, driven partly by a negative Q2‑2025 base (-0.01%). Historically, Euro‑area Q3 growth has clustered around 0.3‑0.5% (median 0.31%) once the pandemic shock is excluded. Energy‑price discussions on Reddit suggest prices are still high but have stabilised, while inflation pressures have eased, allowing the ECB to keep rates moderately restrictive rather than tightening further. These factors together point to a modest continuation of the recent up‑turn, yielding an estimated +0.32% real GDP growth for Q3 2026."
+     "reasoning": "Using the full 2010–2026-Q2 series, quarterly euro area GDP growth outside the exceptional 2020 pandemic swings fluctuates in a relatively narrow band, with an overall mean around 0.4–0.5% and only modest serial correlation. Recent data show the area emerging from a very soft patch in 2022–2023 (several quarters near zero or slightly negative) into a mild, steady expansion: 0.35, 0.22, 0.50, 0.30, 0.57, -0.01, 0.31, 0.20, 0.00, then 0.44 in 2026-Q2. The pattern around the latest observation resembles earlier periods where, after a phase of near-stagnation, growth stabilised a bit below the historical average (for example, 2013–2014 and 2018–2019), with quarter-on-quarter rates oscillating between roughly 0.2% and 0.6% rather than trending strongly. In those episodes, a single stronger quarter like 0.44% was usually followed by another positive but not sharply higher print, often slightly nearer the mean. There is no clear evidence of strong seasonality once the huge 2020 shock is set aside, and the current level of growth is close to that medium-run central tendency. On that basis, the series alone suggests a continuation of moderate expansion without a major inflection, leading to a calibrated series-only forecast of 0.40% for 2026-Q3. The social media material, while noisy and dominated by non-euro-area content, does contain some signals relevant to euro area activity: discussions of high and rising energy and fuel prices in the UK, Italy, France, Germany and Spain, and of euro-area inflation around 3% in Spain with pressure for minimum wage increases, point to ongoing cost and price pressures rather than outright demand collapse. There is no strong evidence of imminent recession in these conversations; instead they suggest real incomes are squeezed but policy (minimum wage hikes, energy price caps) and continued employment are supporting demand. Higher energy costs can weigh on growth via real-income and input-cost channels, but they also reflect continued activity and do not resemble the extreme, synchronised shock of 2022. Given this, the qualitative online signals justify only a very small upward adjustment to recognise that nominal demand remains firm and that the recent move from 0.00 to 0.44 is more likely to be maintained than sharply reversed. I therefore nudge the forecast up by 0.02 percentage points, from 0.40% to a final point forecast of 0.42% for 2026-Q3, keeping the adjustment modest relative to the information content and volatility of the underlying GDP series."
     },
     {
      "model": "ec/gpt-5.1",
@@ -6984,31 +6892,7 @@
      "label": "gpt-5.1",
      "value": 0.38,
      "web": false,
-     "reasoning": "The recent data show the euro area emerging from a soft patch in 2023–early 2024 into modest, broad-based growth: since 2024-Q1, quarterly real GDP growth has averaged about 0.35%, and the latest prints (2026-Q1: 0.00, 2026-Q2: 0.44) suggest momentum normalising slightly above that pace rather than re-accelerating strongly. The medium-term post-pandemic trend outside the extreme 2020 swings has been in the 0.3–0.6% q‑o‑q range, consistent with potential growth and fading post-Covid supply-chain and reopening effects. Base effects from prior energy shocks and inflation spikes have largely washed out, while lower headline inflation and some real wage recovery support consumption, offset by tight monetary policy, still restrictive real rates and waning fiscal support, which cap upside to growth. Recent global conditions—slower but positive US growth, a subdued China, stabilising world trade, and somewhat lower but volatile energy prices—point to a modest tailwind rather than a strong external boost. Taken together, these factors argue for slightly slower growth than the strong 2026-Q2 print but still above the 2024–25 average, leading to a calibrated forecast of 0.38% q‑o‑q for 2026-Q3."
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 0.38,
-     "web": false,
-     "reasoning": "The recent euro area GDP profile shows a transition from stagnation in 2026-Q1 (0.00) to a modest rebound in 2026-Q2 (0.44), broadly in line with the gradual normalisation seen since the post‑pandemic volatility (2020–2021) faded. Over 2022–2024 the underlying quarterly growth trend has typically been in the 0.2–0.6% range, with occasional soft patches, and the last few quarters suggest a mild, but not vigorous, upswing rather than a strong boom. Monetary policy remains restrictive in real terms, which should cap demand and investment, but the worst of the energy shock is past; the social media snippets indicate renewed pressure from fuel and energy bills in parts of Europe (Italy, Germany, UK), plus ongoing complaints about broader price hikes, consistent with inflation being above target but lower than in 2022. That combination—still‑elevated energy and food prices, but fewer extreme shocks—typically supports modest real growth: households’ real incomes are squeezed, yet not collapsing, and fiscal policy and wage indexation mechanisms (e.g. discussion of minimum wage updates in Spain, automatic indexation in Belgium/France) offer some offset. Base effects are now largely neutral: the level of GDP has recovered from the pandemic losses, and the recent quarter-on-quarter prints cluster tightly around 0.2–0.5%, suggesting the current regime is one of subdued expansion. Given this backdrop I forecast 0.38% for 2026-Q3, a slight easing from Q2 as higher energy and utilities costs and lingering core inflation temper consumption, but with momentum in services, tourism and real wage stabilisation preventing a relapse into stagnation. The social media material nudges the forecast fractionally down from what would otherwise have been around 0.4–0.45, by reinforcing the view that household sentiment and purchasing power are under pressure, but it does not point to an outright demand shock or recession, so the central forecast remains within the recent mid‑range of quarterly outcomes."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": 0.25,
-     "web": false,
-     "reasoning": "My point forecast for the Euro area real GDP growth in 2026-Q3 is 0.25, which reflects a moderate slowdown from the 0.44 growth rate observed in 2026-Q2. The recent momentum in the series has been relatively weak, with the first quarter of 2026 showing no growth, but the second quarter rebounding to 0.44. Base effects are likely to be neutral, as the strong growth in 2021 and 2022 is no longer a factor. Energy and food prices, while still elevated, have stabilized in recent months, which should limit their negative impact on growth. The policy stance remains accommodative, with the European Central Bank keeping interest rates low, which should support economic activity. However, the ongoing geopolitical tensions and the risk of a global economic slowdown are likely to weigh on the Euro area's growth prospects. Overall, my forecast assumes a gradual slowdown in growth, driven by a combination of these factors, with a magnitude of 0.25, which is slightly below the historical average growth rate of the series."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "label": "llama-3.3-70b-instruct · cond.",
-     "value": 0.25,
-     "web": false,
-     "reasoning": "The point forecast for Euro area real GDP growth in 2026-Q3 is 0.25. Recent momentum in the series, as seen in the 2026-Q2 growth of 0.44, suggests a moderate pace of expansion. However, base effects from the previous quarter's growth may lead to a slight deceleration. The social media material did not significantly alter the forecast, as it primarily discussed price hikes, energy costs, and inflation concerns, which are already factored into the historical series. The material did not provide new, significant information that would drastically change the forecast. The forecast is based on the historical series and internal knowledge of current economic conditions, including the impact of energy and food prices, policy stance, and other factors. The social media conversations about prices and the economy served as soft, noisy signals, but they did not substantially influence the point forecast."
+     "reasoning": "The full 2010–2026 series shows an underlying quarterly growth norm around 0.4–0.5%, with clear business-cycle swings and exceptional pandemic volatility, but without strong, stable seasonality once the COVID-19 extremes are set aside. Recent quarters (2024–2026) indicate the euro area has moved from the mild stagnation of 2023 back into a modest expansion: after four near‑zero quarters in 2023 (average about 0.06%), growth stepped up to an average of roughly 0.34% in 2024, then around 0.27% in 2025, and 2026 so far averages 0.22% (0.00 in Q1, 0.44 in Q2). This pattern suggests a small but persistent positive underlying momentum, with Q2‑2026 at 0.44% roughly in line with the medium‑term mean. Looking at similar episodes of low‑but‑positive growth after soft patches (for example 2013–2014 and 2018–2019), growth tended to remain in a 0.2–0.5% band for several quarters rather than either re‑accelerating strongly or slipping back into contraction. There is no clear systematic intra‑year pattern that would push Q3 sharply away from Q2: outside the pandemic years, Q3 is sometimes a touch softer than Q2, sometimes stronger, but usually close. Given the recent move from 0.00% to 0.44% suggests recovery from a temporary dip rather than a break‑out boom, a modest mean‑reversion towards the central tendency of the recent expansion is plausible. Balancing the current level (0.44%), the average of the last two years (around 0.30%), and the historical tendency for growth to hover slightly below 0.5% in such regimes, I forecast 2026‑Q3 at 0.38%, implying a small easing from Q2 but continued moderate quarter‑on‑quarter real GDP growth."
     }
    ],
    "hindcasts": [],
@@ -7372,14 +7256,16 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         0.38,
         0.38,
         0.38,
         0.38,
-        0.38
+        0.38,
+        0.42
        ]
       },
       {
@@ -7391,9 +7277,11 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
+        0.38,
         0.38,
         0.38,
         0.38,
@@ -8015,47 +7903,23 @@
    },
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "forecast_run": "2026-08-29",
+   "forecast_run": "2026-08-31",
    "forecasts": [
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "label": "gpt-oss-120b · cond.",
-     "value": 0.95,
-     "web": false,
-     "reasoning": "The series has been hovering around the 1 % level after a brief rebound in May 2026 (1.53 %). The most recent three months show a gradual decline (June 1.29 %, July 1.08 %), suggesting a modest downward momentum. Base‑effects are limited because the 2025‑08 YoY figure was 1.19 %, only slightly higher than the current level, so the August 2026 reading is unlikely to deviate far from the recent trend. Current macro conditions – a still‑tight monetary stance after the Fed’s 2023‑24 rate hikes, persistent but stabilising energy prices (social‑media chatter shows oil prices are being watched but no clear surge), and a relatively stable labour market – support a continuation of low‑single‑digit growth. Consequently, a point forecast of about 0.95 % for August 2026 balances the slight downward drift with the absence of any strong upside catalyst."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 0.9,
-     "web": false,
-     "reasoning": "The series has been on a downward swing since the May 2026 peak of 1.53 %: June fell to 1.29 % and July to 1.08 %. Over the last three months the YoY change has averaged a decline of roughly 0.20 percentage points per month, a pattern that historically carries over into August. Seasonal behaviour is mixed – in 2025 August was 0.73 pp lower than July, while in 2024 it was 0.51 pp higher – but the prevailing momentum and the higher August‑2025 base (1.19 %) suggest a modest further drop. Energy and food price volatility has eased relative to the 2022‑23 surge, limiting cost‑push pressures, yet the Federal Reserve is likely maintaining a restrictive stance to curb inflation, which dampens industrial demand. Combining these factors yields a forecast of about 0.9 % YoY for August 2026."
-    },
     {
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "label": "gpt-5.1",
-     "value": 1.1,
+     "value": 1.2,
      "web": false,
-     "reasoning": "The recent pattern in US industrial production YoY shows a gradual firming from slightly negative readings in 2024 to a modestly positive, but still subdued, expansion in 2025–26: after oscillating around zero, the series has stabilised in a 0.7–1.9% range since mid‑2025, with 2026 readings between 0.7% and 1.53% and a small step‑down to 1.08% in July. That profile suggests a mildly improving underlying trend, but no strong cyclical upswing. Base effects versus mid‑2025 are only modest now (since mid‑2025 was already positive), so they neither generate strong mechanical boosts nor drags; this argues for continuity rather than large moves. With global and US demand growing only moderately, tighter but plateauing monetary policy keeping financing conditions restrictive, and energy prices off their post‑pandemic peaks but still not cheap, manufacturing and broader industrial activity are likely being supported by decent domestic demand and easing supply chains, yet tempered by high real rates and soft external demand. Food prices play only a limited direct role for industrial output, but their stabilisation supports real incomes and hence demand for manufactured goods. Putting these factors together, the most plausible near‑term outcome is that August 2026 remains close to July’s YoY rate, with a slight upward bias from ongoing, but modest, momentum; hence a calibrated point forecast of 1.1% YoY for 2026‑08."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": 1.23,
-     "web": false,
-     "reasoning": "My point forecast for the US industrial production year-over-year percentage change in 2026-08 is 1.23. This forecast is based on the recent momentum in the series, which has been steadily increasing since 2025-07. The base effects from the previous year are also considered, as the series has been recovering from the COVID-19 pandemic. Although I don't have live information on current energy and food prices, I can infer from the historical series that these prices can have a significant impact on industrial production. The policy stance, including monetary and fiscal policies, is also a crucial factor, but without current information, I rely on the historical trends. The series has shown a tendency to fluctuate, but the overall trend since 2025 has been positive, with some volatility. Considering these factors, I expect the industrial production to continue its upward trend, albeit at a moderate pace, resulting in a year-over-year percentage change of 1.23 in 2026-08."
+     "reasoning": "The current configuration is a mild positive-growth regime: after 2024’s small contractions, YoY industrial production turned slightly positive in early 2025 and has hovered around 1–2% since mid-2025, with recent readings of 1.92, 1.19, 1.86, 1.76, 1.75, 1.16 and then 0.97, 0.80, 0.71, 1.38, 1.53, 1.29, 1.08. This pattern is similar in magnitude and stability to past soft-expansion phases (for example 2012–2013 or 2022–2023), where YoY growth tended to drift gently rather than move abruptly, especially once it settled around 1–2%. Month-on-month changes over the last year have mostly been small (often within ±0.5 percentage points), which argues against large swings between consecutive releases; the recent sequence from 2026-04 to 2026-07 shows a slight deceleration from 1.53 to 1.08 (falls of 0.15 and 0.21 points) after a step up from 0.71 to 1.38, suggesting some mean reversion around the 1¼% region rather than a sustained trend either upward or downward. Seasonality in the YoY growth of industrial production is relatively modest compared to the level series and, in this post-pandemic period, does not show a strong systematic August pattern, while base effects are now small because 2025-08 itself was a mild positive (1.19), so the comparison does not mechanically force large changes. Earlier episodes where YoY hovered around 1% (e.g. 2013 or late 2022) typically saw short runs of slightly rising and slightly falling values but remained close to that level, reinforcing a forecast close to the current reading. Balancing the recent slight downtrend from the local highs in 2026-Q2 with the tendency of such regimes to stabilise near 1–1½%, a forecast of 1.20% for 2026-08 is consistent with the observed dynamics, modest seasonal influences, and historical resolution of similar low-positive-growth phases."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": 1.0,
+     "value": 1.12,
      "web": false,
-     "reasoning": "Recent data show US industrial production growth hovering a little above 1% year-on-year, with 2026-05 to 2026-07 at 1.53, 1.29 and 1.08 respectively, indicating modest positive momentum but no strong acceleration. The pattern since early 2025 is of a gradual recovery from near-zero or slightly negative growth into a low, stable positive range, consistent with a mature expansion restrained by tight financial conditions and waning post-pandemic demand for goods. Base effects are relatively neutral around mid-2025 to mid-2026: the comparison months last year were already close to 1–2% growth, so there is no mechanical jump from very weak or very strong bases as seen in 2020–21. My internal knowledge of current conditions is that US monetary policy remains restrictive, with policy rates still high in real terms and credit conditions only slowly easing, which tends to cap manufacturing and mining output growth in the low single digits. Energy-related social media chatter points to ongoing concern about high fuel and energy costs globally and low US oil reserves, but also to continued supply efforts (e.g. Norway drilling in the Arctic) and no acute new price spike; these signals suggest energy prices are a headwind to margins rather than a shock large enough to swing aggregate industrial output sharply in one month. Household anecdotes of persistent price pressures in groceries, utilities and services fit with sticky underlying inflation but mainly affect consumption composition rather than directly driving a sudden change in industrial production in August. Taken together, these factors lead me to expect a slight further drift down from 1.08% rather than a break in the trend, so I set a point forecast of 1.00% YoY for 2026-08. The social media material marginally reinforced my view that cost pressures remain but did not indicate any major new demand or energy shock, so it nudged me away from forecasting a stronger rebound and kept the forecast close to the recent realised range rather than altering the level materially."
+     "reasoning": "The level and dynamics of the series suggest that US industrial production YoY growth is in a low, mildly positive regime: since late 2023 it has oscillated roughly between -1.5% and +2%, and in 2025–26 specifically we see a gradual move from slightly negative to modestly positive readings. The latest observations show 0.97% in 2026-01, drifting slightly down to 0.71% in 2026-03, then picking up to 1.38% in April, 1.53% in May, 1.29% in June and 1.08% in July. That pattern is broadly consistent with earlier episodes where, after a period of near-zero or slightly negative growth (e.g. 2012–13, 2019 pre-Covid, and 2022–23), the series tended to stabilise in the 1–2% range rather than quickly reverting to much stronger or weaker growth unless a major shock hit. Month-to-month changes in this regime are small, often within ±0.3–0.4 percentage points, and there is no strong evidence of seasonality in August: in comparable benign periods August YoY moves relative to July are typically modest (for example, 2012: 3.42→2.29, 2013: 1.24→2.26, 2022: 0.97→1.05, 2023: -0.31→-0.25). With the base in 2025-08 at 1.19%, the recent pattern of slight easing from the early-2026 highs (1.53, 1.38) towards 1.29 and 1.08 suggests a gentle plateau rather than an abrupt fall or renewed surge, so a series-only forecast of about 1.10% for 2026-08 is consistent with these dynamics and typical magnitudes of past changes. Turning to the social media material, the conversations point to still-elevated inflation pressures in energy and groceries, discussion of possible further rate hikes, and concerns about fuel and energy prices in several economies, as well as commentary about low recession probabilities and ongoing, if uneven, labour-market resilience. None of these directly signal an imminent sharp contraction in US industrial output; if anything, continuing demand with cost pressures hints at slightly firmer nominal activity that, in the short run, is more likely to support or marginally lift production than to depress it abruptly, especially given the absence of specific anecdotes about US factories cutting back output. At the same time, the chatter about fiscal dominance and rate-hike risks suggests that financial conditions remain somewhat tight, limiting any upside. Given that these signals are noisy, not sector-specific, and only weakly informative for monthly US industrial output, I apply only a very small positive recalibration of +0.02 percentage points, nudging the forecast from 1.10% to 1.12% to reflect slightly stronger underlying demand and pricing power without overri"
     }
    ],
    "hindcasts": [
@@ -8775,7 +8639,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         0.9,
@@ -8785,7 +8650,8 @@
         1.1,
         1.1,
         1.1,
-        1.0
+        1.0,
+        1.12
        ]
       },
       {
@@ -8800,7 +8666,8 @@
         "2026-08-23",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-31"
        ],
        "y": [
         0.9,
@@ -8810,7 +8677,8 @@
         0.9,
         1.1,
         1.1,
-        1.1
+        1.1,
+        1.2
        ]
       },
       {
@@ -9634,7 +9502,7 @@
   }
  ],
  "scored_targets": 3,
- "pending_targets": 7,
+ "pending_targets": 6,
  "evidence": {
   "us_cpi_yoy": {
    "name": "US CPI inflation (YoY %, all items)",
@@ -9767,6 +9635,6 @@
   }
  },
  "reddit": null,
- "n_forecasts": 1748,
- "n_stale": 1
+ "n_forecasts": 1762,
+ "n_stale": 2
 }
