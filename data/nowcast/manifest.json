@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-23 07:32 UTC",
+ "built_at": "2026-09-24 07:32 UTC",
  "files": [
   {
    "area": "EU",
@@ -49,7 +49,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43523
+   "bytes": 43521
   },
   {
    "area": "DE",
@@ -124,7 +124,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 46465
+   "bytes": 46466
   },
   {
    "area": "ES",
@@ -174,11 +174,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55018
+   "bytes": 55022
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 311274
+  "bytes": 311281
  }
 }
