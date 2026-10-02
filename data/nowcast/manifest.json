@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-01 07:32 UTC",
+ "built_at": "2026-10-02 07:37 UTC",
  "files": [
   {
    "area": "EU",
@@ -16,7 +16,7 @@
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
     "retail": "2026-07-31",
-    "unemployment": "2026-07-31",
+    "unemployment": "2026-08-31",
     "HICP": "2026-08-31",
     "Brent": "2026-08-31",
     "STOXX": ""
@@ -41,7 +41,7 @@
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
     "retail": "2026-07-31",
-    "unemployment": "2026-07-31",
+    "unemployment": "2026-08-31",
     "HICP": "2026-08-31",
     "Brent": "2026-08-31",
     "STOXX": ""
@@ -49,7 +49,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43624
+   "bytes": 43622
   },
   {
    "area": "DE",
@@ -66,7 +66,7 @@
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-07-31",
+    "unemployment": "2026-08-31",
     "HICP": "2026-08-31",
     "Brent": "2026-08-31",
     "STOXX": ""
@@ -74,7 +74,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45135
+   "bytes": 45134
   },
   {
    "area": "IT",
@@ -91,7 +91,7 @@
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
     "retail": "2026-07-31",
-    "unemployment": "2026-07-31",
+    "unemployment": "2026-08-31",
     "HICP": "2026-08-31",
     "Brent": "2026-08-31",
     "STOXX": ""
@@ -99,7 +99,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 44161
+   "bytes": 44153
   },
   {
    "area": "FR",
@@ -116,7 +116,7 @@
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-07-31",
+    "unemployment": "2026-08-31",
     "HICP": "2026-08-31",
     "Brent": "2026-08-31",
     "STOXX": ""
@@ -124,7 +124,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 46519
+   "bytes": 46527
   },
   {
    "area": "ES",
@@ -141,7 +141,7 @@
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-07-31",
+    "unemployment": "2026-08-31",
     "HICP": "2026-08-31",
     "Brent": "2026-08-31",
     "STOXX": ""
@@ -154,17 +154,17 @@
   {
    "area": "US",
    "file": "US_data_inspect_noreal_sent_levels_auth.xlsx",
-   "rows": 500,
+   "rows": 501,
    "cols": 10,
    "cols_with_data": 9,
    "first": "1985-01-31",
-   "last": "2026-08-31",
+   "last": "2026-09-30",
    "coverage": {
     "GDPlevel": "2026-06-30",
-    "TBILL3M": "2026-08-31",
+    "TBILL3M": "2026-09-30",
     "ConsSent": "2026-08-31",
     "IPall": "2026-08-31",
-    "CONSspend": "2026-07-31",
+    "CONSspend": "2026-08-31",
     "retail": "2026-08-31",
     "unemployment": "2026-08-31",
     "CPI": "2026-08-31",
@@ -174,11 +174,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55038
+   "bytes": 55092
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 311652
+  "bytes": 311680
  }
 }
