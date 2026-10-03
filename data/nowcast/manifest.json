@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-02 07:37 UTC",
+ "built_at": "2026-10-03 07:33 UTC",
  "files": [
   {
    "area": "EU",
@@ -24,7 +24,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43824
+   "bytes": 43825
   },
   {
    "area": "EA",
@@ -42,14 +42,14 @@
     "CONSindex": "2026-07-31",
     "retail": "2026-07-31",
     "unemployment": "2026-08-31",
-    "HICP": "2026-08-31",
+    "HICP": "2026-09-30",
     "Brent": "2026-08-31",
     "STOXX": ""
    },
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43622
+   "bytes": 43632
   },
   {
    "area": "DE",
@@ -67,14 +67,14 @@
     "CONSindex": "2026-07-31",
     "retail": "2026-08-31",
     "unemployment": "2026-08-31",
-    "HICP": "2026-08-31",
+    "HICP": "2026-09-30",
     "Brent": "2026-08-31",
     "STOXX": ""
    },
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45134
+   "bytes": 45144
   },
   {
    "area": "IT",
@@ -90,16 +90,16 @@
     "EcSent": "2026-09-30",
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
-    "retail": "2026-07-31",
+    "retail": "2026-08-31",
     "unemployment": "2026-08-31",
-    "HICP": "2026-08-31",
+    "HICP": "2026-09-30",
     "Brent": "2026-08-31",
     "STOXX": ""
    },
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 44153
+   "bytes": 44173
   },
   {
    "area": "FR",
@@ -117,14 +117,14 @@
     "CONSindex": "2026-07-31",
     "retail": "2026-08-31",
     "unemployment": "2026-08-31",
-    "HICP": "2026-08-31",
+    "HICP": "2026-09-30",
     "Brent": "2026-08-31",
     "STOXX": ""
    },
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 46527
+   "bytes": 46536
   },
   {
    "area": "ES",
@@ -142,14 +142,14 @@
     "CONSindex": "2026-07-31",
     "retail": "2026-08-31",
     "unemployment": "2026-08-31",
-    "HICP": "2026-08-31",
+    "HICP": "2026-09-30",
     "Brent": "2026-08-31",
     "STOXX": ""
    },
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45203
+   "bytes": 45212
   },
   {
    "area": "US",
@@ -166,7 +166,7 @@
     "IPall": "2026-08-31",
     "CONSspend": "2026-08-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-08-31",
+    "unemployment": "2026-09-30",
     "CPI": "2026-08-31",
     "BrentUSD": "2026-08-31",
     "SP500": ""
@@ -174,11 +174,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55092
+   "bytes": 55094
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 311680
+  "bytes": 311748
  }
 }
