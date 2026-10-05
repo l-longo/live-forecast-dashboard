@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-04 08:20 UTC",
+ "built_at": "2026-10-05 09:08 UTC",
  "files": [
   {
    "area": "EU",
@@ -31,7 +31,7 @@
    "file": "EA_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 501,
    "cols": 10,
-   "cols_with_data": 9,
+   "cols_with_data": 8,
    "first": "1985-01-31",
    "last": "2026-09-30",
    "coverage": {
@@ -43,13 +43,15 @@
     "retail": "2026-07-31",
     "unemployment": "2026-08-31",
     "HICP": "2026-09-30",
-    "Brent": "2026-08-31",
+    "Brent": "",
     "STOXX": ""
    },
    "missing": {
+    "usdeur": "RuntimeError: ECB: no answer",
+    "Brent": "RuntimeError: no USD/EUR, cannot convert Brent",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43633
+   "bytes": 40182
   },
   {
    "area": "DE",
@@ -99,7 +101,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 44173
+   "bytes": 44187
   },
   {
    "area": "FR",
@@ -174,11 +176,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55094
+   "bytes": 55095
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 311746
+  "bytes": 307926
  }
 }
