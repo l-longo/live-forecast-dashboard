@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-05 09:08 UTC",
+ "built_at": "2026-10-07 08:01 UTC",
  "files": [
   {
    "area": "EU",
@@ -15,7 +15,7 @@
     "EcSent": "2026-09-30",
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
-    "retail": "2026-07-31",
+    "retail": "2026-08-31",
     "unemployment": "2026-08-31",
     "HICP": "2026-08-31",
     "Brent": "2026-08-31",
@@ -24,14 +24,14 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43825
+   "bytes": 43839
   },
   {
    "area": "EA",
    "file": "EA_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 501,
    "cols": 10,
-   "cols_with_data": 8,
+   "cols_with_data": 9,
    "first": "1985-01-31",
    "last": "2026-09-30",
    "coverage": {
@@ -40,18 +40,16 @@
     "EcSent": "2026-09-30",
     "IPall": "2026-07-31",
     "CONSindex": "2026-07-31",
-    "retail": "2026-07-31",
+    "retail": "2026-08-31",
     "unemployment": "2026-08-31",
     "HICP": "2026-09-30",
-    "Brent": "",
+    "Brent": "2026-08-31",
     "STOXX": ""
    },
    "missing": {
-    "usdeur": "RuntimeError: ECB: no answer",
-    "Brent": "RuntimeError: no USD/EUR, cannot convert Brent",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 40182
+   "bytes": 43631
   },
   {
    "area": "DE",
@@ -76,7 +74,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45145
+   "bytes": 45148
   },
   {
    "area": "IT",
@@ -126,7 +124,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 46537
+   "bytes": 46536
   },
   {
    "area": "ES",
@@ -151,7 +149,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45211
+   "bytes": 45215
   },
   {
    "area": "US",
@@ -181,6 +179,6 @@
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 307926
+  "bytes": 311693
  }
 }
