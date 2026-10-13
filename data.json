@@ -1,8 +1,8 @@
 {
- "generated_at": "12 Oct 2026, 07:52 UTC",
- "last_run": "2026-10-12",
+ "generated_at": "13 Oct 2026, 07:36 UTC",
+ "last_run": "2026-10-13",
  "first_run": "2026-07-05",
- "n_runs": 93,
+ "n_runs": 94,
  "models": [
   "ec/gpt-5.1",
   "jrc/gpt-oss-120b",
@@ -72,10 +72,10 @@
   "target_pretty": "September 2026",
   "consensus": 3.48,
   "lo": 3.38,
-  "hi": 3.58,
+  "hi": 3.54,
   "n": 9,
   "stale": false,
-  "run": "2026-10-12"
+  "run": "2026-10-13"
  },
  "tiles": [
   {
@@ -90,10 +90,10 @@
    "target_pretty": "September 2026",
    "consensus": 3.48,
    "lo": 3.38,
-   "hi": 3.58,
+   "hi": 3.54,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   },
   {
    "var": "ea_hicp_yoy",
@@ -105,12 +105,12 @@
    "last_value": 3.8,
    "target": "2026-10",
    "target_pretty": "October 2026",
-   "consensus": 3.89,
-   "lo": 3.74,
-   "hi": 3.99,
+   "consensus": 3.84,
+   "lo": 3.79,
+   "hi": 3.89,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   },
   {
    "var": "us_unrate",
@@ -122,12 +122,12 @@
    "last_value": 4.2,
    "target": "2026-10",
    "target_pretty": "October 2026",
-   "consensus": 4.28,
-   "lo": 4.18,
-   "hi": 4.33,
+   "consensus": 4.38,
+   "lo": 4.23,
+   "hi": 4.38,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   },
   {
    "var": "ea_unrate",
@@ -144,7 +144,7 @@
    "hi": 6.38,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   },
   {
    "var": "us_gdp_qoq",
@@ -156,12 +156,12 @@
    "last_value": 0.5505,
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "consensus": 0.52,
+   "consensus": 0.62,
    "lo": 0.42,
    "hi": 0.62,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   },
   {
    "var": "ea_gdp_qoq",
@@ -178,7 +178,7 @@
    "hi": 0.35,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   },
   {
    "var": "us_ip_yoy",
@@ -192,10 +192,10 @@
    "target_pretty": "September 2026",
    "consensus": 1.17,
    "lo": 0.97,
-   "hi": 1.57,
+   "hi": 1.37,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   },
   {
    "var": "ea_ip_yoy",
@@ -207,12 +207,12 @@
    "last_value": -0.2028,
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "consensus": -0.07,
+   "consensus": 0.03,
    "lo": -0.37,
    "hi": 0.03,
    "n": 9,
    "stale": false,
-   "run": "2026-10-12"
+   "run": "2026-10-13"
   }
  ],
  "variables": {
@@ -1057,7 +1057,7 @@
    },
    "target": "2026-09",
    "target_pretty": "September 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
@@ -1065,15 +1065,15 @@
      "label": "gpt-5.1 · rag",
      "value": 3.535,
      "web": false,
-     "reasoning": "Evidence points to sharply higher energy prices (oil and diesel) and associated pass-through to transport and broader costs, making headline CPI likely to overshoot the AR-based baseline. While weak real demand and stress on households may cap the upside somewhat, the balance of signals suggests modestly higher inflation than the statistical forecast."
+     "reasoning": "Reddit discussions point to a sharp and persistent rise in fuel prices tied to war-related oil disruptions, which historically pass through quickly to headline CPI via energy components. Given the AR baseline and typical short-run oil-to-CPI link, a modest upward adjustment of 0.15 is warranted for the next month’s release."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": 3.585,
+     "value": 3.485,
      "web": false,
-     "reasoning": "Evidence points to oil above $100, ongoing or escalating conflict-related shocks to refineries, and widespread concern about fuel and retail prices, all of which raise near-term headline CPI risks relative to a purely autoregressive projection. I therefore add +0.20 to the baseline to reflect higher probability of upside energy and goods price pressure in September."
+     "reasoning": "Reddit discussions point to crude oil above $100, refinery attacks, diesel supply concerns, and political acceptance of higher fuel prices, all consistent with near‑term upside risks to headline CPI via energy and possibly some retail pricing. Given typical pass‑through from such news to next‑month CPI in past episodes, a modest positive adjustment of 0.10 to the AR baseline is warranted."
     },
     {
      "model": "ec/gpt-5.1",
@@ -1081,7 +1081,7 @@
      "label": "gpt-5.1",
      "value": 3.385,
      "web": false,
-     "reasoning": "With no additional news or external data beyond the historical series, there is no basis to adjust the statistically estimated AR(1) baseline. The recent path shows modest volatility but no clear pattern suggesting a systematic bias in the one-step AR forecast for the next month."
+     "reasoning": "With no news-based evidence provided beyond the time series, there is no basis to systematically adjust the AR(1) forecast. Historical patterns from my training data about news and CPI surprises cannot be applied here without specific current news inputs, so the baseline stands."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -1089,7 +1089,7 @@
      "label": "llama-3.3-70b-instruct · rag",
      "value": 3.485,
      "web": false,
-     "reasoning": "The evidence suggests increasing inflation concerns due to rising oil prices, diesel costs, and mortgage rates, which may lead to higher CPI inflation in 2026-09. This relationship is consistent with historical patterns in the training data, where similar news trends have preceded increases in US CPI inflation."
+     "reasoning": "The evidence suggests rising concerns about inflation, high gas prices, and debt stress, which may indicate upward pressure on CPI inflation, warranting a positive delta. The relationship between news and realized figures in the training data also supports this adjustment, as similar news patterns have historically preceded increases in CPI inflation."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -1097,7 +1097,7 @@
      "label": "llama-3.3-70b-instruct · cond.",
      "value": 3.485,
      "web": false,
-     "reasoning": "The evidence suggests potential upward pressure on inflation due to geopolitical tensions and energy price volatility, which may impact the US CPI inflation rate in 2026-09. This is based on historical relationships between news on energy prices, geopolitical events, and subsequent inflation figures."
+     "reasoning": "The evidence suggests potential upward pressure on inflation due to geopolitical tensions and oil price volatility, which may impact the US CPI inflation rate in 2026-09. This warrants a small positive delta to the baseline forecast."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -1113,15 +1113,15 @@
      "label": "gpt-oss-120b · rag",
      "value": 3.485,
      "web": false,
-     "reasoning": "Recent social media commentary points to rising oil prices, persistent core inflation and heightened consumer debt stress, suggesting inflation may be slightly higher than the baseline forecast."
+     "reasoning": "Recent Reddit conversations highlight concerns about rising diesel and gasoline costs, implying upward pressure on inflation. This suggests the CPI may be modestly above the baseline forecast."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": 3.435,
+     "value": 3.485,
      "web": false,
-     "reasoning": "Recent Reddit chatter highlights higher oil and diesel prices amid geopolitical tensions, suggesting a modest upward pressure on inflation."
+     "reasoning": "Recent Reddit discussions highlight rising oil and diesel prices and geopolitical tensions, suggesting modest upward pressure on inflation beyond the baseline forecast."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -1129,7 +1129,7 @@
      "label": "gpt-oss-120b",
      "value": 3.385,
      "web": false,
-     "reasoning": "No external evidence is provided; the baseline AR model already fits the recent series, so no adjustment is warranted."
+     "reasoning": "No external evidence indicates a systematic bias; the baseline AR model already captures the recent trend."
     }
    ],
    "hindcasts": [
@@ -2146,7 +2146,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.45,
@@ -2175,7 +2176,8 @@
         3.485,
         3.535,
         3.485,
-        3.585
+        3.585,
+        3.485
        ]
       },
       {
@@ -2201,7 +2203,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.535,
@@ -2222,6 +2225,7 @@
         3.485,
         3.535,
         3.585,
+        3.535,
         3.535
        ]
       },
@@ -2255,7 +2259,8 @@
         "2026-10-08",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.55,
@@ -2280,6 +2285,7 @@
         3.385,
         3.385,
         3.285,
+        3.385,
         3.385,
         3.385,
         3.385,
@@ -2318,7 +2324,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.52,
@@ -2348,7 +2355,8 @@
         3.485,
         3.435,
         3.435,
-        3.435
+        3.435,
+        3.485
        ]
       },
       {
@@ -2374,7 +2382,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.485,
@@ -2393,6 +2402,7 @@
         3.485,
         3.485,
         3.335,
+        3.485,
         3.485,
         3.485,
         3.485
@@ -2431,7 +2441,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.3,
@@ -2442,6 +2453,7 @@
         3.38,
         3.3,
         3.33,
+        3.385,
         3.385,
         3.385,
         3.385,
@@ -2498,7 +2510,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.6,
@@ -2518,6 +2531,7 @@
         3.485,
         3.285,
         3.285,
+        3.485,
         3.485,
         3.485,
         3.485,
@@ -2555,7 +2569,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.485,
@@ -2567,6 +2582,7 @@
         3.485,
         3.485,
         3.585,
+        3.485,
         3.485,
         3.485,
         3.485,
@@ -2612,7 +2628,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.23,
@@ -2623,6 +2640,7 @@
         3.23,
         3.23,
         3.23,
+        3.385,
         3.385,
         3.385,
         3.385,
@@ -3496,7 +3514,7 @@
    },
    "target": "2026-10",
    "target_pretty": "October 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
@@ -3504,23 +3522,23 @@
      "label": "gpt-5.1",
      "value": 3.791,
      "web": false,
-     "reasoning": "With no external information on current energy prices, tax changes or other contemporaneous news, the AR(1) model using the latest observation is the most reliable guide. Historical news–inflation relationships in my training data cannot be applied here because no such news is provided, so I leave the baseline unchanged."
+     "reasoning": "With no external news or additional information beyond the time-series itself, the AR(1) baseline already captures persistence and recent momentum in inflation. Historical patterns in the training data suggest that one-month-ahead deviations from such simple autoregressive forecasts, absent new shocks, are typically small relative to the residual standard deviation."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": 3.991,
+     "value": 3.891,
      "web": false,
-     "reasoning": "Social media discussions point to sharp and broad-based increases in fuel and energy prices, plus concerns about pass-through to groceries and transport, suggesting upside risks relative to a purely autoregressive path. Historical patterns in my training data show that such energy price shocks typically add some extra inflation within a one-month horizon, warranting a modest positive adjustment."
+     "reasoning": "Reddit evidence points to renewed and broadly perceived upward pressure on fuel and energy costs in Europe, including diesel price spikes, possible US diesel export restrictions and EU warnings on an emerging energy price crisis, all consistent with near‑term upside risks to HICP via energy and transport components. Given the AR baseline is close to current inflation, a modest positive adjustment of 0.10 best aligns with typical one‑month pass‑through patterns from such energy shocks."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional_rag",
      "label": "gpt-5.1 · rag",
-     "value": 3.941,
+     "value": 3.891,
      "web": false,
-     "reasoning": "The posts suggest renewed upward pressure from energy supply risks and policy uncertainty (gas storage concerns, winter risk, centralised EU energy purchases), which historically have passed through quickly to euro-area HICP via fuel and utility prices. Given the baseline AR already captures recent increases, I add a modest positive adjustment to reflect likely further energy-driven price rises in October."
+     "reasoning": "Evidence points to renewed energy and fuel price pressures plus some supply-side disruptions (supermarket cyberattack), which historically pass through relatively quickly to headline HICP. Given the baseline already shows an uptrend, I add a modest positive adjustment to reflect these near-term price impulses without overreacting."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -3544,31 +3562,31 @@
      "label": "llama-3.3-70b-instruct · rag",
      "value": 3.891,
      "web": false,
-     "reasoning": "The conversations on Reddit suggest concerns about energy prices and supply disruptions, which could contribute to higher inflation, justifying a positive delta to the baseline forecast. The news about potential energy shortages and price increases in the EU may lead to higher inflation in the Euro area, supporting this adjustment."
+     "reasoning": "The conversations on Reddit suggest concerns about rising energy prices and cost of living, which could contribute to higher inflation, justifying a positive delta to the baseline forecast. The discussions about energy companies' windfall profits and potential taxation also imply upward pressure on prices."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional_rag",
      "label": "gpt-oss-120b · rag",
-     "value": 3.891,
+     "value": 3.791,
      "web": false,
-     "reasoning": "Recent social media discussion highlights ongoing high energy prices and supply concerns, suggesting a modest upward pressure on inflation beyond the baseline."
+     "reasoning": "The social media evidence presents mixed signals—some indicating lower fuel prices, others suggesting energy‑price pressures—so it does not provide a clear basis for adjusting the baseline forecast."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": 3.741,
+     "value": 3.841,
      "web": false,
-     "reasoning": "Recent Reddit discussions highlight falling diesel prices and possible reserve releases, indicating modest downward pressure on inflation compared with the baseline forecast."
+     "reasoning": "Recent Reddit discussions highlight rising diesel and oil prices and potential supply constraints, suggesting upward pressure on inflation beyond the baseline."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "label": "gpt-oss-120b",
-     "value": 3.841,
+     "value": 3.791,
      "web": false,
-     "reasoning": "Recent months show a clear upward acceleration, suggesting the baseline may slightly under‑estimate the next value."
+     "reasoning": "No external evidence is provided; the baseline AR model already captures the recent trend, so no adjustment is warranted."
     }
    ],
    "hindcasts": [
@@ -5037,7 +5055,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.941,
@@ -5046,7 +5065,8 @@
         3.941,
         3.891,
         3.991,
-        3.991
+        3.991,
+        3.891
        ]
       },
       {
@@ -5060,7 +5080,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.941,
@@ -5069,7 +5090,8 @@
         3.891,
         3.891,
         3.741,
-        3.941
+        3.941,
+        3.891
        ]
       },
       {
@@ -5083,7 +5105,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.691,
@@ -5091,6 +5114,7 @@
         3.791,
         3.791,
         3.691,
+        3.791,
         3.791,
         3.791
        ]
@@ -5108,7 +5132,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.741,
@@ -5119,7 +5144,8 @@
         3.741,
         3.741,
         3.841,
-        3.741
+        3.741,
+        3.841
        ]
       },
       {
@@ -5133,7 +5159,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.891,
@@ -5142,7 +5169,8 @@
         3.841,
         3.691,
         3.691,
-        3.891
+        3.891,
+        3.791
        ]
       },
       {
@@ -5158,7 +5186,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.791,
@@ -5169,7 +5198,8 @@
         3.791,
         3.791,
         3.791,
-        3.841
+        3.841,
+        3.791
        ]
       },
       {
@@ -5185,9 +5215,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        3.891,
         3.891,
         3.891,
         3.891,
@@ -5210,7 +5242,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.891,
@@ -5219,6 +5252,7 @@
         3.791,
         3.791,
         3.791,
+        3.891,
         3.891
        ]
       },
@@ -5235,9 +5269,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        3.791,
         3.791,
         3.791,
         3.791,
@@ -6095,7 +6131,7 @@
    },
    "target": "2026-10",
    "target_pretty": "October 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
@@ -6103,39 +6139,39 @@
      "label": "gpt-5.1",
      "value": 4.281,
      "web": false,
-     "reasoning": "With no external news or additional information beyond the time series and the AR(1) baseline, there is no systematic reason to adjust the model-based forecast. The baseline already captures recent mild upward drift and typical short-run dynamics within the historical residual volatility."
+     "reasoning": "With no new information beyond the historical time series and an already well-fitted AR(1) model, there is no basis to adjust the baseline forecast. Relationships between news and subsequent unemployment are not available beyond the training cutoff, so they cannot justify a deviation from the model-based projection."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional_rag",
      "label": "gpt-5.1 · rag",
-     "value": 4.281,
+     "value": 4.381,
      "web": false,
-     "reasoning": "The social media evidence mainly highlights financial stress, inflation pressures, and some sector-specific issues (e.g. trucking), but does not provide clear signals of a broad, imminent rise or fall in aggregate unemployment beyond what is captured by the autoregressive baseline. Given typical one‑month lags between such sentiment/news and realised unemployment, and the generally low and stable layoff indicators discussed, I leave the AR(1) forecast unchanged."
+     "reasoning": "The Reddit evidence points to mounting financial stress, high fuel prices, trucking bankruptcies and reports of prolonged individual unemployment, which historically correlate with modest near‑term upticks in the unemployment rate rather than stability. Given the baseline AR forecast of 4.28 and these stress signals, a small upward adjustment of 0.10 is warranted while remaining within typical one‑month forecast error bounds."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": 4.331,
+     "value": 4.381,
      "web": false,
-     "reasoning": "Evidence points to weaker-than-expected payroll growth and a small uptick in the reported unemployment rate for September, consistent with a mildly softening labour market. Given historical one-month responses of the US unemployment rate to such news, a slight upward adjustment of 0.05 to the AR baseline is warranted."
+     "reasoning": "The evidence points to a weaker-than-expected labour market, with soft payroll gains, rising unemployment to 4.2%, and indications of downward revisions and ongoing job-finding difficulties that are not yet reflected in the AR-only baseline. Given historical patterns where such negative news often precedes small further increases, a modest upward adjustment of 0.10 to the AR forecast is warranted."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional_rag",
      "label": "llama-3.3-70b-instruct · rag",
-     "value": 4.181,
+     "value": 4.381,
      "web": false,
-     "reasoning": "The evidence suggests a potential slowdown in the economy, with discussions of high diesel prices, inflation, and debt stress, which could lead to a decrease in the unemployment rate as companies may be less likely to hire, but the overall tone is more related to cost of living and prices rather than labor market conditions. The relationship between news and realized unemployment figures one month later in the training data indicates that such discussions can sometimes precede a slight decrease in unemployment."
+     "reasoning": "The evidence suggests a potential increase in unemployment due to factors such as soaring diesel prices, bankruptcy filings in the trucking industry, and individuals struggling with debt and job loss, which may lead to a higher unemployment rate in 2026-10. This is consistent with historical patterns where negative economic news has been associated with increases in unemployment rates one month later."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "label": "llama-3.3-70b-instruct · cond.",
-     "value": 4.181,
+     "value": 4.381,
      "web": false,
-     "reasoning": "The evidence from social media conversations suggests a weaker labor market than expected, with some users discussing the difficulty of finding work and the recent jobs report showing a lower-than-expected increase in jobs, which may indicate a slight decrease in the unemployment rate. This is consistent with historical patterns where negative labor market news has been associated with lower subsequent unemployment rates."
+     "reasoning": "The evidence from social media conversations suggests a weaker labor market than expected, with some users discussing the difficulty of finding work and the rise in unemployment rate, which may indicate a higher US unemployment rate in October 2026. This is consistent with the historical relationship between news and realized figures, where negative labor market news tends to precede higher unemployment rates."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -6149,9 +6185,9 @@
      "model": "jrc/gpt-oss-120b",
      "type": "conditional_rag",
      "label": "gpt-oss-120b · rag",
-     "value": 4.231,
+     "value": 4.381,
      "web": false,
-     "reasoning": "Recent Reddit posts note a dip in unemployment benefit claims and low layoffs, suggesting a modest improvement in the labour market, while broader financial stress does not strongly indicate a rise in unemployment."
+     "reasoning": "Recent Reddit discussions highlight rising household debt stress and a war-driven oil price shock, which historically precede modest increases in unemployment."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -6159,7 +6195,7 @@
      "label": "gpt-oss-120b · cond.",
      "value": 4.231,
      "web": false,
-     "reasoning": "Reddit discussions note the September unemployment rate held at 4.2%, suggesting limited upward pressure and a modest downward adjustment to the AR baseline."
+     "reasoning": "Reddit discussion notes a modest rise to 4.2% in September with weak job growth, implying October is unlikely to exceed the baseline forecast and may be slightly lower."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -6167,7 +6203,7 @@
      "label": "gpt-oss-120b",
      "value": 4.281,
      "web": false,
-     "reasoning": "No external evidence indicates a systematic bias; the baseline model is appropriate as is."
+     "reasoning": "No external evidence is provided; the baseline AR(1) forecast is retained unchanged."
     }
    ],
    "hindcasts": [
@@ -7666,7 +7702,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         4.381,
@@ -7675,7 +7712,8 @@
         4.381,
         4.281,
         4.381,
-        4.331
+        4.331,
+        4.381
        ]
       },
       {
@@ -7689,7 +7727,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         4.381,
@@ -7698,7 +7737,8 @@
         4.281,
         4.281,
         4.331,
-        4.281
+        4.281,
+        4.381
        ]
       },
       {
@@ -7712,9 +7752,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        4.281,
         4.281,
         4.281,
         4.281,
@@ -7737,7 +7779,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         4.331,
@@ -7748,6 +7791,7 @@
         4.281,
         4.331,
         4.281,
+        4.231,
         4.231
        ]
       },
@@ -7762,7 +7806,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         4.281,
@@ -7771,7 +7816,8 @@
         4.231,
         4.231,
         4.231,
-        4.231
+        4.231,
+        4.381
        ]
       },
       {
@@ -7787,9 +7833,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        4.281,
         4.281,
         4.281,
         4.281,
@@ -7814,7 +7862,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         4.381,
@@ -7825,7 +7874,8 @@
         4.181,
         4.181,
         4.181,
-        4.181
+        4.181,
+        4.381
        ]
       },
       {
@@ -7839,7 +7889,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         4.381,
@@ -7848,7 +7899,8 @@
         4.281,
         4.281,
         4.181,
-        4.181
+        4.181,
+        4.381
        ]
       },
       {
@@ -7864,9 +7916,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        4.281,
         4.281,
         4.281,
         4.281,
@@ -8724,7 +8778,7 @@
    },
    "target": "2026-09",
    "target_pretty": "September 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
@@ -8732,7 +8786,7 @@
      "label": "gpt-5.1 · rag",
      "value": 6.377,
      "web": false,
-     "reasoning": "The social-media evidence mainly reflects ongoing cost-of-living pressures and individual employment situations, but does not indicate a euro-area-wide labour market turning point beyond what is already embedded in the recent flat unemployment data. Given weak and noisy signals, it is appropriate to leave the AR-based forecast unchanged."
+     "reasoning": "The social media evidence mainly concerns cost of living, housing and energy prices, with only anecdotal references to unemployment that are not systematically informative about near-term aggregate labour market conditions. Given the historically low volatility of euro area unemployment and lack of clear signals of a turning point, the baseline AR forecast is left unchanged."
     },
     {
      "model": "ec/gpt-5.1",
@@ -8740,7 +8794,7 @@
      "label": "gpt-5.1 · cond.",
      "value": 6.377,
      "web": false,
-     "reasoning": "The social media evidence is either country-specific, anecdotal or simply reiterates the already-known August euro area figure, without providing systematic or leading information on September labour market developments. Given the historically weak and noisy relationship between such conversations and next-month euro area unemployment releases, the baseline AR forecast is left unchanged."
+     "reasoning": "The contemporaneous posts mostly reflect local or individual labour market situations and general sentiment, without systematic signals of a euro-area wide turning point. Given the stability of the aggregate rate and lack of consistent evidence of either sharp improvement or deterioration, the baseline AR forecast remains appropriate."
     },
     {
      "model": "ec/gpt-5.1",
@@ -8748,7 +8802,7 @@
      "label": "gpt-5.1",
      "value": 6.377,
      "web": false,
-     "reasoning": "The baseline AR forecast is very close to the recent realised values amid a prolonged period of stability, and there is no additional news-based evidence provided to justify an adjustment. Given the small residual standard deviation and lack of new information, leaving the forecast unchanged is appropriate."
+     "reasoning": "The baseline AR(1) forecast closely matches the persistent, low-volatility pattern of recent unemployment data, and the residual standard deviation suggests limited scope for systematic adjustment. Without additional news-based indicators or external evidence, there is no basis to shift the forecast away from the model-implied value."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -8756,7 +8810,7 @@
      "label": "gpt-oss-120b · rag",
      "value": 6.377,
      "web": false,
-     "reasoning": "The recent Reddit discussions do not provide specific information on euro‑area labour market conditions that would affect the unemployment rate for September 2026."
+     "reasoning": "The recent social media posts discuss housing and energy costs, with only a brief mention that unemployment is at low levels, providing no indication of a change in the unemployment rate."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -8764,7 +8818,7 @@
      "label": "gpt-oss-120b",
      "value": 6.377,
      "web": false,
-     "reasoning": "The recent series shows a stable level around 6.40%; the baseline forecast of 6.38% already aligns closely, so no adjustment is needed."
+     "reasoning": "No external evidence or news is provided; the baseline AR model is the only information, so no adjustment is warranted."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -8772,7 +8826,7 @@
      "label": "llama-3.3-70b-instruct · rag",
      "value": 6.377,
      "web": false,
-     "reasoning": "The provided evidence does not contain significant information that would suggest a deviation from the baseline forecast of the Euro area unemployment rate for 2026-09, as most discussions are about energy prices, cost of living, and other topics not directly related to unemployment rates. Therefore, no adjustment to the baseline forecast is deemed necessary."
+     "reasoning": "The provided social media conversations do not contain significant or relevant information that would suggest a deviation from the baseline forecast of the Euro area unemployment rate for 2026-09, as they primarily discuss cost of living, energy prices, and housing issues without clear implications for unemployment. Therefore, no adjustment to the baseline is deemed necessary."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -8780,7 +8834,7 @@
      "label": "llama-3.3-70b-instruct · cond.",
      "value": 6.377,
      "web": false,
-     "reasoning": "The provided social media conversations do not contain significant or relevant information that would suggest a deviation from the baseline forecast of the Euro area unemployment rate for 2026-09, so no adjustment is necessary. The discussions are mostly anecdotal or speculative, lacking concrete data or indicators that could reliably influence the forecast."
+     "reasoning": "The provided social media conversations do not contain significant or relevant information that would suggest a deviation from the baseline forecast, and the relationship between news and realized unemployment figures one month later does not indicate a clear pattern that would warrant an adjustment to the baseline forecast."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -8788,7 +8842,7 @@
      "label": "llama-3.3-70b-instruct",
      "value": 6.377,
      "web": false,
-     "reasoning": "The baseline prediction of 6.38 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not indicate a need to adjust the baseline forecast."
+     "reasoning": "The baseline prediction of 6.38 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not indicate a need to adjust the baseline prediction."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -8796,7 +8850,7 @@
      "label": "gpt-oss-120b · cond.",
      "value": 6.377,
      "web": false,
-     "reasoning": "The contemporaneous social media evidence does not indicate any directional change for the euro area unemployment rate beyond the baseline forecast."
+     "reasoning": "Reddit discussion indicates unemployment remained stable in August, providing no reason to deviate from the baseline."
     }
    ],
    "hindcasts": [
@@ -9980,9 +10034,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10005,10 +10061,12 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         6.427,
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10030,9 +10088,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10057,9 +10117,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10084,11 +10146,13 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         6.327,
         6.327,
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10111,9 +10175,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10140,9 +10206,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10167,9 +10235,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10194,9 +10264,11 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
+        6.377,
         6.377,
         6.377,
         6.377,
@@ -10519,23 +10591,23 @@
    },
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": 0.523,
+     "value": 0.623,
      "web": false,
-     "reasoning": "Recent Reddit discussions highlight recession worries and geopolitical strains, implying a modest downward adjustment to the baseline forecast."
+     "reasoning": "The recent Reddit discussions focus on geopolitics, interest rates and AI, without clear indications of US real GDP trends, so no adjustment to the baseline is warranted."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional_rag",
      "label": "gpt-oss-120b · rag",
-     "value": 0.523,
+     "value": 0.423,
      "web": false,
-     "reasoning": "Recent Reddit discussions highlight rising household debt stress, inflation concerns and weaker consumer spending, suggesting a slowdown relative to the baseline forecast. These factors justify a modest downward adjustment of 0.10 percentage points."
+     "reasoning": "Recent Reddit discussions highlight rising unemployment, high fuel and housing costs, suggesting weaker demand and a likely slowdown in GDP growth."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -10543,7 +10615,7 @@
      "label": "gpt-oss-120b",
      "value": 0.623,
      "web": false,
-     "reasoning": "No external evidence is provided; the baseline AR model is the only information, so no adjustment is warranted."
+     "reasoning": "No external evidence is provided; the baseline AR model is the only information available, so no adjustment is warranted."
     },
     {
      "model": "ec/gpt-5.1",
@@ -10551,7 +10623,7 @@
      "label": "gpt-5.1 · rag",
      "value": 0.523,
      "web": false,
-     "reasoning": "Social media evidence points to rising consumer financial stress, demand destruction in autos and fuel, and trucking bankruptcies amid high diesel costs, all consistent with softer consumption and freight activity relative to the AR-based baseline. At the same time, still-low layoffs and healthy small-business cash flow argue against a sharp downturn, so I apply only a modest downward adjustment."
+     "reasoning": "The evidence points to mounting household financial stress, rising fuel costs and trucking bankruptcies, alongside signs of housing market softening, all of which tend to dampen near‑term consumption and investment relative to an AR-only baseline. Historical data suggest that such broad-based cost pressures and debt strain modestly lower subsequent quarter real GDP growth, so I subtract 0.10 from the baseline forecast."
     },
     {
      "model": "ec/gpt-5.1",
@@ -10559,7 +10631,7 @@
      "label": "gpt-5.1 · cond.",
      "value": 0.623,
      "web": false,
-     "reasoning": "The social media posts mainly express concern about inflation, politics, oil, and recession risk but provide no systematic, timely indicators of actual spending, output or employment that have been shown in historical data to improve near-term GDP forecasts. Given their noisy, anecdotal nature and lack of clear directional signal for aggregate demand, I leave the AR baseline unchanged."
+     "reasoning": "The social media snippets are sparse, noisy, and largely focused on politics, inflation and oil with no consistent, timely signal about broad US activity beyond what is already embedded in the baseline time-series. Given the weak and ambiguous mapping from such conversations to next-quarter GDP in historical data, I leave the AR-based forecast unchanged."
     },
     {
      "model": "ec/gpt-5.1",
@@ -10567,7 +10639,7 @@
      "label": "gpt-5.1",
      "value": 0.623,
      "web": false,
-     "reasoning": "Without any current-quarter news or additional indicators beyond the historical series already embedded in the AR model, there is no systematic basis to adjust the baseline. Historical relationships between news and subsequent GDP releases cannot be exploited here because no contemporaneous news data are provided for 2026-Q3."
+     "reasoning": "With no external news or indicators beyond the historical series and an already simple AR(1) baseline, there is no additional systematic information to adjust the forecast. Given the sizeable residual variance and absence of new data inputs, leaving the AR-based prediction unchanged is appropriate."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -10575,15 +10647,15 @@
      "label": "llama-3.3-70b-instruct",
      "value": 0.623,
      "web": false,
-     "reasoning": "The baseline prediction of 0.62 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not provide a clear indication for a delta adjustment."
+     "reasoning": "The baseline prediction is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not provide a clear indication for a delta adjustment."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "label": "llama-3.3-70b-instruct · cond.",
-     "value": 0.423,
+     "value": 0.623,
      "web": false,
-     "reasoning": "The social media conversations suggest a potential recession and slowing economic growth, with discussions of inflation, fuel shortages, and global economic instability, which may negatively impact US real GDP growth in 2026-Q3. This negative sentiment and concern about economic conditions justify a downward adjustment to the baseline forecast."
+     "reasoning": "The provided social media conversations do not contain specific, relevant information that would significantly impact the forecast of US real GDP growth for 2026-Q3, thus no adjustment to the baseline is necessary. The discussions are largely anecdotal, speculative, or focused on broader economic trends rather than providing concrete data or insights that could alter the prediction."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -10591,7 +10663,7 @@
      "label": "llama-3.3-70b-instruct · rag",
      "value": 0.423,
      "web": false,
-     "reasoning": "The evidence suggests a potential slowdown in consumer spending and economic growth, with concerns about inflation, debt, and rising energy costs, which may negatively impact GDP growth in 2026-Q3. This is consistent with historical patterns where similar news trends have preceded slower GDP growth in the following quarter."
+     "reasoning": "The evidence suggests a weakening economy with rising diesel prices, increasing debt stress, and a potential decline in consumer spending, which may negatively impact GDP growth in 2026-Q3. This is consistent with historical patterns where similar news trends have preceded slower GDP growth in the following quarter."
     }
    ],
    "hindcasts": [
@@ -11057,7 +11129,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.55,
@@ -11121,6 +11194,7 @@
         0.523,
         0.523,
         0.523,
+        0.623,
         0.623
        ]
       },
@@ -11147,7 +11221,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.566,
@@ -11160,6 +11235,7 @@
         0.566,
         0.566,
         0.566,
+        0.523,
         0.523,
         0.523,
         0.523,
@@ -11236,7 +11312,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.6,
@@ -11291,6 +11368,7 @@
         0.666,
         0.666,
         0.666,
+        0.623,
         0.623,
         0.623,
         0.623,
@@ -11361,7 +11439,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.48,
@@ -11418,7 +11497,8 @@
         0.523,
         0.573,
         0.523,
-        0.523
+        0.523,
+        0.623
        ]
       },
       {
@@ -11444,7 +11524,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.566,
@@ -11465,7 +11546,8 @@
         0.523,
         0.673,
         0.523,
-        0.523
+        0.523,
+        0.423
        ]
       },
       {
@@ -11533,7 +11615,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.34,
@@ -11586,6 +11669,7 @@
         0.666,
         0.666,
         0.666,
+        0.623,
         0.623,
         0.623,
         0.623,
@@ -11663,7 +11747,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.55,
@@ -11725,7 +11810,8 @@
         0.423,
         0.423,
         0.423,
-        0.423
+        0.423,
+        0.623
        ]
       },
       {
@@ -11751,7 +11837,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.466,
@@ -11764,6 +11851,7 @@
         0.466,
         0.466,
         0.466,
+        0.423,
         0.423,
         0.423,
         0.423,
@@ -11836,7 +11924,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.55,
@@ -11885,6 +11974,7 @@
         0.666,
         0.666,
         0.666,
+        0.623,
         0.623,
         0.623,
         0.623,
@@ -12204,15 +12294,15 @@
    },
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional_rag",
      "label": "gpt-oss-120b · rag",
-     "value": 0.296,
+     "value": 0.146,
      "web": false,
-     "reasoning": "The social media discussion shows stable household consumption and modest energy price relief, suggesting a slight upward pressure on growth, while no strong negative signals are evident."
+     "reasoning": "Recent social media highlights energy supply risks, high living costs and a cyberattack on supermarkets, suggesting a modest downside pressure on growth."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -12220,31 +12310,31 @@
      "label": "gpt-oss-120b · cond.",
      "value": 0.246,
      "web": false,
-     "reasoning": "The recent Reddit discussions focus on energy and geopolitical issues without clear implications for Euro area GDP, so no adjustment to the baseline forecast is warranted."
+     "reasoning": "The recent Reddit discussions contain mixed, non‑specific commentary on energy and geopolitics and do not provide a clear directional signal for euro‑area real GDP, so the baseline forecast is retained."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "label": "gpt-oss-120b",
-     "value": 0.196,
+     "value": 0.246,
      "web": false,
-     "reasoning": "The sharp rise in Q2 after a weak Q1 suggests a modest pull‑back, warranting a slight downward adjustment of the baseline forecast."
+     "reasoning": "The baseline AR model already incorporates the recent observations and no additional evidence suggests a systematic bias, so no adjustment is warranted."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional_rag",
      "label": "gpt-5.1 · rag",
-     "value": 0.246,
+     "value": 0.196,
      "web": false,
-     "reasoning": "The social media snippets mainly concern national issues, cost-of-living pressures and energy price policies, but provide no systematic or timely euro-area-wide information that has historically shown a reliable quantitative link to next-quarter aggregate GDP growth. Given their anecdotal and noisy nature, they do not justify adjusting the model-based forecast."
+     "reasoning": "Evidence points to persistent cost-of-living pressures, energy price and supply risks, and relatively high unemployment in parts of the euro area, which tend to weigh modestly on near‑term GDP growth relative to an autoregressive baseline. There are no strong positive demand or investment signals in the contemporaneous information to offset these mild headwinds."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": 0.146,
+     "value": 0.196,
      "web": false,
-     "reasoning": "The evidence points to ongoing energy-related risks, fiscal concerns and recession narratives, suggesting slightly weaker near-term activity than implied by the simple AR baseline. Historically, such clusters of downside news tend to be followed by modestly lower euro-area GDP growth relative to purely time-series forecasts."
+     "reasoning": "Evidence points to energy-price concerns, demand-curbing measures, and stable rather than buoyant household consumption, which modestly tilts near-term risks to the downside. Historical patterns suggest such negative energy and demand news is weakly associated with slightly lower subsequent quarterly Euro area GDP growth."
     },
     {
      "model": "ec/gpt-5.1",
@@ -12252,7 +12342,7 @@
      "label": "gpt-5.1",
      "value": 0.246,
      "web": false,
-     "reasoning": "With no additional information beyond the time series and a simple AR model already fitted, there is no systematic adjustment warranted for the baseline forecast. The historical relationship between news and subsequent realised GDP cannot be applied here because no news-based evidence has been provided."
+     "reasoning": "With no external news or data beyond the time series itself, there is no systematic information to adjust the AR(1) baseline. Given the large residual variance and lack of additional signals, the best estimate remains the baseline forecast."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -12268,15 +12358,15 @@
      "label": "llama-3.3-70b-instruct · cond.",
      "value": 0.346,
      "web": false,
-     "reasoning": "The conversations on Reddit suggest a potential decrease in energy demand and an increase in demand for fuel-efficient vehicles, which could have a positive impact on the Euro area's GDP growth. This, combined with the lack of strongly negative news, warrants a small positive delta to the baseline forecast."
+     "reasoning": "The conversations on Reddit suggest a potential decrease in energy demand and an increase in demand for fuel-efficient vehicles, which could have a positive impact on the Euro area's GDP growth. This, combined with the general tone of the conversations, leads to a small positive adjustment to the baseline forecast."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional_rag",
      "label": "llama-3.3-70b-instruct · rag",
-     "value": 0.346,
+     "value": 0.146,
      "web": false,
-     "reasoning": "The evidence suggests some positive signals, such as increased demand for fuel-efficient vehicles and a potential decrease in energy prices, which could contribute to a slight increase in Euro area real GDP growth. However, the overall impact of the evidence is limited, and the delta is set to 0.10, which is a moderate adjustment to the baseline forecast."
+     "reasoning": "The evidence suggests concerns about cost of living, energy prices, and potential economic instability, which may negatively impact GDP growth, warranting a downward adjustment to the baseline forecast. The news about unprecedented cyberattacks, energy storage risks, and rising prices may lead to decreased consumer spending and investment, contributing to slower economic growth."
     }
    ],
    "hindcasts": [
@@ -12723,7 +12813,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.38,
@@ -12764,7 +12855,8 @@
         0.146,
         0.146,
         0.146,
-        0.146
+        0.146,
+        0.196
        ]
       },
       {
@@ -12789,7 +12881,8 @@
         "2026-10-08",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.096,
@@ -12809,7 +12902,8 @@
         0.146,
         0.346,
         0.246,
-        0.246
+        0.246,
+        0.196
        ]
       },
       {
@@ -12855,7 +12949,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.38,
@@ -12878,6 +12973,7 @@
         0.39,
         0.46,
         0.42,
+        0.246,
         0.246,
         0.246,
         0.246,
@@ -12941,7 +13037,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.32,
@@ -12981,6 +13078,7 @@
         0.246,
         0.246,
         0.246,
+        0.246,
         0.246
        ]
       },
@@ -13006,7 +13104,8 @@
         "2026-10-08",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.146,
@@ -13026,7 +13125,8 @@
         0.296,
         0.296,
         0.296,
-        0.296
+        0.296,
+        0.146
        ]
       },
       {
@@ -13071,7 +13171,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.32,
@@ -13111,7 +13212,8 @@
         0.246,
         0.246,
         0.246,
-        0.196
+        0.196,
+        0.246
        ]
       },
       {
@@ -13157,7 +13259,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.25,
@@ -13198,6 +13301,7 @@
         0.146,
         0.346,
         0.346,
+        0.346,
         0.346
        ]
       },
@@ -13222,7 +13326,8 @@
         "2026-10-08",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.046,
@@ -13241,7 +13346,8 @@
         0.146,
         0.346,
         0.346,
-        0.346
+        0.346,
+        0.146
        ]
       },
       {
@@ -13286,7 +13392,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.25,
@@ -13306,6 +13413,7 @@
         0.35,
         0.35,
         0.35,
+        0.246,
         0.246,
         0.246,
         0.246,
@@ -14175,15 +14283,15 @@
    },
    "target": "2026-09",
    "target_pretty": "September 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": 1.073,
+     "value": 1.173,
      "web": false,
-     "reasoning": "Recent diesel shortages and export‑ban discussions suggest pressure on manufacturing, justifying a modest downward adjustment."
+     "reasoning": "Recent diesel shortages and oil market disruptions reported on social media indicate modest downside pressure on US industrial output, warranting a small negative adjustment."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -14191,15 +14299,15 @@
      "label": "gpt-oss-120b",
      "value": 1.373,
      "web": false,
-     "reasoning": "No external evidence is provided; the baseline AR(1) model already captures the series dynamics, so no adjustment is warranted."
+     "reasoning": "No external evidence is provided; the baseline AR(1) model already captures the recent pattern. Therefore, no adjustment is warranted."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional_rag",
      "label": "gpt-oss-120b · rag",
-     "value": 1.073,
+     "value": 1.173,
      "web": false,
-     "reasoning": "Reddit chatter highlights higher diesel costs and trucking bankruptcies, signalling pressure on manufacturing and logistics that likely dampens industrial output."
+     "reasoning": "Recent Reddit discussions highlight rising diesel costs, supply‑chain strain and broader economic stress, suggesting a slight slowdown in industrial output relative to the baseline forecast."
     },
     {
      "model": "ec/gpt-5.1",
@@ -14207,15 +14315,15 @@
      "label": "gpt-5.1 · rag",
      "value": 1.173,
      "web": false,
-     "reasoning": "Evidence points to demand softness in freight, consumer goods and holiday spending alongside elevated energy costs, which modestly increases downside risks to near‑term industrial output. I therefore trim the AR-based forecast slightly to reflect a weaker demand environment without overriding the underlying positive YoY trend."
+     "reasoning": "Evidence of trucking bankruptcies, higher fuel costs and stressed, debt‑burdened consumers points to slightly weaker near‑term goods demand and logistics activity than the autoregressive baseline implies. I adjust the forecast modestly down to reflect a small downside risk without overriding the historical time‑series signal."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": 1.573,
+     "value": 1.173,
      "web": false,
-     "reasoning": "The posts point to an abrupt tightening in global diesel supply (Russian infrastructure hits, Chinese suspension of refined product exports, US/European strategic reserve pressure), which historically depresses US industrial output via higher energy and transport costs and occasional fuel shortages. This suggests trimming the AR-based forecast modestly, by about 0.2 percentage points, while remaining within recent trend volatility."
+     "reasoning": "The discussions point to mounting diesel and refined-product shortages plus export suspensions that would modestly depress near‑term US industrial output relative to a simple AR projection. Historical data show that sharp, persistent energy supply strains typically reduce industrial production growth with a short lag, so I trim the forecast slightly below the baseline."
     },
     {
      "model": "ec/gpt-5.1",
@@ -14223,7 +14331,7 @@
      "label": "gpt-5.1",
      "value": 1.373,
      "web": false,
-     "reasoning": "With no additional news or external indicators provided beyond the time series and AR baseline, there is no evidence-based reason to adjust the model’s 1-step forecast. The historical pattern of short-term mean reversion and volatility is already captured in the residual standard deviation of the AR model."
+     "reasoning": "With no external information beyond the time series and the AR baseline, there is no basis to adjust the model-based forecast. The historical pattern in the provided data does not by itself warrant a systematic deviation from the AR(1) prediction."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -14231,15 +14339,15 @@
      "label": "llama-3.3-70b-instruct",
      "value": 1.373,
      "web": false,
-     "reasoning": "The baseline prediction of 1.37 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not indicate a need to adjust the baseline prediction, so no delta is added."
+     "reasoning": "The baseline prediction of 1.37 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not provide a clear indication for a delta adjustment, so no change is made to the baseline."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional_rag",
      "label": "llama-3.3-70b-instruct · rag",
-     "value": 1.073,
+     "value": 0.973,
      "web": false,
-     "reasoning": "The evidence suggests a potential slowdown in industrial production due to rising diesel costs, increased demand for fuel-efficient vehicles, and concerns about inflation and debt stress, which may negatively impact production. This is consistent with historical patterns where similar news trends have preceded declines in US industrial production."
+     "reasoning": "The evidence suggests a potential slowdown in the economy, with discussions of soaring diesel prices, debt stress, and a housing market beginning to crack, which may negatively impact industrial production. This is consistent with historical patterns in the training data, where similar news trends have been associated with declines in US industrial production one month later."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -14247,7 +14355,7 @@
      "label": "llama-3.3-70b-instruct · cond.",
      "value": 0.973,
      "web": false,
-     "reasoning": "The evidence suggests a potential diesel shortage and rising energy costs, which could negatively impact industrial production, and historical data shows that such news can lead to a decrease in US industrial production one month later. The delta is set to -0.4 to reflect this potential decrease."
+     "reasoning": "The evidence suggests a potential diesel shortage and rising energy costs, which could negatively impact US industrial production, and historical data shows that such news can lead to a decline in industrial production one month later. The delta is set to -0.4 to reflect this potential decline."
     }
    ],
    "hindcasts": [
@@ -15284,7 +15392,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.35,
@@ -15307,7 +15416,8 @@
         1.173,
         1.073,
         1.173,
-        1.573
+        1.573,
+        1.173
        ]
       },
       {
@@ -15333,7 +15443,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.073,
@@ -15354,6 +15465,7 @@
         1.173,
         1.173,
         1.073,
+        1.173,
         1.173
        ]
       },
@@ -15382,11 +15494,13 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.55,
         1.5,
+        1.373,
         1.373,
         1.373,
         1.373,
@@ -15435,7 +15549,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.1,
@@ -15460,7 +15575,8 @@
         1.073,
         1.073,
         0.973,
-        1.073
+        1.073,
+        1.173
        ]
       },
       {
@@ -15486,7 +15602,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.973,
@@ -15507,7 +15624,8 @@
         1.573,
         1.573,
         1.073,
-        1.073
+        1.073,
+        1.173
        ]
       },
       {
@@ -15537,11 +15655,13 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.35,
         1.45,
+        1.373,
         1.373,
         1.373,
         1.373,
@@ -15591,11 +15711,13 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.2,
         0.5,
+        0.973,
         0.973,
         0.973,
         0.973,
@@ -15641,7 +15763,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.973,
@@ -15662,7 +15785,8 @@
         0.973,
         0.973,
         0.973,
-        1.073
+        1.073,
+        0.973
        ]
       },
       {
@@ -15692,11 +15816,13 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.23,
         1.23,
+        1.373,
         1.373,
         1.373,
         1.373,
@@ -16562,15 +16688,15 @@
    },
    "target": "2026-08",
    "target_pretty": "August 2026",
-   "forecast_run": "2026-10-12",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": -0.269,
+     "value": 0.031,
      "web": false,
-     "reasoning": "Recent Reddit discussions highlight diesel export bans and oil supply disruptions, which typically weigh on industrial output; a modest downward adjustment improves the baseline forecast."
+     "reasoning": "The recent Reddit discussions focus on diesel export bans and geopolitical tensions, which do not provide a clear signal for Euro area industrial production; therefore no adjustment to the baseline is warranted."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -16578,15 +16704,15 @@
      "label": "gpt-oss-120b · rag",
      "value": -0.069,
      "web": false,
-     "reasoning": "Recent Reddit discussions highlight energy supply constraints and higher fuel costs in Europe, which can weigh on industrial activity. Given the lack of direct evidence, a modest negative adjustment is appropriate."
+     "reasoning": "Recent Reddit discussions highlight rising energy costs and potential tax measures, which historically exert downward pressure on industrial output, suggesting a modest negative adjustment."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "label": "gpt-oss-120b",
-     "value": -0.069,
+     "value": 0.031,
      "web": false,
-     "reasoning": "Recent observations have been negative after a brief positive spike, indicating the baseline may be slightly optimistic."
+     "reasoning": "No external evidence is provided; the baseline AR model is the only information available, so no adjustment is warranted."
     },
     {
      "model": "ec/gpt-5.1",
@@ -16594,23 +16720,23 @@
      "label": "gpt-5.1",
      "value": 0.031,
      "web": false,
-     "reasoning": "There is no additional news-based evidence provided beyond the autoregressive baseline, and historical patterns alone do not justify a systematic adjustment for August relative to the AR(1) forecast. Given the residual volatility and lack of external signals, leaving the baseline unchanged is appropriate."
+     "reasoning": "The autoregressive baseline already reflects typical short‑run dynamics, and in my training data high‑frequency news only weakly improves one‑month‑ahead industrial production forecasts. Without additional news or indicators beyond the given series, there is no systematic basis to adjust the model‑based prediction."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
-     "value": -0.169,
+     "value": -0.269,
      "web": false,
-     "reasoning": "The discussions point to acute and worsening diesel supply and price tensions targeting Europe, which are likely to weigh negatively on energy-intensive industrial output in the short run. Given historically modest one‑month news-to-production effects, a small downward adjustment from the AR baseline is appropriate."
+     "reasoning": "The discussions point to mounting and synchronised risks of diesel export bans and refinery disruptions that would raise fuel costs and impair industrial activity in Europe beyond what the autoregressive baseline captures. Historically, sharp adverse energy‑supply news is followed by weaker euro‑area industrial production, so a modest downward adjustment is warranted."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional_rag",
      "label": "llama-3.3-70b-instruct · rag",
-     "value": 0.031,
+     "value": -0.169,
      "web": false,
-     "reasoning": "The provided evidence does not contain significant information that would directly impact the forecast of Euro area industrial production for 2026-08, as it mostly discusses fuel prices, energy policies, and cost of living, which are not directly related to industrial production. Therefore, no adjustment to the baseline forecast is necessary."
+     "reasoning": "The evidence suggests concerns about energy prices and supply, which could negatively impact industrial production, and the baseline forecast may not fully capture this potential downturn. The relationship between news about energy prices and realized industrial production figures one month later in the training data supports a small downward adjustment to the baseline forecast."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -16618,7 +16744,7 @@
      "label": "llama-3.3-70b-instruct · cond.",
      "value": -0.369,
      "web": false,
-     "reasoning": "The evidence suggests a potential disruption in diesel supply due to the US export ban and China's suspension of diesel exports, which could negatively impact industrial production in the Euro area. This disruption may lead to a decrease in industrial production, warranting a downward adjustment to the baseline forecast."
+     "reasoning": "The evidence suggests a potential disruption in the global energy market, with the US threatening to ban diesel exports to France and Germany, and China suspending its own diesel exports, which could lead to increased energy costs and decreased industrial production in the Euro area. This disruption may not be fully captured by the baseline model, warranting a negative delta to the forecast."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -16634,7 +16760,7 @@
      "label": "gpt-5.1 · rag",
      "value": 0.031,
      "web": false,
-     "reasoning": "The evidence mainly concerns energy prices, reserves and household cost-of-living issues, without specific signals on near-term euro area industrial output beyond what is already embedded in past data. Historical relationships between such generic news flow and next-month industrial production are weak at this horizon, so the baseline AR forecast is left unchanged."
+     "reasoning": "The social media and news snippets mainly reflect household cost-of-living pressures, energy pricing debates and policy changes, but provide no reliable, timely signals about euro-area industrial output volumes for August 2026. Given weak and noisy historical linkages between such qualitative chatter and next-month industrial production, the baseline AR forecast is left unchanged."
     }
    ],
    "hindcasts": [
@@ -16986,7 +17112,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.5,
@@ -17011,7 +17138,8 @@
         -0.269,
         -0.169,
         -0.169,
-        -0.169
+        -0.169,
+        -0.269
        ]
       },
       {
@@ -17037,7 +17165,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.269,
@@ -17055,6 +17184,7 @@
         -0.169,
         -0.169,
         0.231,
+        0.031,
         0.031,
         0.031,
         0.031,
@@ -17088,13 +17218,15 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.4,
         -0.4,
         -0.4,
         0.2,
+        0.031,
         0.031,
         0.031,
         0.031,
@@ -17145,7 +17277,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.1,
@@ -17172,7 +17305,8 @@
         -0.269,
         -0.269,
         -0.169,
-        -0.269
+        -0.269,
+        0.031
        ]
       },
       {
@@ -17196,7 +17330,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.169,
@@ -17214,6 +17349,7 @@
         -0.169,
         0.031,
         0.031,
+        -0.069,
         -0.069,
         -0.069
        ]
@@ -17247,7 +17383,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.05,
@@ -17274,7 +17411,8 @@
         -0.069,
         0.031,
         0.031,
-        -0.069
+        -0.069,
+        0.031
        ]
       },
       {
@@ -17306,7 +17444,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.5,
@@ -17333,6 +17472,7 @@
         -0.769,
         -0.769,
         -0.769,
+        -0.369,
         -0.369
        ]
       },
@@ -17359,7 +17499,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.769,
@@ -17380,7 +17521,8 @@
         0.031,
         0.031,
         0.031,
-        0.031
+        0.031,
+        -0.169
        ]
       },
       {
@@ -17412,13 +17554,15 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.15,
         -0.15,
         -0.15,
         -0.15,
+        0.031,
         0.031,
         0.031,
         0.031,
@@ -17774,11 +17918,11 @@
   }
  },
  "reddit": null,
- "n_forecasts": 3838,
+ "n_forecasts": 3910,
  "n_stale": 0,
  "nowcast": {
   "dir": "data/nowcast",
-  "built_at": "2026-10-12 07:52 UTC",
+  "built_at": "2026-10-13 07:36 UTC",
   "files": [
    {
     "area": "EU",
@@ -17828,7 +17972,7 @@
     "missing": {
      "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 43641
+    "bytes": 43640
    },
    {
     "area": "DE",
@@ -17853,7 +17997,7 @@
     "missing": {
      "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 45156
+    "bytes": 45155
    },
    {
     "area": "IT",
@@ -17878,7 +18022,7 @@
     "missing": {
      "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 44198
+    "bytes": 44197
    },
    {
     "area": "FR",
@@ -17903,7 +18047,7 @@
     "missing": {
      "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 46459
+    "bytes": 46458
    },
    {
     "area": "ES",
@@ -17928,7 +18072,7 @@
     "missing": {
      "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 45203
+    "bytes": 45202
    },
    {
     "area": "US",
@@ -17953,17 +18097,17 @@
     "missing": {
      "SP500": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 55105
+    "bytes": 55101
    }
   ],
   "zip": {
    "file": "nowcast_datasets.zip",
-   "bytes": 311631
+   "bytes": 311621
   }
  },
  "fomc": {
-  "run_date": "2026-10-12",
-  "run_ts": "20261012_07_00_03",
+  "run_date": "2026-10-13",
+  "run_ts": "20261013_07_00_02",
   "prompt_version": "2026-09-16a",
   "meeting_date": "2026-10-28",
   "conv_days": 7,
@@ -17978,7 +18122,7 @@
    "lower": 3.75,
    "upper": 4.0,
    "mid": 3.875,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "effective": 3.88,
    "effective_date": "2026-10-08",
    "source": "FRED DFEDTARL/DFEDTARU",
@@ -18359,9 +18503,9 @@
   "conv": {
    "days": 7,
    "threads": 20,
-   "comments": 160,
+   "comments": 131,
    "chars": 24000,
-   "sha1": "cd7e4d3d34d6",
+   "sha1": "122505d2caf3",
    "subreddits": "askeconomics,askreddit,economics,economy,inflation,investing,oil,personalfinance,povertyfinance,stocks,wallstreetbets"
   },
   "forecasts": [
@@ -18377,7 +18521,7 @@
     "series_only_bps": null,
     "social_adjustment_bps": null,
     "confidence": 0.7,
-    "reasoning": "The current target range stands at 3.75% to 4.00%, with the midpoint at 3.875%, and the effective federal funds rate is at 3.88%. Given the recent inflation rate of 3.40% and an unemployment rate of 4.20%, the policy rate seems to be in a relatively neutral position. Historically, the Fed has aimed to keep the policy rate close to the inflation rate, and with the current inflation rate being close to the policy rate, there is no strong indication for a rate hike or cut. The path of the target range has been stable in recent months, and the inflation and unemployment rates have also been relatively stable. Comparable past episodes, such as in 2023 and 2024, have shown that the Fed tends to keep the policy rate stable when inflation and unemployment are within target ranges. Therefore, a no-change decision seems likely, with a resulting upper bound of the target range remaining at 4.00%. The confidence level is set at 0.7, reflecting the uncertainty surrounding future economic developments and the potential for unexpected changes in the economic landscape.",
+    "reasoning": "The current target range stands at 3.75% to 4.00%, with the midpoint at 3.875%, and the effective federal funds rate is at 3.88%. Given the recent inflation rate of 3.40% and an unemployment rate of 4.20%, the policy rate seems to be in a relatively neutral position. Historically, the Fed has aimed to keep the policy rate close to the inflation rate, and with the current inflation rate being close to the policy rate, there is no strong indication for a rate hike or cut. The path of the target range has been stable in recent months, and the inflation and unemployment rates have also been relatively stable. Comparable past episodes, such as in 2023 and 2024, have shown that the Fed tends to maintain a stable policy rate when inflation and unemployment are within target ranges. Therefore, a no-change decision seems likely, with a resulting upper bound of the target range remaining at 4.00%. The confidence level is set at 0.7, reflecting the uncertainty surrounding future economic developments and the potential for unexpected changes in the policy rate.",
     "conv_threads": 0,
     "conv_comments": 0,
     "model_id": "jrc/llama-3.3-70b-instruct"
@@ -18386,17 +18530,17 @@
     "provider": "jrc",
     "model": "llama-3.3-70b-instruct",
     "forecast_type": "conditional",
-    "decision_bps": 0,
-    "decision_bps_snap": 0,
-    "implied_lower": 3.75,
-    "implied_upper": 4.0,
-    "implied_mid": 3.875,
+    "decision_bps": 25,
+    "decision_bps_snap": 25,
+    "implied_lower": 4.0,
+    "implied_upper": 4.25,
+    "implied_mid": 4.125,
     "series_only_bps": 0,
-    "social_adjustment_bps": 0,
+    "social_adjustment_bps": 25,
     "confidence": 0.7,
-    "reasoning": "The current social media conversations suggest that households and market participants are experiencing high prices, particularly for fuel, and are expecting further increases. However, the conversations also indicate a sense of uncertainty and unpredictability, with some participants questioning the impact of the Fed's actions on the economy. The fact that the 10-year Treasury yield is above 5.3% and crude oil prices are above $100, as mentioned in the r/stocks conversation, suggests that the market is pricing in higher inflation and interest rates. However, the lack of a clear consensus on the direction of the economy and the Fed's next move, as evident in the various conversations, leads me to believe that the FOMC will opt for a cautious approach and keep the target range unchanged. The series alone would have suggested a similar decision, given the current level of inflation and unemployment, but the social media conversations reinforce this view by highlighting the uncertainty and unpredictability of the current economic environment.",
+    "reasoning": "The social media conversations suggest that households and market participants are experiencing high prices and expecting further inflation, with some mentioning the impact of fuel prices and tariffs on everyday items. The conversation about PepsiCo's planned price hike on snacks and drinks also implies that companies are passing on rising costs to consumers. Additionally, the discussion about the 10-year Treasury yield being above 5.3% and crude oil prices being above $100 suggests that market participants are expecting interest rates to rise. These conversations have informed my decision to forecast a 25 basis point hike in the target range, as the Fed may aim to curb inflationary pressures and stabilize prices. In contrast, the official series alone would have suggested no change in the target range, given the current level of inflation and unemployment. However, the social media conversations have led me to revise my forecast to reflect the market's expectations of higher interest rates and the potential for further inflation.",
     "conv_threads": 20,
-    "conv_comments": 160,
+    "conv_comments": 131,
     "model_id": "jrc/llama-3.3-70b-instruct"
    },
    {
@@ -18410,8 +18554,8 @@
     "implied_mid": 3.875,
     "series_only_bps": null,
     "social_adjustment_bps": null,
-    "confidence": 0.55,
-    "reasoning": "The policy rate sits at a midpoint of 3.875 % while headline CPI has fallen to 3.40 % after a peak of 4.25 % in May, indicating inflation is easing toward the 2 % target but remains above it. Unemployment is steady around 4.1‑4.2 % and real GDP growth is modest (≈0.55 % q/q). The recent +0.25 % hike on 17 Sept 2026 moved the range to 3.75‑4.00 % after a long period at 3.50‑3.75 %. Given the downward inflation trend, modest growth and a labour market that is not overly tight, the Committee is likely to pause rather than tighten further, mirroring past episodes where a pause followed a series of hikes once inflation began to recede. Consequently the most probable outcome is no change, leaving the upper bound at 4.00 %.",
+    "confidence": 0.57,
+    "reasoning": "The policy rate sits at the midpoint of the current 3.75‑4.00 % range (3.88 %), only slightly above the recent inflation rate of 3.4 % YoY, which has been falling from a May peak of 4.25 % and is still above the 2 % target but on a clear down‑trend. Unemployment is around 4.2 %, close to the estimated natural rate, and real GDP growth remains modest (≈0.5 % q/q). After a long sequence of cuts that brought the range down to 3.50‑3.75 % and a single 25‑bp hike in September 2026, the Fed is likely to pause to assess whether inflation continues to ease without further tightening. Historical episodes show the Committee often holds when inflation is near 3‑4 % and labour market slack is minimal, especially after a recent hike. Consequently, a no‑change decision (0 bps) with the upper bound remaining at 4.00 % is the most probable outcome.",
     "conv_threads": 0,
     "conv_comments": 0,
     "model_id": "jrc/gpt-oss-120b"
@@ -18427,10 +18571,10 @@
     "implied_mid": 4.125,
     "series_only_bps": 0,
     "social_adjustment_bps": 25,
-    "confidence": 0.62,
-    "reasoning": "The official series show a policy rate (midpoint 3.875%) that is already close to the effective funds rate (3.88%) and a recent +0.25 ppt hike in September, while inflation has been falling to 3.4% YoY and unemployment is around 4.2%, suggesting little immediate pressure for further tightening; consequently the series‑only forecast would be to hold the range (0 bps). However, the latest social‑media chatter highlights persistent high oil prices, 10‑year Treasury yields above 5.3%, and explicit references to Fed minutes hinting at a possible future hike, with market participants expecting another increase. This hawkish sentiment outweighs the modest easing indicated by the data, leading to a revised forecast of a further +25 bps hike, raising the upper bound to 4.25%.",
+    "confidence": 0.6,
+    "reasoning": "Based solely on the official series, the policy rate sits at the midpoint of the current 3.75‑4.00% range, inflation has fallen to 3.4% YoY and unemployment is stable around 4.2%, suggesting no immediate need for a change and historically the Fed has held after a recent 25‑bp hike in September 2026, leading to a series‑only forecast of 0 bps. However, the recent social‑media chatter highlights persistently high Treasury yields (5.3% on the 10‑year), oil prices above $100, and explicit references to \"possible future interest rate hike\" in the minutes, indicating market participants still perceive inflationary pressure and expect tighter policy. This pushes the forecast one step higher to a 25‑bp increase, raising the upper bound to 4.25%.",
     "conv_threads": 20,
-    "conv_comments": 160,
+    "conv_comments": 131,
     "model_id": "jrc/gpt-oss-120b"
    },
    {
@@ -18445,7 +18589,7 @@
     "series_only_bps": null,
     "social_adjustment_bps": null,
     "confidence": 0.7,
-    "reasoning": "The current target range of 3.75–4.00% gives a midpoint (3.875%) essentially equal to the effective funds rate (3.88%), and sits modestly above headline CPI inflation at 3.40%, implying a positive but not extreme ex‑ante real short rate of roughly 0.5 percentage points. Inflation has re‑accelerated from around 2.5–3.0% in 2024 to the 3.2–4.3% band in 2026, but remains far below the 8–9% peaks that previously prompted rapid and successive hikes of 50–75 bps; and the Fed has already responded to this recent firming in prices with a +25 bps hike on 2026‑09‑17. Meanwhile, unemployment has drifted up from the mid‑3s to just above 4%, signalling labour market cooling relative to the pre‑tightening period but not a sharp deterioration, while real GDP growth around 0.5–1.0% q/q and industrial production growth near 1.4% YoY point to moderate expansion rather than overheating or recession. Historically, once inflation had fallen back into the 2–3% range and the policy rate was clearly restrictive (2024–2025), the FOMC shifted to a gradual cutting cycle of −25 to −50 bps moves; that cycle was interrupted in 2026 only when inflation rose again, triggering a single +25 bps adjustment. With the funds rate now slightly above inflation and activity indicators neither booming nor collapsing, the committee is likely to pause to assess whether the September hike suffices to stabilise inflation. Given the pattern that 0 and ±25 bps moves dominate, the modest gap between the policy rate and inflation, and the lack of clear evidence of either runaway prices or acute labour market weakness in the provided data, the most probable outcome is no change, keeping the upper bound at 4.00%. A further +25 bps hike is possible but would risk overtightening against a softening labour market, so I assign a higher probability to a hold decision.",
+    "reasoning": "The current target range is 3.75–4.00% with the effective rate essentially at the midpoint, and the Fed has just reversed a long easing phase with a +25bp hike on 2026-09-17, following roughly a year of gradual cuts from 5.50% to 3.50–3.75%. Headline CPI inflation has moved back above the 2% area and is now running at 3.4% year-on-year (2026-08), with an upswing from around 2.4–2.9% in late 2024 to above 3% through 2025 and into 2026, including peaks above 4% in spring 2026. Unemployment has drifted up from the mid‑3s to just over 4%, sitting at 4.2% in September 2026—roughly around most estimates of a NAIRU‑like rate—and shows no sharp deterioration. Real GDP growth and industrial production both point to moderate, positive activity: quarterly real GDP has been growing at about 0.5–1.0% q/q since early 2025, and industrial production growth, after a mild contraction in 2024, has turned positive and is now around 1.4% y/y. In past episodes when inflation is somewhat above target but not surging, unemployment is near its longer‑run level, and the policy rate has recently been moved, the FOMC typically pauses to assess the impact of the latest move rather than hiking in consecutive meetings; in the 2022–23 hiking cycle, clusters of rapid hikes were associated with much higher inflation (7–9%) and very low unemployment, which is not the case now. With the nominal policy rate slightly above current inflation, implying a modestly positive real rate, the dual‑mandate trade‑off argues for holding steady: further immediate tightening risks unnecessary labour‑market weakness, while maintaining the present level keeps policy clearly restrictive relative to earlier low‑rate periods. Given the prevalence of 0bp decisions between directional phases in the historical record and the recent shift from cutting to hiking, the most likely outcome is a pause at 3.75–4.00%, with a high but not overwhelming confidence of about 0.7, leaving the upper bound at 4.00%.",
     "conv_threads": 0,
     "conv_comments": 0,
     "model_id": "ec/gpt-5.1"
@@ -18461,10 +18605,10 @@
     "implied_mid": 3.875,
     "series_only_bps": 0,
     "social_adjustment_bps": 0,
-    "confidence": 0.6,
-    "reasoning": "The official data alone point to a cautious pause: headline CPI has moved back up from around 2.4–2.7% in late‑2024 to about 3.4% by 2026‑08, i.e. above the Fed’s 2% goal but with no clear renewed surge, while the unemployment rate has drifted up from the mid‑3s to about 4.2%, signalling a labour market that is looser than during the 2022–23 inflation peak but not in recession territory. Real GDP growth and industrial production show solid, positive momentum through mid‑2026 after the soft patch in 2024, consistent with moderate but not overheated activity. Against this backdrop the current 3.75–4.00% target range implies a real policy rate of roughly 0.3–0.6 percentage points, tighter than neutral but not extreme, and the Fed has already shifted from aggressive cuts in late‑2024 and 2025 to a modest +25bp hike in 2026‑09 as inflation re‑firmed. Historically, after such a small tightening at this stage of the cycle the Committee often pauses at the next meeting to assess whether the prior move suffices, especially when unemployment is edging up rather than down. That gives a series‑only forecast of 0bp, maintaining the upper bound at 4.00%. The social‑media material reinforces this stance rather than pushing towards further hikes or cuts. Multiple posts cite the 10‑year Treasury above 5.3%, persistent high HYSA/MM rates, and complaints that borrowing costs and bank margins are already painful, suggesting financial conditions are quite tight and that an additional hike would risk overtightening. At the same time, threads on gas, fuel and food (pizza) prices, dynamic retail pricing, and fossil fuel companies’ profits indicate that households still feel ongoing price pressures, with expectations that fuel prices will stay elevated or rise into the election; this makes an immediate rate cut politically and macroeconomically unlikely, because inflation expectations appear far from anchored down at 2%. None of the conversations hints at imminent macro weakness or a sudden easing in price pressures that would justify reversing the September hike. Taken together, the official data and the anecdotal evidence point to a Fed that has recently nudged policy tighter to reassert its anti‑inflation stance but now faces a trade‑off between still‑above‑target inflation and clearly burdensome borrowing costs. The most probable way to balance those considerations at the 2026‑10‑28 meeting is a hold at 3.75–4.00%, so the decision_bps remains 0, with somewhat higher confidence than from the series alone because the social‑media environment corroborates the idea that both further hikes and cuts would be contentious and risky at this juncture.",
+    "confidence": 0.7,
+    "reasoning": "With the policy rate target range at 3.75–4.00% after a September hike and CPI inflation at 3.4% in August, the ex‑ante real policy rate is slightly positive (around 0.4 percentage points), while unemployment at 4.2% is only modestly above its recent lows and GDP growth and industrial production both show steady, non‑recessionary expansion. The recent policy path shows a long plateau at restrictive levels in 2023–mid‑2024, followed by a measured cutting cycle in late 2024 and 2025 which brought the range down toward 3.5–3.75% before the Fed reversed course with a single +25bp hike in September 2026 as inflation re‑accelerated in spring (peaking at 4.25% in May) and then stabilised in the low‑3s. That combination of above‑target but not runaway inflation, decent growth, and only gradually rising unemployment historically calls for either holding steady or small further hikes; the Fed’s pattern is to move in 25bp steps and to pause to assess the effects, rather than delivering back‑to‑back moves without new data surprises. On the official series alone, this argues for a hold at 3.75–4.00% (series_only_bps = 0) so as not to over‑tighten into a labour market that is softening slightly. The social media material reinforces the case for caution: market participants are discussing a 10‑year Treasury yield above 5.3%, elevated short‑term bill yields near 4.3%, and widespread concerns about high fuel, food and snack prices, with many posts treating current conditions as already painful – suggesting financial conditions are tight and households feel ongoing cost‑of‑living pressure. Importantly, one Reddit post explicitly cites Fed minutes hinting at a possible future hike, implying expectations of some additional tightening are already priced into yields and risk premia; this, combined with talk of record oil prices and persistent high petrol costs, indicates inflation expectations are firm but not panicked. Given that long rates and borrowing costs have risen substantially on expectations alone, a further immediate +25bp policy hike risks overtightening via the term structure and worsening sentiment, while a cut would be inconsistent with still‑elevated inflation and the Fed’s own signalling. Balancing these, the social‑media data slightly raises the perceived cost of another near‑term hike and nudges the optimal choice toward a pause to let higher market yields and the recent hike work through the economy. Therefore I forecast no change (0bp) with the upper bound remaining at 4.00%, and assign a confidence of 0.7 to that outcome.",
     "conv_threads": 20,
-    "conv_comments": 160,
+    "conv_comments": 131,
     "model_id": "ec/gpt-5.1"
    }
   ],
