@@ -1,8 +1,8 @@
 {
- "generated_at": "18 Oct 2026, 12:39 UTC",
+ "generated_at": "18 Oct 2026, 15:34 UTC",
  "last_run": "2026-10-18",
  "first_run": "2026-07-05",
- "n_runs": 73,
+ "n_runs": 95,
  "models": [
   "ec/gpt-5.1",
   "jrc/gpt-oss-120b",
@@ -71,9 +71,9 @@
   "target": "2026-10",
   "target_pretty": "October 2026",
   "consensus": 3.82,
-  "lo": 3.72,
+  "lo": 3.67,
   "hi": 3.87,
-  "n": 8,
+  "n": 9,
   "stale": false,
   "run": "2026-10-18"
  },
@@ -89,9 +89,9 @@
    "target": "2026-10",
    "target_pretty": "October 2026",
    "consensus": 3.82,
-   "lo": 3.72,
+   "lo": 3.67,
    "hi": 3.87,
-   "n": 8,
+   "n": 9,
    "stale": false,
    "run": "2026-10-18"
   },
@@ -108,7 +108,7 @@
    "consensus": 3.89,
    "lo": 3.79,
    "hi": 4.04,
-   "n": 7,
+   "n": 8,
    "stale": false,
    "run": "2026-10-18"
   },
@@ -117,17 +117,17 @@
    "short": "US unemployment",
    "name": "US unemployment",
    "unit": "%",
-   "last_period": "2026-08",
-   "last_period_pretty": "August 2026",
-   "last_value": 4.1,
-   "target": "2026-09",
-   "target_pretty": "September 2026",
-   "consensus": 4.12,
-   "lo": 4.0,
-   "hi": 4.2,
-   "n": 6,
+   "last_period": "2026-09",
+   "last_period_pretty": "September 2026",
+   "last_value": 4.2,
+   "target": "2026-10",
+   "target_pretty": "October 2026",
+   "consensus": 4.38,
+   "lo": 4.23,
+   "hi": 4.38,
+   "n": 9,
    "stale": true,
-   "run": "2026-09-20"
+   "run": "2026-10-13"
   },
   {
    "var": "ea_unrate",
@@ -140,7 +140,7 @@
    "target": "2026-09",
    "target_pretty": "September 2026",
    "consensus": 6.38,
-   "lo": 6.33,
+   "lo": 6.38,
    "hi": 6.48,
    "n": 9,
    "stale": false,
@@ -153,15 +153,15 @@
    "unit": "% QoQ",
    "last_period": "2026-Q2",
    "last_period_pretty": "Q2 2026",
-   "last_value": 0.3689,
+   "last_value": 0.5505,
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "consensus": 0.56,
-   "lo": 0.25,
-   "hi": 0.7,
-   "n": 6,
+   "consensus": 0.62,
+   "lo": 0.42,
+   "hi": 0.62,
+   "n": 9,
    "stale": true,
-   "run": "2026-09-20"
+   "run": "2026-10-13"
   },
   {
    "var": "ea_gdp_qoq",
@@ -190,29 +190,29 @@
    "last_value": 1.4204,
    "target": "2026-09",
    "target_pretty": "September 2026",
-   "consensus": 1.3,
-   "lo": 0.5,
-   "hi": 1.5,
-   "n": 6,
+   "consensus": 1.17,
+   "lo": 0.97,
+   "hi": 1.37,
+   "n": 9,
    "stale": true,
-   "run": "2026-09-20"
+   "run": "2026-10-13"
   },
   {
    "var": "ea_ip_yoy",
    "short": "Euro area industrial production",
-   "name": "Euro area industrial production",
+   "name": "Euro area industrial production, total industry excl. construction (YoY %, working day and seasonally adjusted)",
    "unit": "% YoY",
-   "last_period": "2026-07",
-   "last_period_pretty": "July 2026",
-   "last_value": -0.2028,
-   "target": "2026-08",
-   "target_pretty": "August 2026",
-   "consensus": -0.22,
-   "lo": -0.5,
-   "hi": 0.5,
-   "n": 6,
-   "stale": true,
-   "run": "2026-09-20"
+   "last_period": "2026-08",
+   "last_period_pretty": "August 2026",
+   "last_value": -1.1145,
+   "target": "2026-09",
+   "target_pretty": "September 2026",
+   "consensus": -0.9,
+   "lo": -1.1,
+   "hi": -0.7,
+   "n": 8,
+   "stale": false,
+   "run": "2026-10-18"
   }
  ],
  "variables": {
@@ -1061,27 +1061,27 @@
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "label": "gpt-5.1",
-     "value": 3.722,
-     "web": false,
-     "reasoning": "With no new information beyond the time series and a well‑fitting AR(1) baseline (small residual standard deviation), there is no systematic reason to adjust the forecast. Historical news–inflation relationships cannot be applied here without specific contemporaneous news, so the baseline stands."
-    },
-    {
-     "model": "ec/gpt-5.1",
      "type": "conditional",
      "label": "gpt-5.1 · cond.",
      "value": 3.872,
      "web": false,
-     "reasoning": "The Reddit evidence points to fresh, sizeable upside surprises in producer prices and renewed energy-related cost pressures (oil above $100, diesel issues, war-related disruptions), which historically tend to pass through at least partially to headline CPI within a month. Given the AR baseline and typical CPI-PPI dynamics, a modest positive adjustment of 0.15 is warranted, implying somewhat higher-than-baseline inflation without overreacting to short-term volatility."
+     "reasoning": "Reddit evidence points to renewed energy-driven price pressures (oil above $100, diesel issues, war-related supply disruptions) and a much hotter-than-expected PPI print, historically associated with upside surprises in subsequent CPI. Given the baseline AR forecast is close to recent readings, a modest positive adjustment of 0.15 better reflects short-term upside risks from energy and tariffs without overreacting to volatile news."
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "value": 3.722,
+     "web": false,
+     "reasoning": "With no new information beyond the time series and the AR(1) fit, there is no basis to adjust the statistically grounded baseline forecast. Historical news–inflation relationships cannot be applied here because no contemporaneous news data have been provided for 2026-09 to 2026-10."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional_rag",
      "label": "gpt-5.1 · rag",
-     "value": 3.822,
+     "value": 3.872,
      "web": false,
-     "reasoning": "Posts emphasise a sharp, ongoing gasoline-driven price spike and generalised cost-of-living pressure, suggesting upside risk versus a purely autoregressive path. Given historical patterns where energy shocks often push headline CPI above model forecasts in the subsequent month, a modest positive adjustment of 0.10 is warranted."
+     "reasoning": "Evidence points to a fresh energy shock from the Iran war, with gasoline sharply higher and broader price pressures described as worsening, which historically tends to push headline CPI above simple AR projections in the following month. Given the size and narrative of the shock, a modest upward adjustment of 0.15 to the baseline is warranted while staying within typical news-impact magnitudes."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -1097,7 +1097,7 @@
      "label": "llama-3.3-70b-instruct · cond.",
      "value": 3.822,
      "web": false,
-     "reasoning": "The evidence suggests that inflationary pressures are increasing, with wholesale prices jumping 6.3% and energy prices contributing to higher inflation, which may lead to a higher US CPI inflation rate in 2026-10. The delta is set to 0.10 to reflect this potential increase."
+     "reasoning": "The evidence suggests that inflationary pressures are increasing, with wholesale prices jumping 6.3% and energy prices contributing to higher inflation, which may lead to a higher CPI inflation rate in 2026-10. The delta is set to 0.10 to reflect this potential increase."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -1105,7 +1105,15 @@
      "label": "llama-3.3-70b-instruct · rag",
      "value": 3.822,
      "web": false,
-     "reasoning": "The evidence from social media conversations suggests that inflation is perceived to be high and rising, with many users reporting significant price increases in essential goods and services, which may indicate that the actual inflation rate could be higher than the baseline prediction. This is consistent with the historical relationship between news sentiment and subsequent inflation releases in my training data, where negative sentiment about inflation has often preceded higher-than-expected inflation rates."
+     "reasoning": "The evidence suggests that inflation is running hot, with multiple posts mentioning high energy prices and rising costs, which may indicate an upward pressure on the CPI inflation rate, warranting a positive delta to the baseline estimate. The relationship between news and realized figures in the training data also supports the idea that negative economic news can lead to higher inflation rates in the following month."
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "value": 3.722,
+     "web": false,
+     "reasoning": "No external evidence is provided; the baseline AR model is the only relevant information. Therefore, no adjustment is applied."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -1113,15 +1121,15 @@
      "label": "gpt-oss-120b · cond.",
      "value": 3.822,
      "web": false,
-     "reasoning": "Recent Reddit discussions highlight higher oil and gas prices and geopolitical tensions, implying modest upward pressure on inflation beyond the baseline forecast."
+     "reasoning": "Recent Reddit discussions highlight higher oil prices, war‑related supply shocks and market expectations of tighter monetary policy, indicating upward pressure on inflation beyond the AR baseline."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional_rag",
      "label": "gpt-oss-120b · rag",
-     "value": 3.772,
+     "value": 3.672,
      "web": false,
-     "reasoning": "Reddit posts report September CPI at 3.7% and note strong gas price pressure, implying October could be slightly above the baseline forecast."
+     "reasoning": "Reddit posts indicate September CPI at 3.7% driven by a one‑off gas surge, suggesting October may be marginally lower than the baseline forecast."
     }
    ],
    "hindcasts": [
@@ -1273,7 +1281,15 @@
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "t": "2026-09",
-     "f": 3.55,
+     "f": 3.585,
+     "a": 3.738,
+     "rw": 0.341
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "t": "2026-09",
+     "f": 3.535,
      "a": 3.738,
      "rw": 0.341
     },
@@ -1281,7 +1297,7 @@
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "t": "2026-09",
-     "f": 3.55,
+     "f": 3.385,
      "a": 3.738,
      "rw": 0.341
     },
@@ -1289,7 +1305,15 @@
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "t": "2026-09",
-     "f": 3.55,
+     "f": 3.435,
+     "a": 3.738,
+     "rw": 0.341
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "t": "2026-09",
+     "f": 3.485,
      "a": 3.738,
      "rw": 0.341
     },
@@ -1297,7 +1321,7 @@
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "t": "2026-09",
-     "f": 3.3,
+     "f": 3.385,
      "a": 3.738,
      "rw": 0.341
     },
@@ -1305,7 +1329,15 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "t": "2026-09",
-     "f": 3.6,
+     "f": 3.485,
+     "a": 3.738,
+     "rw": 0.341
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "t": "2026-09",
+     "f": 3.485,
      "a": 3.738,
      "rw": 0.341
     },
@@ -1313,12 +1345,139 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
      "t": "2026-09",
-     "f": 3.23,
+     "f": 3.385,
      "a": 3.738,
      "rw": 0.341
     }
    ],
-   "track": [],
+   "track": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-5.1 · cond.",
+     "mae": 0.152,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.152
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-5.1 · rag",
+     "mae": 0.202,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.202
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-oss-120b · rag",
+     "mae": 0.252,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.252
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · cond.",
+     "mae": 0.252,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.252
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · rag",
+     "mae": 0.252,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.252
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-oss-120b · cond.",
+     "mae": 0.302,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.302
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-5.1",
+     "mae": 0.352,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.352
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-oss-120b",
+     "mae": 0.352,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.352
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct",
+     "mae": 0.352,
+     "rw": 0.341,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.352
+      }
+     ]
+    }
+   ],
    "revisions": {
     "2026-06": {
      "lines": [
@@ -2167,7 +2326,27 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.45,
@@ -2177,7 +2356,76 @@
         3.38,
         3.45,
         3.55,
-        3.4
+        3.4,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.535,
+        3.485,
+        3.485,
+        3.485,
+        3.535,
+        3.535,
+        3.535,
+        3.435,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.535,
+        3.485,
+        3.585,
+        3.485
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        3.535,
+        3.535,
+        3.635,
+        3.585,
+        3.585,
+        3.635,
+        3.485,
+        3.585,
+        3.635,
+        3.535,
+        3.535,
+        3.635,
+        3.535,
+        3.585,
+        3.535,
+        3.485,
+        3.535,
+        3.585,
+        3.535,
+        3.535
        ]
       },
       {
@@ -2192,7 +2440,26 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.55,
@@ -2202,7 +2469,26 @@
         3.55,
         3.55,
         3.55,
-        3.55
+        3.55,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.285,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385
        ]
       },
       {
@@ -2217,7 +2503,28 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.52,
@@ -2227,7 +2534,77 @@
         3.5,
         3.55,
         3.55,
-        3.45
+        3.45,
+        3.335,
+        3.435,
+        3.335,
+        3.435,
+        3.435,
+        3.435,
+        3.335,
+        3.335,
+        3.335,
+        3.335,
+        3.285,
+        3.285,
+        3.435,
+        3.435,
+        3.435,
+        3.385,
+        3.485,
+        3.435,
+        3.435,
+        3.435,
+        3.485
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        3.485,
+        3.435,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.435,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.335,
+        3.485,
+        3.485,
+        3.485,
+        3.485
        ]
       },
       {
@@ -2242,7 +2619,29 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.3,
@@ -2252,7 +2651,29 @@
         3.44,
         3.38,
         3.3,
-        3.33
+        3.33,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385
        ]
       },
       {
@@ -2267,7 +2688,29 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.6,
@@ -2277,7 +2720,78 @@
         3.6,
         3.6,
         3.6,
-        3.6
+        3.6,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.285,
+        3.285,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        3.485,
+        3.485,
+        3.585,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.585,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485,
+        3.485
        ]
       },
       {
@@ -2292,7 +2806,29 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         3.23,
@@ -2302,7 +2838,29 @@
         3.23,
         3.23,
         3.23,
-        3.23
+        3.23,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385,
+        3.385
        ]
       }
      ],
@@ -2329,7 +2887,7 @@
         "2026-10-18"
        ],
        "y": [
-        3.822
+        3.872
        ]
       },
       {
@@ -2362,7 +2920,18 @@
         "2026-10-18"
        ],
        "y": [
-        3.772
+        3.672
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "label": "gpt-oss-120b",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        3.722
        ]
       },
       {
@@ -3252,11 +3821,11 @@
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 3.891,
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "value": 3.791,
      "web": false,
-     "reasoning": "Social media evidence points to renewed upward pressure on energy and some consumer goods prices alongside visible cost-of-living protests, which historically tends to coincide with modest upside surprises to near-term HICP. I therefore add a small positive adjustment to the AR baseline to reflect these signals without over-weighting noisy anecdotal data."
+     "reasoning": "With no additional news or external information beyond the historical series, the AR(1) baseline is the best available guide and should not be adjusted. The recent upward drift is already captured in the latest observation and thus in the AR forecast."
     },
     {
      "model": "ec/gpt-5.1",
@@ -3264,31 +3833,23 @@
      "label": "gpt-5.1 · rag",
      "value": 4.041,
      "web": false,
-     "reasoning": "The evidence points to an acute, euro-area-wide energy shock (diesel shortages, very high fuel prices, widespread protests) and some upward pressure on consumer and durable goods prices, which historically tend to lift headline HICP beyond simple autoregressive projections in the near term. Given past episodes where similar energy and cost-of-living shocks quickly fed into next-month inflation releases, a modest positive adjustment of 0.25 to the AR baseline is warranted."
+     "reasoning": "Posts point to a sharp, broad-based energy shock (diesel shortages, very high prices, widespread protests) plus some upward pressure on consumer goods prices, which are likely to push the next HICP print above a purely autoregressive forecast. Based on past episodes where similar energy and cost-of-living news preceded actual releases, a modest positive adjustment of 0.25 is warranted but larger moves would exceed what such shocks typically add in one month."
     },
     {
      "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "label": "gpt-5.1",
-     "value": 3.791,
-     "web": false,
-     "reasoning": "With no external news or additional information, there is no basis to adjust the statistically well‑fitting AR(1) baseline. Historical training data on the news–inflation relationship cannot be used here because no contemporaneous news is provided for 2026‑10."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
-     "label": "llama-3.3-70b-instruct · cond.",
+     "label": "gpt-5.1 · cond.",
      "value": 3.891,
      "web": false,
-     "reasoning": "The evidence suggests rising prices and cost of living concerns across Europe, which may indicate upward pressure on inflation, warranting a positive delta to the baseline estimate. The various posts discussing price increases, protests, and cost of living strains support this adjustment."
+     "reasoning": "Recent discussions point to rising energy and consumer prices, tax brackets not fully adjusted to inflation, and cost-of-living protests, all consistent with slightly stronger short-term price pressures than implied by the AR model. Historically, such signals have been weakly but positively associated with Euro area HICP surprises, so a modest upward adjustment is warranted."
     },
     {
      "model": "jrc/gpt-oss-120b",
-     "type": "conditional_rag",
-     "label": "gpt-oss-120b · rag",
-     "value": 3.941,
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "value": 3.791,
      "web": false,
-     "reasoning": "Recent diesel price spikes and widespread fuel shortages in Italy and France indicate upward pressure on consumer prices, suggesting a modest increase over the baseline forecast."
+     "reasoning": "No external evidence is provided; the baseline AR model already aligns with the recent trend, so no adjustment is warranted."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -3299,12 +3860,28 @@
      "reasoning": "The baseline prediction of 3.79 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not indicate a need to adjust the baseline prediction, so no delta is added."
     },
     {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 3.791,
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "value": 3.891,
      "web": false,
-     "reasoning": "No external evidence is provided; the baseline AR model already aligns with the recent trend, so no adjustment is warranted."
+     "reasoning": "The evidence suggests rising prices and concerns over the cost of living across Europe, which may indicate upward pressure on inflation, warranting a positive delta to the baseline forecast. The various posts discussing price increases, protests, and strain on households support this adjustment."
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "value": 3.991,
+     "web": false,
+     "reasoning": "The evidence suggests a surge in energy prices and cost of living concerns across the euro area, which is likely to contribute to higher inflation in the short term. This is consistent with historical patterns in the training data, where similar news events have been followed by increases in realized inflation figures one month later."
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "value": 3.941,
+     "web": false,
+     "reasoning": "Recent social media reports of diesel shortages, fuel price spikes and large protests suggest additional upward pressure on inflation beyond the baseline forecast."
     }
    ],
    "hindcasts": [
@@ -3408,7 +3985,15 @@
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "t": "2026-09",
-     "f": 3.3,
+     "f": 3.346,
+     "a": 3.8,
+     "rw": 0.6
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "t": "2026-09",
+     "f": 3.446,
      "a": 3.8,
      "rw": 0.6
     },
@@ -3416,7 +4001,7 @@
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "t": "2026-09",
-     "f": 3.1,
+     "f": 3.196,
      "a": 3.8,
      "rw": 0.6
     },
@@ -3424,7 +4009,15 @@
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "t": "2026-09",
-     "f": 3.6,
+     "f": 3.246,
+     "a": 3.8,
+     "rw": 0.6
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "t": "2026-09",
+     "f": 3.346,
      "a": 3.8,
      "rw": 0.6
     },
@@ -3432,7 +4025,7 @@
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "t": "2026-09",
-     "f": 3.1,
+     "f": 3.196,
      "a": 3.8,
      "rw": 0.6
     },
@@ -3440,7 +4033,15 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "t": "2026-09",
-     "f": 3.4,
+     "f": 3.296,
+     "a": 3.8,
+     "rw": 0.6
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "t": "2026-09",
+     "f": 3.296,
      "a": 3.8,
      "rw": 0.6
     },
@@ -3448,12 +4049,139 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
      "t": "2026-09",
-     "f": 3.1,
+     "f": 3.196,
      "a": 3.8,
      "rw": 0.6
     }
    ],
-   "track": [],
+   "track": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-5.1 · rag",
+     "mae": 0.354,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.354
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-5.1 · cond.",
+     "mae": 0.454,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.454
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-oss-120b · rag",
+     "mae": 0.454,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.454
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · cond.",
+     "mae": 0.504,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.504
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · rag",
+     "mae": 0.504,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.504
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-oss-120b · cond.",
+     "mae": 0.554,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.554
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-5.1",
+     "mae": 0.604,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.604
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-oss-120b",
+     "mae": 0.604,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.604
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct",
+     "mae": 0.604,
+     "rw": 0.6,
+     "points": [
+      {
+       "t": "2026-09",
+       "e": -0.604
+      }
+     ]
+    }
+   ],
    "revisions": {
     "2026-07": {
      "lines": [
@@ -4161,7 +4889,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         3.0,
@@ -4177,7 +4917,52 @@
         3.3,
         3.3,
         3.3,
-        3.1
+        3.1,
+        3.396,
+        3.396,
+        3.396,
+        3.346,
+        3.446,
+        3.396,
+        3.446,
+        3.396,
+        3.396,
+        3.396,
+        3.346,
+        3.346
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
+       ],
+       "y": [
+        3.446,
+        3.396,
+        3.446,
+        3.346,
+        3.446,
+        3.296,
+        3.296,
+        3.346,
+        3.346,
+        3.396,
+        3.446,
+        3.346
        ]
       },
       {
@@ -4197,7 +4982,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         3.1,
@@ -4212,7 +5009,19 @@
         3.1,
         3.0,
         3.1,
-        3.0
+        3.0,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196
        ]
       },
       {
@@ -4235,7 +5044,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         3.45,
@@ -4253,7 +5074,52 @@
         3.55,
         3.3,
         3.6,
-        3.5
+        3.5,
+        3.296,
+        3.296,
+        3.296,
+        3.246,
+        3.246,
+        3.246,
+        3.146,
+        3.246,
+        3.146,
+        3.346,
+        3.246,
+        3.296
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
+       ],
+       "y": [
+        3.346,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.096,
+        3.146,
+        3.246,
+        3.146,
+        3.296,
+        3.346,
+        3.396
        ]
       },
       {
@@ -4275,7 +5141,18 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         3.25,
@@ -4292,7 +5169,18 @@
         3.5,
         3.0,
         3.1,
-        3.1
+        3.1,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196
        ]
       },
       {
@@ -4311,7 +5199,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         3.25,
@@ -4325,7 +5225,52 @@
         3.4,
         3.4,
         3.4,
-        3.05
+        3.05,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
+       ],
+       "y": [
+        3.296,
+        3.396,
+        3.396,
+        3.396,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296,
+        3.296
        ]
       },
       {
@@ -4346,7 +5291,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         3.15,
@@ -4362,7 +5319,19 @@
         3.15,
         3.15,
         3.1,
-        3.15
+        3.15,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196,
+        3.196
        ]
       }
      ],
@@ -4375,9 +5344,25 @@
        "type": "conditional",
        "label": "gpt-5.1 · cond.",
        "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        3.941,
+        3.941,
+        3.891,
+        3.941,
+        3.891,
+        3.991,
+        3.991,
+        3.891,
         3.891
        ]
       },
@@ -4386,9 +5371,25 @@
        "type": "conditional_rag",
        "label": "gpt-5.1 · rag",
        "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        3.941,
+        3.891,
+        3.891,
+        3.891,
+        3.891,
+        3.741,
+        3.941,
+        3.891,
         4.041
        ]
       },
@@ -4397,10 +5398,55 @@
        "type": "unconditional",
        "label": "gpt-5.1",
        "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        3.691,
+        3.691,
+        3.791,
+        3.791,
+        3.691,
+        3.791,
+        3.791,
+        3.791,
         3.791
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
+       "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        3.741,
+        3.891,
+        3.891,
+        3.841,
+        3.741,
+        3.741,
+        3.741,
+        3.841,
+        3.741,
+        3.841
        ]
       },
       {
@@ -4408,9 +5454,25 @@
        "type": "conditional_rag",
        "label": "gpt-oss-120b · rag",
        "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        3.891,
+        3.841,
+        3.841,
+        3.841,
+        3.691,
+        3.691,
+        3.891,
+        3.791,
         3.941
        ]
       },
@@ -4419,9 +5481,29 @@
        "type": "unconditional",
        "label": "gpt-oss-120b",
        "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        3.791,
+        3.841,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.841,
+        3.791,
         3.791
        ]
       },
@@ -4430,10 +5512,57 @@
        "type": "conditional",
        "label": "llama-3.3-70b-instruct · cond.",
        "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        3.891,
+        3.891,
+        3.891,
+        3.891,
+        3.891,
+        3.891,
+        3.891,
+        3.891,
+        3.891,
+        3.891,
         3.891
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-18"
+       ],
+       "y": [
+        3.891,
+        3.891,
+        3.891,
+        3.791,
+        3.791,
+        3.791,
+        3.891,
+        3.891,
+        3.991
        ]
       },
       {
@@ -4441,9 +5570,29 @@
        "type": "unconditional",
        "label": "llama-3.3-70b-instruct",
        "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
+        3.791,
         3.791
        ]
       }
@@ -4462,18 +5611,18 @@
    "history": [],
    "spark": [],
    "last_official": {
-    "period": "2026-08",
-    "value": 4.1
+    "period": "2026-09",
+    "value": 4.2
    },
-   "target": "2026-09",
-   "target_pretty": "September 2026",
-   "forecast_run": "2026-09-20",
+   "target": "2026-10",
+   "target_pretty": "October 2026",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "label": "llama-3.3-70b-instruct · cond.",
-     "value": 4.15,
+     "value": 4.381,
      "web": false,
      "reasoning": "nan"
     },
@@ -4481,15 +5630,15 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
      "label": "llama-3.3-70b-instruct",
-     "value": 4.05,
+     "value": 4.281,
      "web": false,
      "reasoning": "nan"
     },
     {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 4.0,
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "value": 4.381,
      "web": false,
      "reasoning": "nan"
     },
@@ -4497,15 +5646,23 @@
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": 4.15,
+     "value": 4.231,
      "web": false,
      "reasoning": "nan"
     },
     {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 4.1,
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "value": 4.281,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "value": 4.381,
      "web": false,
      "reasoning": "nan"
     },
@@ -4513,7 +5670,23 @@
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "label": "gpt-5.1",
-     "value": 4.2,
+     "value": 4.281,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "value": 4.381,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "value": 4.381,
      "web": false,
      "reasoning": "nan"
     }
@@ -5268,7 +6441,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         4.15,
@@ -5283,7 +6468,52 @@
         4.1,
         4.1,
         4.1,
-        4.1
+        4.1,
+        4.188,
+        4.188,
+        4.188,
+        4.238,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
+       ],
+       "y": [
+        4.288,
+        4.188,
+        4.288,
+        4.288,
+        4.188,
+        4.238,
+        4.288,
+        4.288,
+        4.288,
+        4.188,
+        4.188,
+        4.138
        ]
       },
       {
@@ -5303,7 +6533,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         4.2,
@@ -5318,7 +6560,19 @@
         4.2,
         4.1,
         4.2,
-        4.2
+        4.2,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188
        ]
       },
       {
@@ -5338,7 +6592,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         4.02,
@@ -5353,7 +6619,52 @@
         4.2,
         4.15,
         4.25,
-        4.15
+        4.15,
+        4.288,
+        4.188,
+        4.138,
+        4.138,
+        4.238,
+        4.138,
+        4.288,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
+       ],
+       "y": [
+        4.238,
+        4.238,
+        4.238,
+        4.238,
+        4.238,
+        4.288,
+        4.238,
+        4.288,
+        4.238,
+        4.288,
+        4.238,
+        4.138
        ]
       },
       {
@@ -5372,7 +6683,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         4.0,
@@ -5386,7 +6709,19 @@
         4.1,
         4.0,
         4.0,
-        4.0
+        4.0,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.138,
+        4.188,
+        4.138,
+        4.188,
+        4.138,
+        4.188,
+        4.188
        ]
       },
       {
@@ -5405,7 +6740,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         4.15,
@@ -5419,7 +6766,52 @@
         4.15,
         4.15,
         4.15,
-        4.15
+        4.15,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.288,
+        4.088,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
+       ],
+       "y": [
+        4.288,
+        4.288,
+        4.288,
+        4.288,
+        4.088,
+        4.088,
+        4.288,
+        4.288,
+        4.088,
+        4.088,
+        4.288,
+        4.088
        ]
       },
       {
@@ -5440,7 +6832,19 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02"
        ],
        "y": [
         4.05,
@@ -5456,7 +6860,265 @@
         4.05,
         4.05,
         4.05,
-        4.05
+        4.05,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188,
+        4.188
+       ]
+      }
+     ],
+     "realized": null
+    },
+    "2026-10": {
+     "lines": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "label": "gpt-5.1 · cond.",
+       "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.381,
+        4.331,
+        4.381,
+        4.381,
+        4.281,
+        4.381,
+        4.331,
+        4.381
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.381,
+        4.331,
+        4.281,
+        4.281,
+        4.281,
+        4.331,
+        4.281,
+        4.381
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "label": "gpt-5.1",
+       "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
+       "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.331,
+        4.331,
+        4.331,
+        4.331,
+        4.331,
+        4.281,
+        4.331,
+        4.281,
+        4.231,
+        4.231
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.281,
+        4.231,
+        4.231,
+        4.231,
+        4.231,
+        4.231,
+        4.231,
+        4.381
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "label": "gpt-oss-120b",
+       "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
+       "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.381,
+        4.381,
+        4.181,
+        4.181,
+        4.181,
+        4.181,
+        4.181,
+        4.181,
+        4.181,
+        4.381
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.381,
+        4.181,
+        4.181,
+        4.281,
+        4.281,
+        4.181,
+        4.181,
+        4.381
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
+       "x": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281,
+        4.281
        ]
       }
      ],
@@ -6309,35 +7971,51 @@
    "forecasts": [
     {
      "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 6.377,
-     "web": false,
-     "reasoning": "The social-media evidence is sparse, mostly country-specific, and does not systematically signal a euro-area-wide labour-market turning point relative to the recent stable pattern. Given weak and noisy links between such qualitative chatter and next-month unemployment releases in past data, the baseline AR forecast is left unchanged."
-    },
-    {
-     "model": "ec/gpt-5.1",
      "type": "unconditional",
      "label": "gpt-5.1",
      "value": 6.377,
      "web": false,
-     "reasoning": "With no external information beyond the smooth, near-flat recent path, the AR(1) baseline closely matches the local persistence in the series. Historical news–unemployment relationships cannot be applied here without current news, so there is no basis to adjust the baseline."
+     "reasoning": "The baseline AR(1) forecast closely matches the recent stability of the series, and in the absence of new information there is no systematic reason to adjust it. Historical news–data relationships cannot be applied here without specific contemporaneous news, so the best estimate is the baseline."
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "value": 6.377,
+     "web": false,
+     "reasoning": "The social media evidence is sparse, anecdotal and country-specific, with no clear euro-area-wide signal of a labour market turning point. Given weak and noisy contemporaneous information and historically modest news impacts on next-month euro area unemployment, the baseline AR forecast is left unchanged."
     },
     {
      "model": "ec/gpt-5.1",
      "type": "conditional_rag",
      "label": "gpt-5.1 · rag",
-     "value": 6.477,
+     "value": 6.377,
      "web": false,
-     "reasoning": "The evidence points to a significant, sudden energy and cost-of-living shock (diesel shortages, price spikes, large-scale protests) that historically aligns with slightly higher subsequent euro-area unemployment. I therefore adjust the AR baseline up by 0.10 to reflect a modest deterioration in labour-market conditions for September 2026."
+     "reasoning": "The social media evidence is either country-specific, largely focused on cost of living and housing, or outside the euro area, and does not provide systematic or timely signals about euro-area-wide labour market conditions one month ahead. Historical relationships between such qualitative news and subsequent euro area unemployment data in my training suggest negligible incremental forecasting value at this horizon, so I leave the AR-based baseline unchanged."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional_rag",
      "label": "gpt-oss-120b · rag",
-     "value": 6.327,
+     "value": 6.377,
      "web": false,
-     "reasoning": "Recent Reddit discussions highlight that unemployment is at historic lows and focus is moving to housing issues, indicating a slight further decline."
+     "reasoning": "The Reddit evidence is anecdotal and unrelated to Euro‑area unemployment trends, providing no basis to adjust the baseline forecast."
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "value": 6.377,
+     "web": false,
+     "reasoning": "No relevant evidence of a shift; the series is stable and the baseline already matches the recent level."
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "value": 6.477,
+     "web": false,
+     "reasoning": "The evidence suggests a potential increase in unemployment due to the high cost of living, energy crisis, and cyberattack impacting businesses, which may lead to a slight increase in the Euro area unemployment rate. This is based on the relationship between news and realized figures in the training data, where similar events have been associated with small increases in unemployment rates one month later."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -6356,28 +8034,12 @@
      "reasoning": "The baseline prediction of 6.38 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not indicate a need to adjust the baseline prediction."
     },
     {
-     "model": "jrc/gpt-oss-120b",
-     "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 6.377,
-     "web": false,
-     "reasoning": "The baseline forecast already matches the recent level of 6.40 and no external evidence indicates a systematic bias; therefore no adjustment is required."
-    },
-    {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "label": "llama-3.3-70b-instruct · cond.",
      "value": 6.377,
      "web": false,
-     "reasoning": "The provided social media conversations do not contain relevant information that would significantly impact the forecast of the Euro area unemployment rate for 2026-09, therefore no adjustment to the baseline is necessary. The conversations are mostly anecdotal and do not provide a clear signal about the upcoming unemployment rate release."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional_rag",
-     "label": "llama-3.3-70b-instruct · rag",
-     "value": 6.477,
-     "web": false,
-     "reasoning": "The evidence suggests a potential increase in unemployment due to the high cost of living, energy crisis, and cyberattack impacting businesses, which may lead to a slight increase in the Euro area unemployment rate. This is based on the relationship between news and realized figures in the training data, where similar events have been associated with small increases in unemployment rates one month later."
+     "reasoning": "The provided social media conversations do not contain relevant information that would significantly impact the forecast of the Euro area unemployment rate for 2026-09, as they are mostly discussions about housing and personal experiences with unemployment benefits. Therefore, no adjustment to the baseline forecast is necessary."
     }
    ],
    "hindcasts": [
@@ -6481,7 +8143,15 @@
      "model": "ec/gpt-5.1",
      "type": "conditional",
      "t": "2026-08",
-     "f": 6.4,
+     "f": 6.377,
+     "a": 6.4,
+     "rw": 0.0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "t": "2026-08",
+     "f": 6.427,
      "a": 6.4,
      "rw": 0.0
     },
@@ -6489,7 +8159,7 @@
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "t": "2026-08",
-     "f": 6.4,
+     "f": 6.377,
      "a": 6.4,
      "rw": 0.0
     },
@@ -6497,7 +8167,15 @@
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "t": "2026-08",
-     "f": 6.45,
+     "f": 6.377,
+     "a": 6.4,
+     "rw": 0.0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "t": "2026-08",
+     "f": 6.427,
      "a": 6.4,
      "rw": 0.0
     },
@@ -6505,7 +8183,7 @@
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "t": "2026-08",
-     "f": 6.38,
+     "f": 6.377,
      "a": 6.4,
      "rw": 0.0
     },
@@ -6513,7 +8191,15 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "t": "2026-08",
-     "f": 6.5,
+     "f": 6.377,
+     "a": 6.4,
+     "rw": 0.0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "t": "2026-08",
+     "f": 6.377,
      "a": 6.4,
      "rw": 0.0
     },
@@ -6521,12 +8207,139 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "unconditional",
      "t": "2026-08",
-     "f": 6.4,
+     "f": 6.377,
      "a": 6.4,
      "rw": 0.0
     }
    ],
-   "track": [],
+   "track": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-5.1 · cond.",
+     "mae": 0.023,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": -0.023
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-5.1",
+     "mae": 0.023,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": -0.023
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-oss-120b · cond.",
+     "mae": 0.023,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": -0.023
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-oss-120b",
+     "mae": 0.023,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": -0.023
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · cond.",
+     "mae": 0.023,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": -0.023
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · rag",
+     "mae": 0.023,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": -0.023
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct",
+     "mae": 0.023,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": -0.023
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-5.1 · rag",
+     "mae": 0.027,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 0.027
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-oss-120b · rag",
+     "mae": 0.027,
+     "rw": 0.0,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 0.027
+      }
+     ]
+    }
+   ],
    "revisions": {
     "2026-06": {
      "lines": [
@@ -7005,7 +8818,16 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
        ],
        "y": [
         6.4,
@@ -7020,7 +8842,43 @@
         6.4,
         6.4,
         6.4,
-        6.5
+        6.5,
+        6.477,
+        6.427,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
+       ],
+       "y": [
+        6.477,
+        6.477,
+        6.477,
+        6.477,
+        6.477,
+        6.477,
+        6.377,
+        6.427,
+        6.427
        ]
       },
       {
@@ -7040,7 +8898,16 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
        ],
        "y": [
         6.4,
@@ -7055,7 +8922,16 @@
         6.4,
         6.4,
         6.4,
-        6.4
+        6.4,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377
        ]
       },
       {
@@ -7075,7 +8951,16 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
        ],
        "y": [
         6.4,
@@ -7090,7 +8975,43 @@
         6.5,
         6.45,
         6.45,
-        6.45
+        6.45,
+        6.427,
+        6.427,
+        6.427,
+        6.427,
+        6.377,
+        6.427,
+        6.377,
+        6.377,
+        6.377
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
+       ],
+       "y": [
+        6.377,
+        6.377,
+        6.427,
+        6.377,
+        6.327,
+        6.427,
+        6.427,
+        6.427,
+        6.427
        ]
       },
       {
@@ -7110,7 +9031,16 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
        ],
        "y": [
         6.4,
@@ -7125,7 +9055,16 @@
         6.38,
         6.38,
         6.38,
-        6.4
+        6.4,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377
        ]
       },
       {
@@ -7148,7 +9087,16 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
        ],
        "y": [
         6.45,
@@ -7166,7 +9114,43 @@
         6.5,
         6.5,
         6.5,
-        6.5
+        6.5,
+        6.477,
+        6.477,
+        6.427,
+        6.477,
+        6.477,
+        6.427,
+        6.377,
+        6.377,
+        6.377
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
+       ],
+       "y": [
+        6.277,
+        6.477,
+        6.477,
+        6.477,
+        6.277,
+        6.477,
+        6.477,
+        6.377,
+        6.477
        ]
       },
       {
@@ -7186,7 +9170,16 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
        ],
        "y": [
         6.4,
@@ -7201,7 +9194,16 @@
         6.4,
         6.4,
         6.4,
-        6.4
+        6.4,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377
        ]
       }
      ],
@@ -7214,9 +9216,27 @@
        "type": "conditional",
        "label": "gpt-5.1 · cond.",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
         6.377
        ]
       },
@@ -7225,10 +9245,28 @@
        "type": "conditional_rag",
        "label": "gpt-5.1 · rag",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
-        6.477
+        6.427,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377
        ]
       },
       {
@@ -7236,9 +9274,27 @@
        "type": "unconditional",
        "label": "gpt-5.1",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
         6.377
        ]
       },
@@ -7247,9 +9303,31 @@
        "type": "conditional",
        "label": "gpt-oss-120b · cond.",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
         6.377
        ]
       },
@@ -7258,10 +9336,28 @@
        "type": "conditional_rag",
        "label": "gpt-oss-120b · rag",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
-        6.327
+        6.327,
+        6.327,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377
        ]
       },
       {
@@ -7269,9 +9365,31 @@
        "type": "unconditional",
        "label": "gpt-oss-120b",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
         6.377
        ]
       },
@@ -7280,9 +9398,31 @@
        "type": "conditional",
        "label": "llama-3.3-70b-instruct · cond.",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
         6.377
        ]
       },
@@ -7291,9 +9431,27 @@
        "type": "conditional_rag",
        "label": "llama-3.3-70b-instruct · rag",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
         6.477
        ]
       },
@@ -7302,9 +9460,31 @@
        "type": "unconditional",
        "label": "llama-3.3-70b-instruct",
        "x": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
+        6.377,
         6.377
        ]
       }
@@ -7324,17 +9504,17 @@
    "spark": [],
    "last_official": {
     "period": "2026-Q2",
-    "value": 0.3689
+    "value": 0.5505
    },
    "target": "2026-Q3",
    "target_pretty": "Q3 2026",
-   "forecast_run": "2026-09-20",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": 0.63,
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "value": 0.423,
      "web": false,
      "reasoning": "nan"
     },
@@ -7342,7 +9522,23 @@
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "label": "llama-3.3-70b-instruct · cond.",
-     "value": 0.25,
+     "value": 0.623,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "value": 0.623,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "value": 0.423,
      "web": false,
      "reasoning": "nan"
     },
@@ -7350,7 +9546,7 @@
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": 0.3,
+     "value": 0.623,
      "web": false,
      "reasoning": "nan"
     },
@@ -7358,15 +9554,7 @@
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "label": "gpt-oss-120b",
-     "value": 0.58,
-     "web": false,
-     "reasoning": "nan"
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 0.55,
+     "value": 0.623,
      "web": false,
      "reasoning": "nan"
     },
@@ -7374,7 +9562,23 @@
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "label": "gpt-5.1",
-     "value": 0.7,
+     "value": 0.623,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "value": 0.523,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "value": 0.623,
      "web": false,
      "reasoning": "nan"
     }
@@ -7774,7 +9978,27 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.55,
@@ -7819,7 +10043,76 @@
         0.5,
         0.55,
         0.6,
-        0.55
+        0.55,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.523,
+        0.523,
+        0.623,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.623,
+        0.623
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        0.566,
+        0.566,
+        0.566,
+        0.516,
+        0.566,
+        0.566,
+        0.516,
+        0.566,
+        0.566,
+        0.566,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.523
        ]
       },
       {
@@ -7868,7 +10161,27 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.6,
@@ -7912,7 +10225,27 @@
         0.65,
         0.7,
         0.68,
-        0.7
+        0.7,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623
        ]
       },
       {
@@ -7953,7 +10286,29 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.48,
@@ -7989,7 +10344,78 @@
         0.3,
         0.28,
         0.3,
-        0.3
+        0.3,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.566,
+        0.523,
+        0.523,
+        0.523,
+        0.523,
+        0.573,
+        0.523,
+        0.573,
+        0.523,
+        0.573,
+        0.523,
+        0.523,
+        0.623
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        0.566,
+        0.566,
+        0.566,
+        0.466,
+        0.566,
+        0.516,
+        0.516,
+        0.566,
+        0.566,
+        0.566,
+        0.523,
+        0.573,
+        0.473,
+        0.523,
+        0.523,
+        0.523,
+        0.673,
+        0.523,
+        0.523,
+        0.423
        ]
       },
       {
@@ -8036,7 +10462,29 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.34,
@@ -8078,7 +10526,29 @@
         0.55,
         0.68,
         0.45,
-        0.58
+        0.58,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623
        ]
       },
       {
@@ -8124,7 +10594,29 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.55,
@@ -8165,7 +10657,78 @@
         0.25,
         0.25,
         0.25,
-        0.25
+        0.25,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.423,
+        0.423,
+        0.523,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.623
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.466,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423,
+        0.423
        ]
       },
       {
@@ -8209,7 +10772,28 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.55,
@@ -8248,7 +10832,28 @@
         0.63,
         0.63,
         0.63,
-        0.63
+        0.63,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.666,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623,
+        0.623
        ]
       }
      ],
@@ -8565,15 +11170,7 @@
      "label": "gpt-oss-120b",
      "value": 0.246,
      "web": false,
-     "reasoning": "No external evidence indicates a systematic bias; the baseline AR(1) forecast already aligns with the recent pattern."
-    },
-    {
-     "model": "jrc/gpt-oss-120b",
-     "type": "conditional",
-     "label": "gpt-oss-120b · cond.",
-     "value": 0.196,
-     "web": false,
-     "reasoning": "Recent Reddit discussions highlight sharply rising oil transport costs, which could weigh on euro‑area economic activity, suggesting a modest downward adjustment. No other evidence directly pertains to euro‑area GDP, so the correction is limited."
+     "reasoning": "No external evidence suggests a systematic bias; the AR(1) baseline already incorporates the latest observation and provides a reasonable forecast."
     },
     {
      "model": "jrc/gpt-oss-120b",
@@ -8581,15 +11178,15 @@
      "label": "gpt-oss-120b · rag",
      "value": 0.096,
      "web": false,
-     "reasoning": "Recent social media reports highlight severe energy shortages, soaring fuel prices and widespread protests across the euro area, which historically correlate with reduced economic activity. Adjusting the baseline downward reflects the likely dampening effect on Q3 2026 real GDP growth."
+     "reasoning": "Recent diesel shortages, soaring fuel prices and large-scale protests signal heightened energy costs and reduced consumer spending, which are likely to dampen euro‑area growth in the next quarter."
     },
     {
-     "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "label": "gpt-5.1",
-     "value": 0.246,
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "value": 0.196,
      "web": false,
-     "reasoning": "With no external news or additional information beyond the historical time series and the AR(1) baseline, there is no systematic basis to adjust the 1-step-ahead forecast. Given the relatively high residual volatility, small discretionary tweaks would not be evidence-based, so delta is set to zero."
+     "reasoning": "The recent discussion of sharply higher oil shipping costs and weaker French GDP signals modest downside pressure on Euro‑area growth, warranting a small negative adjustment."
     },
     {
      "model": "ec/gpt-5.1",
@@ -8597,7 +11194,31 @@
      "label": "gpt-5.1 · cond.",
      "value": 0.146,
      "web": false,
-     "reasoning": "The evidence points to sharply higher oil and shipping costs, which are typically a near-term drag on euro area activity, while there is no offsetting positive signal specific to the euro area. I therefore adjust the AR-based forecast slightly downwards to reflect likely weaker real GDP growth in 2026-Q3 relative to the baseline."
+     "reasoning": "The posts highlight sharply higher oil shipping costs and tanker freight rates, which are likely to weigh on euro area activity via higher input and energy costs in the near term, while positive demand signals (e.g. UK growth, stable Italian consumption) are either outside the euro area or broadly neutral. Given historical sensitivity of euro area GDP to adverse energy and shipping cost shocks, a modest downward adjustment to the AR baseline is warranted."
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "value": 0.246,
+     "web": false,
+     "reasoning": "With no new information beyond the historical time series and a simple AR(1) benchmark, there is no systematic evidence to warrant adjusting the baseline forecast. Historical relationships between news and subsequent euro area GDP releases cannot be applied here because no such news data are provided."
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "value": 0.096,
+     "web": false,
+     "reasoning": "The evidence points to a sizeable negative energy-price and supply shock alongside widespread protests and a disruptive cyberattack, all of which are likely to weaken consumption and production in the near term. Given historical euro-area responses to similar shocks, I adjust the baseline down moderately to reflect increased downside risks to Q3 growth."
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "value": 0.046,
+     "web": false,
+     "reasoning": "The evidence suggests a potential economic downturn due to the energy crisis, protests, and diesel shortages, which may negatively impact Euro area real GDP growth in 2026-Q3. This is consistent with historical patterns in my training data, where similar news events have been associated with lower-than-expected GDP growth one quarter later."
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
@@ -8613,23 +11234,7 @@
      "label": "llama-3.3-70b-instruct · cond.",
      "value": 0.146,
      "web": false,
-     "reasoning": "The evidence suggests potential economic headwinds, including high oil shipping costs and concerns about energy prices, which may negatively impact Euro area real GDP growth in 2026-Q3. This information warrants a downward adjustment to the baseline forecast."
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional_rag",
-     "label": "llama-3.3-70b-instruct · rag",
-     "value": 0.046,
-     "web": false,
-     "reasoning": "The evidence suggests a potential economic downturn due to the energy crisis, protests, and diesel shortages, which may negatively impact Euro area real GDP growth in 2026-Q3. This is consistent with historical patterns in my training data, where similar news events have been associated with lower-than-expected GDP growth one quarter later."
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional_rag",
-     "label": "gpt-5.1 · rag",
-     "value": 0.046,
-     "web": false,
-     "reasoning": "The evidence points to a significant energy shock, diesel shortages, widespread protests in major member states, and a cyberattack disrupting retail logistics, all of which are likely to weigh on activity relative to the AR-based baseline. Historical data show that similar adverse energy and supply shocks tend to reduce euro area quarterly GDP growth noticeably in the subsequent quarter."
+     "reasoning": "The evidence suggests potential economic headwinds, including high oil shipping costs and regional disparities in consumption, which may negatively impact Euro area real GDP growth in 2026-Q3. This information warrants a downward adjustment to the baseline forecast."
     }
    ],
    "hindcasts": [
@@ -9058,6 +11663,26 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
@@ -9081,6 +11706,26 @@
         0.36,
         0.32,
         0.3,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.246,
+        0.196,
+        0.196,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.196,
         0.146
        ]
       },
@@ -9089,10 +11734,48 @@
        "type": "conditional_rag",
        "label": "gpt-5.1 · rag",
        "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
-        0.046
+        0.096,
+        0.096,
+        0.046,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.346,
+        0.246,
+        0.246,
+        0.196,
+        0.096
        ]
       },
       {
@@ -9120,6 +11803,26 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
@@ -9143,6 +11846,26 @@
         0.39,
         0.46,
         0.42,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
         0.246
        ]
       },
@@ -9168,6 +11891,28 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
@@ -9188,6 +11933,28 @@
         0.15,
         0.18,
         0.34,
+        0.146,
+        0.196,
+        0.146,
+        0.146,
+        0.096,
+        0.146,
+        0.346,
+        0.346,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.296,
+        0.246,
+        0.246,
+        0.246,
+        0.196,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
         0.196
        ]
       },
@@ -9196,9 +11963,47 @@
        "type": "conditional_rag",
        "label": "gpt-oss-120b · rag",
        "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.196,
+        0.346,
+        0.146,
+        0.196,
+        0.146,
+        0.146,
+        0.196,
+        0.146,
+        0.146,
+        0.146,
+        0.296,
+        0.296,
+        0.296,
+        0.296,
+        0.146,
         0.096
        ]
       },
@@ -9224,6 +12029,28 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
@@ -9244,6 +12071,28 @@
         0.34,
         0.3,
         0.3,
+        0.246,
+        0.196,
+        0.246,
+        0.196,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.196,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.196,
+        0.246,
         0.246
        ]
       },
@@ -9270,6 +12119,28 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
@@ -9291,6 +12162,28 @@
         0.2,
         0.2,
         0.2,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.346,
+        0.346,
+        0.146,
+        0.146,
+        0.146,
+        0.146,
+        0.346,
+        0.346,
+        0.346,
+        0.346,
         0.146
        ]
       },
@@ -9299,9 +12192,45 @@
        "type": "conditional_rag",
        "label": "llama-3.3-70b-instruct · rag",
        "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.046,
+        0.146,
+        0.046,
+        0.146,
+        0.046,
+        0.146,
+        0.046,
+        0.146,
+        0.346,
+        0.346,
+        0.346,
+        0.146,
         0.046
        ]
       },
@@ -9327,6 +12256,28 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
         "2026-10-18"
        ],
        "y": [
@@ -9347,6 +12298,28 @@
         0.35,
         0.35,
         0.35,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
+        0.246,
         0.246
        ]
       }
@@ -9370,21 +12343,29 @@
    },
    "target": "2026-09",
    "target_pretty": "September 2026",
-   "forecast_run": "2026-09-20",
+   "forecast_run": "2026-10-13",
    "forecasts": [
     {
      "model": "jrc/llama-3.3-70b-instruct",
      "type": "conditional",
      "label": "llama-3.3-70b-instruct · cond.",
-     "value": 0.5,
+     "value": 0.973,
      "web": false,
      "reasoning": "nan"
     },
     {
      "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": 1.23,
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "value": 0.973,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "value": 1.173,
      "web": false,
      "reasoning": "nan"
     },
@@ -9392,7 +12373,15 @@
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
      "label": "gpt-oss-120b",
-     "value": 1.45,
+     "value": 1.373,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "value": 1.373,
      "web": false,
      "reasoning": "nan"
     },
@@ -9400,15 +12389,7 @@
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": 0.9,
-     "web": false,
-     "reasoning": "nan"
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": 1.38,
+     "value": 1.173,
      "web": false,
      "reasoning": "nan"
     },
@@ -9416,7 +12397,23 @@
      "model": "ec/gpt-5.1",
      "type": "unconditional",
      "label": "gpt-5.1",
-     "value": 1.5,
+     "value": 1.373,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "value": 1.173,
+     "web": false,
+     "reasoning": "nan"
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "value": 1.173,
      "web": false,
      "reasoning": "nan"
     }
@@ -10291,11 +13288,100 @@
        "label": "gpt-5.1 · cond.",
        "x": [
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.35,
-        1.38
+        1.38,
+        1.173,
+        1.073,
+        1.573,
+        1.673,
+        1.073,
+        1.073,
+        1.073,
+        1.173,
+        1.073,
+        1.173,
+        1.173,
+        1.173,
+        1.173,
+        1.173,
+        1.173,
+        1.173,
+        1.073,
+        1.173,
+        1.573,
+        1.173
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        1.073,
+        1.173,
+        1.073,
+        1.173,
+        1.173,
+        1.173,
+        1.073,
+        1.073,
+        1.173,
+        1.073,
+        1.173,
+        1.173,
+        1.173,
+        1.073,
+        1.173,
+        1.173,
+        1.173,
+        1.073,
+        1.173,
+        1.173
        ]
       },
       {
@@ -10304,11 +13390,51 @@
        "label": "gpt-5.1",
        "x": [
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.55,
-        1.5
+        1.5,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373
        ]
       },
       {
@@ -10317,11 +13443,104 @@
        "label": "gpt-oss-120b · cond.",
        "x": [
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.1,
-        0.9
+        0.9,
+        1.373,
+        1.373,
+        1.173,
+        1.373,
+        1.073,
+        1.073,
+        1.273,
+        1.173,
+        1.073,
+        1.073,
+        0.973,
+        1.073,
+        1.073,
+        0.973,
+        1.073,
+        1.173,
+        0.973,
+        1.073,
+        1.073,
+        0.973,
+        1.073,
+        1.173
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        0.973,
+        0.973,
+        1.073,
+        1.073,
+        1.173,
+        1.173,
+        1.173,
+        0.973,
+        1.073,
+        1.073,
+        1.073,
+        0.973,
+        0.973,
+        1.073,
+        1.073,
+        1.573,
+        1.573,
+        1.073,
+        1.073,
+        1.173
        ]
       },
       {
@@ -10330,11 +13549,55 @@
        "label": "gpt-oss-120b",
        "x": [
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.35,
-        1.45
+        1.45,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373
        ]
       },
       {
@@ -10343,11 +13606,102 @@
        "label": "llama-3.3-70b-instruct · cond.",
        "x": [
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.2,
-        0.5
+        0.5,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.573,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        0.573,
+        0.973,
+        0.973,
+        0.973,
+        0.973,
+        1.073,
+        0.973
        ]
       },
       {
@@ -10356,11 +13710,55 @@
        "label": "llama-3.3-70b-instruct",
        "x": [
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         1.23,
-        1.23
+        1.23,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373,
+        1.373
        ]
       }
      ],
@@ -10369,73 +13767,1211 @@
    }
   },
   "ea_ip_yoy": {
-   "name": "Euro area industrial production",
+   "name": "Euro area industrial production, total industry excl. construction (YoY %, working day and seasonally adjusted)",
    "short": "Euro area industrial production",
    "unit": "% YoY",
    "area": "EA",
    "freq": "M",
-   "stale": true,
-   "history": [],
-   "spark": [],
+   "stale": false,
+   "history": [
+    [
+     "2010-01",
+     2.422
+    ],
+    [
+     "2010-02",
+     4.25
+    ],
+    [
+     "2010-03",
+     7.775
+    ],
+    [
+     "2010-04",
+     9.322
+    ],
+    [
+     "2010-05",
+     9.231
+    ],
+    [
+     "2010-06",
+     8.461
+    ],
+    [
+     "2010-07",
+     7.62
+    ],
+    [
+     "2010-08",
+     8.782
+    ],
+    [
+     "2010-09",
+     6.178
+    ],
+    [
+     "2010-10",
+     7.463
+    ],
+    [
+     "2010-11",
+     8.0
+    ],
+    [
+     "2010-12",
+     9.049
+    ],
+    [
+     "2011-01",
+     6.644
+    ],
+    [
+     "2011-02",
+     8.267
+    ],
+    [
+     "2011-03",
+     6.104
+    ],
+    [
+     "2011-04",
+     5.537
+    ],
+    [
+     "2011-05",
+     3.9
+    ],
+    [
+     "2011-06",
+     2.384
+    ],
+    [
+     "2011-07",
+     4.139
+    ],
+    [
+     "2011-08",
+     2.906
+    ],
+    [
+     "2011-09",
+     2.047
+    ],
+    [
+     "2011-10",
+     0.855
+    ],
+    [
+     "2011-11",
+     0.106
+    ],
+    [
+     "2011-12",
+     -1.155
+    ],
+    [
+     "2012-01",
+     -1.267
+    ],
+    [
+     "2012-02",
+     -1.464
+    ],
+    [
+     "2012-03",
+     -1.778
+    ],
+    [
+     "2012-04",
+     -2.099
+    ],
+    [
+     "2012-05",
+     -1.981
+    ],
+    [
+     "2012-06",
+     -1.27
+    ],
+    [
+     "2012-07",
+     -2.197
+    ],
+    [
+     "2012-08",
+     -1.464
+    ],
+    [
+     "2012-09",
+     -2.429
+    ],
+    [
+     "2012-10",
+     -2.86
+    ],
+    [
+     "2012-11",
+     -3.805
+    ],
+    [
+     "2012-12",
+     -2.763
+    ],
+    [
+     "2013-01",
+     -2.567
+    ],
+    [
+     "2013-02",
+     -3.079
+    ],
+    [
+     "2013-03",
+     -1.597
+    ],
+    [
+     "2013-04",
+     -0.857
+    ],
+    [
+     "2013-05",
+     -1.596
+    ],
+    [
+     "2013-06",
+     -0.643
+    ],
+    [
+     "2013-07",
+     -1.818
+    ],
+    [
+     "2013-08",
+     -2.017
+    ],
+    [
+     "2013-09",
+     0.216
+    ],
+    [
+     "2013-10",
+     0.436
+    ],
+    [
+     "2013-11",
+     2.418
+    ],
+    [
+     "2013-12",
+     1.749
+    ],
+    [
+     "2014-01",
+     1.866
+    ],
+    [
+     "2014-02",
+     2.3
+    ],
+    [
+     "2014-03",
+     0.541
+    ],
+    [
+     "2014-04",
+     2.054
+    ],
+    [
+     "2014-05",
+     1.189
+    ],
+    [
+     "2014-06",
+     0.431
+    ],
+    [
+     "2014-07",
+     2.288
+    ],
+    [
+     "2014-08",
+     -0.108
+    ],
+    [
+     "2014-09",
+     0.648
+    ],
+    [
+     "2014-10",
+     1.086
+    ],
+    [
+     "2014-11",
+     -0.429
+    ],
+    [
+     "2014-12",
+     0.967
+    ],
+    [
+     "2015-01",
+     0.647
+    ],
+    [
+     "2015-02",
+     2.463
+    ],
+    [
+     "2015-03",
+     3.229
+    ],
+    [
+     "2015-04",
+     0.847
+    ],
+    [
+     "2015-05",
+     2.457
+    ],
+    [
+     "2015-06",
+     3.33
+    ],
+    [
+     "2015-07",
+     2.982
+    ],
+    [
+     "2015-08",
+     3.471
+    ],
+    [
+     "2015-09",
+     2.897
+    ],
+    [
+     "2015-10",
+     3.222
+    ],
+    [
+     "2015-11",
+     3.017
+    ],
+    [
+     "2015-12",
+     1.702
+    ],
+    [
+     "2016-01",
+     4.283
+    ],
+    [
+     "2016-02",
+     0.418
+    ],
+    [
+     "2016-03",
+     -0.313
+    ],
+    [
+     "2016-04",
+     1.891
+    ],
+    [
+     "2016-05",
+     -0.521
+    ],
+    [
+     "2016-06",
+     0.104
+    ],
+    [
+     "2016-07",
+     -0.62
+    ],
+    [
+     "2016-08",
+     0.839
+    ],
+    [
+     "2016-09",
+     0.626
+    ],
+    [
+     "2016-10",
+     1.145
+    ],
+    [
+     "2016-11",
+     2.092
+    ],
+    [
+     "2016-12",
+     1.569
+    ],
+    [
+     "2017-01",
+     -0.308
+    ],
+    [
+     "2017-02",
+     1.769
+    ],
+    [
+     "2017-03",
+     2.092
+    ],
+    [
+     "2017-04",
+     1.443
+    ],
+    [
+     "2017-05",
+     3.669
+    ],
+    [
+     "2017-06",
+     2.596
+    ],
+    [
+     "2017-07",
+     3.954
+    ],
+    [
+     "2017-08",
+     4.678
+    ],
+    [
+     "2017-09",
+     3.938
+    ],
+    [
+     "2017-10",
+     3.189
+    ],
+    [
+     "2017-11",
+     5.533
+    ],
+    [
+     "2017-12",
+     6.076
+    ],
+    [
+     "2018-01",
+     3.913
+    ],
+    [
+     "2018-02",
+     2.249
+    ],
+    [
+     "2018-03",
+     2.971
+    ],
+    [
+     "2018-04",
+     1.728
+    ],
+    [
+     "2018-05",
+     2.528
+    ],
+    [
+     "2018-06",
+     2.53
+    ],
+    [
+     "2018-07",
+     0.0
+    ],
+    [
+     "2018-08",
+     0.497
+    ],
+    [
+     "2018-09",
+     0.1
+    ],
+    [
+     "2018-10",
+     0.399
+    ],
+    [
+     "2018-11",
+     -3.592
+    ],
+    [
+     "2018-12",
+     -3.398
+    ],
+    [
+     "2019-01",
+     -0.396
+    ],
+    [
+     "2019-02",
+     -0.1
+    ],
+    [
+     "2019-03",
+     -0.398
+    ],
+    [
+     "2019-04",
+     -0.2
+    ],
+    [
+     "2019-05",
+     -0.888
+    ],
+    [
+     "2019-06",
+     -1.974
+    ],
+    [
+     "2019-07",
+     -0.901
+    ],
+    [
+     "2019-08",
+     -1.68
+    ],
+    [
+     "2019-09",
+     -1.096
+    ],
+    [
+     "2019-10",
+     -0.596
+    ],
+    [
+     "2019-11",
+     -0.705
+    ],
+    [
+     "2019-12",
+     -2.714
+    ],
+    [
+     "2020-01",
+     -1.095
+    ],
+    [
+     "2020-02",
+     -1.201
+    ],
+    [
+     "2020-03",
+     -12.687
+    ],
+    [
+     "2020-04",
+     -28.729
+    ],
+    [
+     "2020-05",
+     -19.204
+    ],
+    [
+     "2020-06",
+     -10.574
+    ],
+    [
+     "2020-07",
+     -6.162
+    ],
+    [
+     "2020-08",
+     -5.93
+    ],
+    [
+     "2020-09",
+     -5.237
+    ],
+    [
+     "2020-10",
+     -3.297
+    ],
+    [
+     "2020-11",
+     0.913
+    ],
+    [
+     "2020-12",
+     1.963
+    ],
+    [
+     "2021-01",
+     0.805
+    ],
+    [
+     "2021-02",
+     0.101
+    ],
+    [
+     "2021-03",
+     14.416
+    ],
+    [
+     "2021-04",
+     41.573
+    ],
+    [
+     "2021-05",
+     22.537
+    ],
+    [
+     "2021-06",
+     12.5
+    ],
+    [
+     "2021-07",
+     9.042
+    ],
+    [
+     "2021-08",
+     5.876
+    ],
+    [
+     "2021-09",
+     5.313
+    ],
+    [
+     "2021-10",
+     2.583
+    ],
+    [
+     "2021-11",
+     0.503
+    ],
+    [
+     "2021-12",
+     3.343
+    ],
+    [
+     "2022-01",
+     0.998
+    ],
+    [
+     "2022-02",
+     3.036
+    ],
+    [
+     "2022-03",
+     0.0
+    ],
+    [
+     "2022-04",
+     -0.595
+    ],
+    [
+     "2022-05",
+     2.814
+    ],
+    [
+     "2022-06",
+     2.302
+    ],
+    [
+     "2022-07",
+     -0.888
+    ],
+    [
+     "2022-08",
+     3.532
+    ],
+    [
+     "2022-09",
+     4.642
+    ],
+    [
+     "2022-10",
+     3.323
+    ],
+    [
+     "2022-11",
+     2.9
+    ],
+    [
+     "2022-12",
+     -1.176
+    ],
+    [
+     "2023-01",
+     1.087
+    ],
+    [
+     "2023-02",
+     1.572
+    ],
+    [
+     "2023-03",
+     0.5
+    ],
+    [
+     "2023-04",
+     0.399
+    ],
+    [
+     "2023-05",
+     -1.369
+    ],
+    [
+     "2023-06",
+     -0.391
+    ],
+    [
+     "2023-07",
+     -1.394
+    ],
+    [
+     "2023-08",
+     -3.801
+    ],
+    [
+     "2023-09",
+     -5.111
+    ],
+    [
+     "2023-10",
+     -4.678
+    ],
+    [
+     "2023-11",
+     -4.082
+    ],
+    [
+     "2023-12",
+     -2.183
+    ],
+    [
+     "2024-01",
+     -4.79
+    ],
+    [
+     "2024-02",
+     -5.609
+    ],
+    [
+     "2024-03",
+     -3.383
+    ],
+    [
+     "2024-04",
+     -3.082
+    ],
+    [
+     "2024-05",
+     -4.856
+    ],
+    [
+     "2024-06",
+     -4.126
+    ],
+    [
+     "2024-07",
+     -2.121
+    ],
+    [
+     "2024-08",
+     -1.013
+    ],
+    [
+     "2024-09",
+     -1.728
+    ],
+    [
+     "2024-10",
+     -0.92
+    ],
+    [
+     "2024-11",
+     -1.925
+    ],
+    [
+     "2024-12",
+     -2.13
+    ],
+    [
+     "2025-01",
+     0.719
+    ],
+    [
+     "2025-02",
+     1.332
+    ],
+    [
+     "2025-03",
+     4.531
+    ],
+    [
+     "2025-04",
+     0.41
+    ],
+    [
+     "2025-05",
+     3.021
+    ],
+    [
+     "2025-06",
+     1.025
+    ],
+    [
+     "2025-07",
+     1.651
+    ],
+    [
+     "2025-08",
+     1.024
+    ],
+    [
+     "2025-09",
+     1.551
+    ],
+    [
+     "2025-10",
+     1.548
+    ],
+    [
+     "2025-11",
+     2.066
+    ],
+    [
+     "2025-12",
+     2.073
+    ],
+    [
+     "2026-01",
+     -0.917
+    ],
+    [
+     "2026-02",
+     -1.416
+    ],
+    [
+     "2026-03",
+     -3.448
+    ],
+    [
+     "2026-04",
+     0.306
+    ],
+    [
+     "2026-05",
+     -0.404
+    ],
+    [
+     "2026-06",
+     -0.203
+    ],
+    [
+     "2026-07",
+     -0.406
+    ],
+    [
+     "2026-08",
+     -1.114
+    ]
+   ],
+   "spark": [
+    -1.728,
+    -0.92,
+    -1.925,
+    -2.13,
+    0.719,
+    1.332,
+    4.531,
+    0.41,
+    3.021,
+    1.025,
+    1.651,
+    1.024,
+    1.551,
+    1.548,
+    2.066,
+    2.073,
+    -0.917,
+    -1.416,
+    -3.448,
+    0.306,
+    -0.404,
+    -0.203,
+    -0.406,
+    -1.114
+   ],
    "last_official": {
-    "period": "2026-07",
-    "value": -0.2028
+    "period": "2026-08",
+    "value": -1.1145
    },
-   "target": "2026-08",
-   "target_pretty": "August 2026",
-   "forecast_run": "2026-09-20",
+   "target": "2026-09",
+   "target_pretty": "September 2026",
+   "forecast_run": "2026-10-18",
    "forecasts": [
     {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "unconditional",
-     "label": "llama-3.3-70b-instruct",
-     "value": -0.15,
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "value": -0.997,
      "web": false,
-     "reasoning": "nan"
-    },
-    {
-     "model": "jrc/llama-3.3-70b-instruct",
-     "type": "conditional",
-     "label": "llama-3.3-70b-instruct · cond.",
-     "value": -0.5,
-     "web": false,
-     "reasoning": "nan"
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "conditional",
-     "label": "gpt-5.1 · cond.",
-     "value": -0.3,
-     "web": false,
-     "reasoning": "nan"
-    },
-    {
-     "model": "ec/gpt-5.1",
-     "type": "unconditional",
-     "label": "gpt-5.1",
-     "value": 0.2,
-     "web": false,
-     "reasoning": "nan"
+     "reasoning": "Recent diesel price spikes and fuel shortages in Italy suggest heightened energy costs, which historically correlate with a modest additional drop in Euro‑area industrial production one month later."
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "conditional",
      "label": "gpt-oss-120b · cond.",
-     "value": -0.3,
+     "value": -0.897,
      "web": false,
-     "reasoning": "nan"
+     "reasoning": "Recent discussions of diesel shortages, high energy prices and cost‑of‑living protests suggest additional downside pressure on industrial output beyond the baseline forecast."
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "value": -0.697,
+     "web": false,
+     "reasoning": "With no external news or indicators beyond the autoregressive baseline, the time-series-based AR(1) forecast remains the best available estimate. Historical relationships between news flow and subsequent Euro area industrial production cannot be applied here due to the explicit absence of such evidence."
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "value": -0.897,
+     "web": false,
+     "reasoning": "Evidence of tight refined-product markets and rising energy and gas-price concerns suggests a small additional drag on euro area industrial output beyond what the AR model captures. The signals are weak and not sector-specific, so the adjustment is modest."
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "value": -0.697,
+     "web": false,
+     "reasoning": "The baseline prediction of -0.70 is based on a direct 1-step AR estimated by OLS, and there is no external evidence provided to suggest a deviation from this prediction. The time series data alone does not provide a clear indication for a delta adjustment, so no change is made to the baseline."
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "value": -1.097,
+     "web": false,
+     "reasoning": "The evidence suggests potential supply chain disruptions and higher energy costs, which could negatively impact industrial production in the Euro area, warranting a downward adjustment to the baseline forecast. The discussions around oil shortages, refined product bottlenecks, and rising energy costs may lead to decreased industrial activity."
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "value": -1.097,
+     "web": false,
+     "reasoning": "The evidence suggests a potential decline in industrial production due to the energy crisis, diesel shortages, and cyberattacks affecting European industries, which may not be fully captured by the baseline model. The negative delta reflects the potential downside risk to the baseline forecast."
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "value": -0.897,
+     "web": false,
+     "reasoning": "The evidence points to fuel shortages, rising energy costs, and some logistical disruptions, which are likely to weigh slightly on industrial output in the short term. These signals suggest a modest downward adjustment to the AR-based forecast for September rather than a large deviation."
+    }
+   ],
+   "hindcasts": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "t": "2025-10",
+     "f": 1.1,
+     "a": 1.548,
+     "rw": 0.1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "t": "2025-10",
+     "f": 1.2,
+     "a": 1.548,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "t": "2025-10",
+     "f": 1.5,
+     "a": 1.548,
+     "rw": 0.1
     },
     {
      "model": "jrc/gpt-oss-120b",
      "type": "unconditional",
-     "label": "gpt-oss-120b",
-     "value": 0.5,
-     "web": false,
-     "reasoning": "nan"
+     "t": "2025-10",
+     "f": 1.8,
+     "a": 1.548,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "t": "2025-10",
+     "f": 1.8,
+     "a": 1.548,
+     "rw": 0.1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "t": "2025-10",
+     "f": 1.8,
+     "a": 1.548,
+     "rw": 0.1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "t": "2026-07",
+     "f": 0.2,
+     "a": -0.406,
+     "rw": 0.609
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "t": "2026-07",
+     "f": 0.6,
+     "a": -0.406,
+     "rw": 0.609
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "t": "2026-07",
+     "f": -0.1,
+     "a": -0.406,
+     "rw": 0.609
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "t": "2026-07",
+     "f": 0.8,
+     "a": -0.406,
+     "rw": 0.609
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "t": "2026-07",
+     "f": -0.2,
+     "a": -0.406,
+     "rw": 0.609
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "t": "2026-07",
+     "f": 0.5,
+     "a": -0.406,
+     "rw": 0.609
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "t": "2026-08",
+     "f": -0.169,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "t": "2026-08",
+     "f": 0.031,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "t": "2026-08",
+     "f": 0.031,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "t": "2026-08",
+     "f": -0.269,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "t": "2026-08",
+     "f": -0.069,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "t": "2026-08",
+     "f": -0.069,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "t": "2026-08",
+     "f": -0.369,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "t": "2026-08",
+     "f": 0.031,
+     "a": -1.114,
+     "rw": 0.912
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "t": "2026-08",
+     "f": 0.031,
+     "a": -1.114,
+     "rw": 0.912
     }
    ],
-   "hindcasts": [],
-   "track": [],
+   "track": [
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · cond.",
+     "mae": 0.746,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 0.746
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-oss-120b · cond.",
+     "mae": 0.846,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 0.846
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "n": 1,
+     "label": "gpt-5.1 · cond.",
+     "mae": 0.946,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 0.946
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-oss-120b · rag",
+     "mae": 1.046,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 1.046
+      }
+     ]
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-oss-120b",
+     "mae": 1.046,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 1.046
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "gpt-5.1 · rag",
+     "mae": 1.146,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 1.146
+      }
+     ]
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "n": 1,
+     "label": "gpt-5.1",
+     "mae": 1.146,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 1.146
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct · rag",
+     "mae": 1.146,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 1.146
+      }
+     ]
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "n": 1,
+     "label": "llama-3.3-70b-instruct",
+     "mae": 1.146,
+     "rw": 0.912,
+     "points": [
+      {
+       "t": "2026-08",
+       "e": 1.146
+      }
+     ]
+    }
+   ],
    "revisions": {
     "2025-10": {
      "lines": [
@@ -10514,7 +15050,7 @@
        ]
       }
      ],
-     "realized": null
+     "realized": 1.5479876160990669
     },
     "2026-07": {
      "lines": [
@@ -10655,7 +15191,7 @@
        ]
       }
      ],
-     "realized": null
+     "realized": -0.4060913705583813
     },
     "2026-08": {
      "lines": [
@@ -10667,13 +15203,102 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.5,
         -0.3,
         -0.3,
-        -0.3
+        -0.3,
+        0.031,
+        -0.069,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        -0.069,
+        -0.169,
+        -0.269,
+        -0.269,
+        -0.169,
+        -0.169,
+        -0.169,
+        -0.269
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        -0.269,
+        -0.369,
+        -0.269,
+        -0.369,
+        -0.169,
+        -0.169,
+        -0.369,
+        -0.269,
+        -0.269,
+        -0.169,
+        -0.269,
+        -0.169,
+        -0.169,
+        -0.169,
+        0.231,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031
        ]
       },
       {
@@ -10684,13 +15309,53 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.4,
         -0.4,
         -0.4,
-        0.2
+        0.2,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031
        ]
       },
       {
@@ -10701,13 +15366,102 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.1,
         -0.15,
         -0.1,
-        -0.3
+        -0.3,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        -0.169,
+        -0.269,
+        -0.169,
+        -0.169,
+        -0.269,
+        -0.169,
+        -0.269,
+        -0.269,
+        -0.169,
+        -0.269,
+        0.031
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        -0.169,
+        -0.269,
+        -0.269,
+        -0.469,
+        -0.269,
+        -0.169,
+        -0.169,
+        -0.169,
+        -0.169,
+        -0.169,
+        -0.369,
+        0.031,
+        -0.169,
+        0.031,
+        0.031,
+        -0.069,
+        -0.069,
+        -0.069
        ]
       },
       {
@@ -10718,13 +15472,57 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         0.05,
         0.0,
         0.6,
-        0.5
+        0.5,
+        0.131,
+        0.031,
+        -0.069,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        -0.169,
+        -0.069,
+        -0.169,
+        -0.069,
+        0.031,
+        0.031,
+        0.031,
+        -0.169,
+        -0.169,
+        -0.069,
+        0.031,
+        0.031,
+        -0.069,
+        0.031
        ]
       },
       {
@@ -10735,13 +15533,106 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.5,
         -0.5,
         -0.5,
-        -0.5
+        -0.5,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        -0.369,
+        -0.369,
+        -0.369,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.369,
+        -0.369
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+       ],
+       "y": [
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.769,
+        -0.369,
+        -0.369,
+        -0.469,
+        -0.369,
+        -0.369,
+        -0.369,
+        -0.369,
+        -0.369,
+        -0.269,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        -0.169
        ]
       },
       {
@@ -10752,13 +15643,150 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
        ],
        "y": [
         -0.15,
         -0.15,
         -0.15,
-        -0.15
+        -0.15,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031,
+        0.031
+       ]
+      }
+     ],
+     "realized": -1.1144883485309065
+    },
+    "2026-09": {
+     "lines": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "label": "gpt-5.1 · cond.",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -0.897
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "label": "gpt-5.1 · rag",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -0.897
+       ]
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "label": "gpt-5.1",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -0.697
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "label": "gpt-oss-120b · cond.",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -0.897
+       ]
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "label": "gpt-oss-120b · rag",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -0.997
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "label": "llama-3.3-70b-instruct · cond.",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -1.097
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "label": "llama-3.3-70b-instruct · rag",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -1.097
+       ]
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "label": "llama-3.3-70b-instruct",
+       "x": [
+        "2026-10-18"
+       ],
+       "y": [
+        -0.697
        ]
       }
      ],
@@ -10767,17 +15795,395 @@
    }
   }
  },
- "scoreboard": [],
- "scored_targets": 0,
+ "scoreboard": [
+  {
+   "model": "ec/gpt-5.1",
+   "type": "conditional",
+   "label": "gpt-5.1 · cond.",
+   "skill": 0.705,
+   "n": 4,
+   "vars": 3,
+   "wins": 2,
+   "clipped": 0,
+   "loo_lo": 1,
+   "loo_hi": 4,
+   "mae": 0.394,
+   "bias": 0.079,
+   "rw": 0.463,
+   "rank": 1
+  },
+  {
+   "model": "ec/gpt-5.1",
+   "type": "conditional_rag",
+   "label": "gpt-5.1 · rag",
+   "skill": 0.761,
+   "n": 4,
+   "vars": 3,
+   "wins": 2,
+   "clipped": 0,
+   "loo_lo": 1,
+   "loo_hi": 4,
+   "mae": 0.432,
+   "bias": 0.154,
+   "rw": 0.463,
+   "rank": 2
+  },
+  {
+   "model": "jrc/llama-3.3-70b-instruct",
+   "type": "conditional",
+   "label": "llama-3.3-70b-instruct · cond.",
+   "skill": 0.798,
+   "n": 4,
+   "vars": 3,
+   "wins": 3,
+   "clipped": 0,
+   "loo_lo": 3,
+   "loo_hi": 3,
+   "mae": 0.381,
+   "bias": -0.008,
+   "rw": 0.463,
+   "rank": 3
+  },
+  {
+   "model": "jrc/gpt-oss-120b",
+   "type": "conditional_rag",
+   "label": "gpt-oss-120b · rag",
+   "skill": 0.863,
+   "n": 4,
+   "vars": 3,
+   "wins": 2,
+   "clipped": 0,
+   "loo_lo": 2,
+   "loo_hi": 6,
+   "mae": 0.445,
+   "bias": 0.092,
+   "rw": 0.463,
+   "rank": 4
+  },
+  {
+   "model": "jrc/gpt-oss-120b",
+   "type": "conditional",
+   "label": "gpt-oss-120b · cond.",
+   "skill": 0.912,
+   "n": 4,
+   "vars": 3,
+   "wins": 3,
+   "clipped": 0,
+   "loo_lo": 5,
+   "loo_hi": 6,
+   "mae": 0.431,
+   "bias": -0.008,
+   "rw": 0.463,
+   "rank": 5
+  },
+  {
+   "model": "jrc/llama-3.3-70b-instruct",
+   "type": "conditional_rag",
+   "label": "llama-3.3-70b-instruct · rag",
+   "skill": 0.921,
+   "n": 4,
+   "vars": 3,
+   "wins": 2,
+   "clipped": 0,
+   "loo_lo": 3,
+   "loo_hi": 6,
+   "mae": 0.481,
+   "bias": 0.092,
+   "rw": 0.463,
+   "rank": 6
+  },
+  {
+   "model": "jrc/gpt-oss-120b",
+   "type": "unconditional",
+   "label": "gpt-oss-120b",
+   "skill": 1.06,
+   "n": 4,
+   "vars": 3,
+   "wins": 0,
+   "clipped": 0,
+   "loo_lo": 7,
+   "loo_hi": 7,
+   "mae": 0.506,
+   "bias": 0.017,
+   "rw": 0.463,
+   "rank": 7
+  },
+  {
+   "model": "ec/gpt-5.1",
+   "type": "unconditional",
+   "label": "gpt-5.1",
+   "skill": 1.093,
+   "n": 4,
+   "vars": 3,
+   "wins": 0,
+   "clipped": 0,
+   "loo_lo": 7,
+   "loo_hi": 9,
+   "mae": 0.531,
+   "bias": 0.042,
+   "rw": 0.463,
+   "rank": 8
+  },
+  {
+   "model": "jrc/llama-3.3-70b-instruct",
+   "type": "unconditional",
+   "label": "llama-3.3-70b-instruct",
+   "skill": 1.093,
+   "n": 4,
+   "vars": 3,
+   "wins": 0,
+   "clipped": 0,
+   "loo_lo": 7,
+   "loo_hi": 9,
+   "mae": 0.531,
+   "bias": 0.042,
+   "rw": 0.463,
+   "rank": 9
+  }
+ ],
+ "scored_targets": 4,
  "score_from": "2026-09-21",
- "pending_targets": 4,
- "evidence": {},
+ "pending_targets": 5,
+ "evidence": {
+  "us_cpi_yoy": {
+   "name": "US CPI inflation (YoY %, all items)",
+   "unit": "% YoY",
+   "targets": [
+    {
+     "t": "2026-09",
+     "a": 3.738,
+     "rw": -0.341,
+     "marks": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "err": -0.152
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "err": -0.202
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "err": -0.352
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "err": -0.302
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "err": -0.252
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "err": -0.352
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "err": -0.252
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "err": -0.252
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "err": -0.352
+      }
+     ]
+    }
+   ]
+  },
+  "ea_hicp_yoy": {
+   "name": "Euro area HICP inflation (YoY %, all items)",
+   "unit": "% YoY",
+   "targets": [
+    {
+     "t": "2026-09",
+     "a": 3.8,
+     "rw": -0.6,
+     "marks": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "err": -0.454
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "err": -0.354
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "err": -0.604
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "err": -0.554
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "err": -0.454
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "err": -0.604
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "err": -0.504
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "err": -0.504
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "err": -0.604
+      }
+     ]
+    }
+   ]
+  },
+  "ea_unrate": {
+   "name": "Euro area unemployment rate (%, seasonally adjusted, 15-74)",
+   "unit": "%",
+   "targets": [
+    {
+     "t": "2026-08",
+     "a": 6.4,
+     "rw": 0.0,
+     "marks": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "err": -0.023
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "err": 0.027
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "err": -0.023
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "err": -0.023
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "err": 0.027
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "err": -0.023
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "err": -0.023
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "err": -0.023
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "err": -0.023
+      }
+     ]
+    }
+   ]
+  },
+  "ea_ip_yoy": {
+   "name": "Euro area industrial production, total industry excl. construction (YoY %, working day and seasonally adjusted)",
+   "unit": "% YoY",
+   "targets": [
+    {
+     "t": "2026-08",
+     "a": -1.114,
+     "rw": 0.912,
+     "marks": [
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional",
+       "err": 0.946
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "conditional_rag",
+       "err": 1.146
+      },
+      {
+       "model": "ec/gpt-5.1",
+       "type": "unconditional",
+       "err": 1.146
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional",
+       "err": 0.846
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "conditional_rag",
+       "err": 1.046
+      },
+      {
+       "model": "jrc/gpt-oss-120b",
+       "type": "unconditional",
+       "err": 1.046
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional",
+       "err": 0.746
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "conditional_rag",
+       "err": 1.146
+      },
+      {
+       "model": "jrc/llama-3.3-70b-instruct",
+       "type": "unconditional",
+       "err": 1.146
+      }
+     ]
+    }
+   ]
+  }
+ },
  "reddit": null,
- "n_forecasts": 2468,
- "n_stale": 4,
+ "n_forecasts": 3953,
+ "n_stale": 3,
  "nowcast": {
   "dir": "data/nowcast",
-  "built_at": "2026-10-18 12:38 UTC",
+  "built_at": "2026-10-18 15:33 UTC",
   "files": [
    {
     "area": "EU",
@@ -10852,7 +16258,7 @@
     "missing": {
      "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 45072
+    "bytes": 45073
    },
    {
     "area": "IT",
@@ -10902,7 +16308,7 @@
     "missing": {
      "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 46367
+    "bytes": 46368
    },
    {
     "area": "ES",
@@ -10952,12 +16358,12 @@
     "missing": {
      "SP500": "ModuleNotFoundError: No module named 'yfinance'"
     },
-    "bytes": 54992
+    "bytes": 54989
    }
   ],
   "zip": {
    "file": "nowcast_datasets.zip",
-   "bytes": 311089
+   "bytes": 311084
   }
  },
  "fomc": null
