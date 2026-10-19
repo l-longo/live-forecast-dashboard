@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-18 15:33 UTC",
+ "built_at": "2026-10-19 12:00 UTC",
  "files": [
   {
    "area": "EU",
@@ -74,7 +74,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45073
+   "bytes": 45072
   },
   {
    "area": "IT",
@@ -124,7 +124,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 46368
+   "bytes": 46367
   },
   {
    "area": "ES",
@@ -149,7 +149,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45102
+   "bytes": 45101
   },
   {
    "area": "US",
@@ -174,7 +174,7 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 54989
+   "bytes": 54988
   }
  ],
  "zip": {
