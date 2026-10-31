@@ -1,22 +1,22 @@
 {
- "built_at": "2026-10-29 08:34 UTC",
+ "built_at": "2026-10-31 09:43 UTC",
  "files": [
   {
    "area": "EU",
    "file": "EU_data_inspect_noreal_sent_levels_auth.xlsx",
-   "rows": 501,
+   "rows": 502,
    "cols": 10,
    "cols_with_data": 9,
    "first": "1985-01-31",
-   "last": "2026-09-30",
+   "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "2026-06-30",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-09-30",
-    "EcSent": "2026-09-30",
+    "EcSent": "2026-10-31",
     "IPall": "2026-08-31",
     "CONSindex": "2026-08-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-08-31",
+    "unemployment": "2026-09-30",
     "HICP": "2026-09-30",
     "Brent": "2026-09-30",
     "STOXX": ""
@@ -24,24 +24,24 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43861
+   "bytes": 43878
   },
   {
    "area": "EA",
    "file": "EA_data_inspect_noreal_sent_levels_auth.xlsx",
-   "rows": 501,
+   "rows": 502,
    "cols": 10,
    "cols_with_data": 9,
    "first": "1985-01-31",
-   "last": "2026-09-30",
+   "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "2026-06-30",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-09-30",
-    "EcSent": "2026-09-30",
+    "EcSent": "2026-10-31",
     "IPall": "2026-08-31",
     "CONSindex": "2026-08-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-08-31",
+    "unemployment": "2026-09-30",
     "HICP": "2026-09-30",
     "Brent": "2026-09-30",
     "STOXX": ""
@@ -49,24 +49,24 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43608
+   "bytes": 43636
   },
   {
    "area": "DE",
    "file": "DE_data_inspect_noreal_sent_levels_auth.xlsx",
-   "rows": 501,
+   "rows": 502,
    "cols": 10,
    "cols_with_data": 9,
    "first": "1985-01-31",
-   "last": "2026-09-30",
+   "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "2026-06-30",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-09-30",
-    "EcSent": "2026-09-30",
+    "EcSent": "2026-10-31",
     "IPall": "2026-08-31",
     "CONSindex": "2026-08-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-08-31",
+    "unemployment": "2026-09-30",
     "HICP": "2026-09-30",
     "Brent": "2026-09-30",
     "STOXX": ""
@@ -74,24 +74,24 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45156
+   "bytes": 45206
   },
   {
    "area": "IT",
    "file": "IT_data_inspect_noreal_sent_levels_auth.xlsx",
-   "rows": 501,
+   "rows": 502,
    "cols": 10,
    "cols_with_data": 9,
    "first": "1985-01-31",
-   "last": "2026-09-30",
+   "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "2026-06-30",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-09-30",
-    "EcSent": "2026-09-30",
+    "EcSent": "2026-10-31",
     "IPall": "2026-08-31",
     "CONSindex": "2026-08-31",
     "retail": "2026-08-31",
-    "unemployment": "2026-08-31",
+    "unemployment": "2026-09-30",
     "HICP": "2026-09-30",
     "Brent": "2026-09-30",
     "STOXX": ""
@@ -99,24 +99,24 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 44181
+   "bytes": 44200
   },
   {
    "area": "FR",
    "file": "FR_data_inspect_noreal_sent_levels_auth.xlsx",
-   "rows": 501,
+   "rows": 502,
    "cols": 10,
    "cols_with_data": 9,
    "first": "1985-01-31",
-   "last": "2026-09-30",
+   "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "2026-06-30",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-09-30",
-    "EcSent": "2026-09-30",
+    "EcSent": "2026-10-31",
     "IPall": "2026-08-31",
     "CONSindex": "2026-08-31",
-    "retail": "2026-08-31",
-    "unemployment": "2026-08-31",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
     "HICP": "2026-09-30",
     "Brent": "2026-09-30",
     "STOXX": ""
@@ -124,24 +124,24 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 46460
+   "bytes": 46533
   },
   {
    "area": "ES",
    "file": "ES_data_inspect_noreal_sent_levels_auth.xlsx",
-   "rows": 501,
+   "rows": 502,
    "cols": 10,
    "cols_with_data": 9,
    "first": "1985-01-31",
-   "last": "2026-09-30",
+   "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "2026-06-30",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-09-30",
-    "EcSent": "2026-09-30",
+    "EcSent": "2026-10-31",
     "IPall": "2026-08-31",
     "CONSindex": "2026-08-31",
-    "retail": "2026-08-31",
-    "unemployment": "2026-08-31",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
     "HICP": "2026-09-30",
     "Brent": "2026-09-30",
     "STOXX": ""
@@ -149,7 +149,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45193
+   "bytes": 45298
   },
   {
    "area": "US",
@@ -160,7 +160,7 @@
    "first": "1985-01-31",
    "last": "2026-09-30",
    "coverage": {
-    "GDPlevel": "2026-06-30",
+    "GDPlevel": "2026-09-30",
     "TBILL3M": "2026-09-30",
     "ConsSent": "2026-09-30",
     "IPall": "2026-09-30",
@@ -174,11 +174,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55153
+   "bytes": 55165
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 311628
+  "bytes": 312081
  }
 }
