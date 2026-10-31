@@ -1,5 +1,5 @@
 {
- "generated_at": "31 Oct 2026, 09:44 UTC",
+ "generated_at": "31 Oct 2026, 13:38 UTC",
  "last_run": "2026-10-31",
  "first_run": "2026-07-05",
  "n_runs": 107,
@@ -53,6 +53,14 @@
    "sym": "triangle-up",
    "glyph": "▲",
    "dash": "dash"
+  },
+  "agent": {
+   "suffix": " · agent",
+   "short": "agent",
+   "long": "agent · web search",
+   "sym": "cross",
+   "glyph": "✚",
+   "dash": "dot"
   }
  },
  "ftype_order": [
@@ -20673,6 +20681,1217 @@
    "rank": 9
   }
  ],
+ "ar_board": {
+  "all": [
+   {
+    "model": "jrc/llama-3.3-70b-instruct",
+    "type": "conditional_rag",
+    "label": "llama-3.3-70b-instruct · rag",
+    "rel": 1.12,
+    "rmse": 0.609,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 2
+   },
+   {
+    "model": "jrc/llama-3.3-70b-instruct",
+    "type": "agent",
+    "label": "llama-3.3-70b-instruct · agent",
+    "rel": 1.078,
+    "rmse": 0.587,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 3
+   },
+   {
+    "model": "jrc/gpt-oss-120b",
+    "type": "agent",
+    "label": "gpt-oss-120b · agent",
+    "rel": 1.054,
+    "rmse": 0.573,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 3
+   },
+   {
+    "model": "ec/gpt-5.1",
+    "type": "agent",
+    "label": "gpt-5.1 · agent",
+    "rel": 1.039,
+    "rmse": 0.565,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 2
+   },
+   {
+    "model": "jrc/gpt-oss-120b",
+    "type": "conditional_rag",
+    "label": "gpt-oss-120b · rag",
+    "rel": 1.038,
+    "rmse": 0.565,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 5
+   },
+   {
+    "model": "ec/gpt-5.1",
+    "type": "conditional_rag",
+    "label": "gpt-5.1 · rag",
+    "rel": 1.013,
+    "rmse": 0.551,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 4
+   },
+   {
+    "model": "ec/gpt-5.1",
+    "type": "unconditional",
+    "label": "gpt-5.1",
+    "rel": 1.0,
+    "rmse": 0.544,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 0
+   },
+   {
+    "model": "jrc/llama-3.3-70b-instruct",
+    "type": "unconditional",
+    "label": "llama-3.3-70b-instruct",
+    "rel": 1.0,
+    "rmse": 0.544,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 0
+   },
+   {
+    "model": "jrc/llama-3.3-70b-instruct",
+    "type": "conditional",
+    "label": "llama-3.3-70b-instruct · cond.",
+    "rel": 0.997,
+    "rmse": 0.542,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 3
+   },
+   {
+    "model": "jrc/gpt-oss-120b",
+    "type": "conditional",
+    "label": "gpt-oss-120b · cond.",
+    "rel": 0.99,
+    "rmse": 0.539,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 3
+   },
+   {
+    "model": "jrc/gpt-oss-120b",
+    "type": "unconditional",
+    "label": "gpt-oss-120b",
+    "rel": 0.958,
+    "rmse": 0.521,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 1
+   },
+   {
+    "model": "ec/gpt-5.1",
+    "type": "conditional",
+    "label": "gpt-5.1 · cond.",
+    "rel": 0.793,
+    "rmse": 0.432,
+    "ar_rmse": 0.544,
+    "n": 9,
+    "vars": 8,
+    "wins": 4
+   }
+  ],
+  "by_var": {
+   "ea_gdp_qoq": [
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 2.225,
+     "rmse": 0.363,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 1.613,
+     "rmse": 0.263,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 1.613,
+     "rmse": 0.263,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 0.163,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 0.387,
+     "rmse": 0.063,
+     "ar_rmse": 0.163,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    }
+   ],
+   "ea_hicp_yoy": [
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 1.331,
+     "rmse": 0.804,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 1.0,
+     "rmse": 0.604,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 0.604,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 1.0,
+     "rmse": 0.604,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 1.0,
+     "rmse": 0.604,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 0.604,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 0.917,
+     "rmse": 0.554,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 0.834,
+     "rmse": 0.504,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 0.834,
+     "rmse": 0.504,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 0.752,
+     "rmse": 0.454,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 0.752,
+     "rmse": 0.454,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 0.586,
+     "rmse": 0.354,
+     "ar_rmse": 0.604,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    }
+   ],
+   "ea_ip_yoy": [
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 1.175,
+     "rmse": 1.346,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 1.175,
+     "rmse": 1.346,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 1.0,
+     "rmse": 1.146,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 1.146,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 1.0,
+     "rmse": 1.146,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 1.146,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 0.913,
+     "rmse": 1.046,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 0.913,
+     "rmse": 1.046,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 0.913,
+     "rmse": 1.046,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 0.825,
+     "rmse": 0.946,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 0.738,
+     "rmse": 0.846,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 0.651,
+     "rmse": 0.746,
+     "ar_rmse": 1.146,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    }
+   ],
+   "ea_unrate": [
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 1.079,
+     "rmse": 0.132,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 0.123,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 0.822,
+     "rmse": 0.101,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 0.822,
+     "rmse": 0.101,
+     "ar_rmse": 0.123,
+     "n": 2,
+     "vars": 1,
+     "wins": 1
+    }
+   ],
+   "us_cpi_yoy": [
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 1.284,
+     "rmse": 0.452,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 0.352,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 1.0,
+     "rmse": 0.352,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 1.0,
+     "rmse": 0.352,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 0.352,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 0.858,
+     "rmse": 0.302,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 0.858,
+     "rmse": 0.302,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 0.716,
+     "rmse": 0.252,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 0.716,
+     "rmse": 0.252,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 0.716,
+     "rmse": 0.252,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 0.574,
+     "rmse": 0.202,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 0.432,
+     "rmse": 0.152,
+     "ar_rmse": 0.352,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    }
+   ],
+   "us_gdp_qoq": [
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 1.959,
+     "rmse": 0.409,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 1.479,
+     "rmse": 0.309,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 1.24,
+     "rmse": 0.259,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 1.0,
+     "rmse": 0.209,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 0.209,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 1.0,
+     "rmse": 0.209,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 0.209,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 0.76,
+     "rmse": 0.159,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 0.678,
+     "rmse": 0.141,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 0.521,
+     "rmse": 0.109,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 0.521,
+     "rmse": 0.109,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 0.281,
+     "rmse": 0.059,
+     "ar_rmse": 0.209,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    }
+   ],
+   "us_ip_yoy": [
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 1.459,
+     "rmse": 1.272,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 1.344,
+     "rmse": 1.172,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 1.344,
+     "rmse": 1.172,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 1.344,
+     "rmse": 1.172,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 1.229,
+     "rmse": 1.072,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 1.229,
+     "rmse": 1.072,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 0.872,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 1.0,
+     "rmse": 0.872,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 1.0,
+     "rmse": 0.872,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 0.872,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 0.771,
+     "rmse": 0.672,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 0.656,
+     "rmse": 0.572,
+     "ar_rmse": 0.872,
+     "n": 1,
+     "vars": 1,
+     "wins": 1
+    }
+   ],
+   "us_unrate": [
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional_rag",
+     "label": "llama-3.3-70b-instruct · rag",
+     "rel": 7.547,
+     "rmse": 0.088,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "agent",
+     "label": "gpt-oss-120b · agent",
+     "rel": 5.274,
+     "rmse": 0.062,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "agent",
+     "label": "gpt-5.1 · agent",
+     "rel": 3.274,
+     "rmse": 0.038,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional_rag",
+     "label": "gpt-oss-120b · rag",
+     "rel": 3.274,
+     "rmse": 0.038,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional",
+     "label": "gpt-5.1 · cond.",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "conditional_rag",
+     "label": "gpt-5.1 · rag",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "ec/gpt-5.1",
+     "type": "unconditional",
+     "label": "gpt-5.1",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "conditional",
+     "label": "gpt-oss-120b · cond.",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/gpt-oss-120b",
+     "type": "unconditional",
+     "label": "gpt-oss-120b",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "agent",
+     "label": "llama-3.3-70b-instruct · agent",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "conditional",
+     "label": "llama-3.3-70b-instruct · cond.",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    },
+    {
+     "model": "jrc/llama-3.3-70b-instruct",
+     "type": "unconditional",
+     "label": "llama-3.3-70b-instruct",
+     "rel": 1.0,
+     "rmse": 0.012,
+     "ar_rmse": 0.012,
+     "n": 1,
+     "vars": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "n_targets": 9
+ },
  "scored_targets": 9,
  "score_from": "2026-09-21",
  "pending_targets": 8,
