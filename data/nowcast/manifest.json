@@ -1,197 +1,155 @@
 {
- "built_at": "2026-11-11 08:57 UTC",
+ "built_at": "2026-11-12 08:59 UTC",
  "files": [
   {
    "area": "EU",
    "file": "EU_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 502,
    "cols": 10,
-   "cols_with_data": 2,
+   "cols_with_data": 9,
    "first": "1985-01-31",
    "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-10-31",
-    "EcSent": "",
-    "IPall": "",
-    "CONSindex": "",
-    "retail": "",
-    "unemployment": "",
-    "HICP": "",
+    "EcSent": "2026-10-31",
+    "IPall": "2026-08-31",
+    "CONSindex": "2026-08-31",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
+    "HICP": "2026-09-30",
     "Brent": "2026-10-31",
     "STOXX": ""
    },
    "missing": {
-    "GDPlevel": "RuntimeError: namq_10_gdp: Expecting value: line 1 column 1 (char 0)",
-    "EcSent": "RuntimeError: teibs010: Expecting value: line 1 column 1 (char 0)",
-    "IPall": "RuntimeError: sts_inpr_m: Expecting value: line 1 column 1 (char 0)",
-    "CONSindex": "RuntimeError: sts_copr_m: Expecting value: line 1 column 1 (char 0)",
-    "retail": "RuntimeError: sts_trtu_m: Expecting value: line 1 column 1 (char 0)",
-    "unemployment": "RuntimeError: une_rt_m: Expecting value: line 1 column 1 (char 0)",
-    "HICP": "RuntimeError: prc_hicp_midx: Expecting value: line 1 column 1 (char 0)",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 27724
+   "bytes": 43877
   },
   {
    "area": "EA",
    "file": "EA_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 502,
    "cols": 10,
-   "cols_with_data": 2,
+   "cols_with_data": 9,
    "first": "1985-01-31",
    "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-10-31",
-    "EcSent": "",
-    "IPall": "",
-    "CONSindex": "",
-    "retail": "",
-    "unemployment": "",
-    "HICP": "",
+    "EcSent": "2026-10-31",
+    "IPall": "2026-08-31",
+    "CONSindex": "2026-08-31",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
+    "HICP": "2026-10-31",
     "Brent": "2026-10-31",
     "STOXX": ""
    },
    "missing": {
-    "GDPlevel": "RuntimeError: namq_10_gdp: Expecting value: line 1 column 1 (char 0)",
-    "EcSent": "RuntimeError: teibs010: Expecting value: line 1 column 1 (char 0)",
-    "IPall": "RuntimeError: sts_inpr_m: Expecting value: line 1 column 1 (char 0)",
-    "CONSindex": "RuntimeError: sts_copr_m: Expecting value: line 1 column 1 (char 0)",
-    "retail": "RuntimeError: sts_trtu_m: Expecting value: line 1 column 1 (char 0)",
-    "unemployment": "RuntimeError: une_rt_m: Expecting value: line 1 column 1 (char 0)",
-    "HICP": "RuntimeError: prc_hicp_midx: Expecting value: line 1 column 1 (char 0)",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 27724
+   "bytes": 43679
   },
   {
    "area": "DE",
    "file": "DE_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 502,
    "cols": 10,
-   "cols_with_data": 2,
+   "cols_with_data": 9,
    "first": "1985-01-31",
    "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-10-31",
-    "EcSent": "",
-    "IPall": "",
-    "CONSindex": "",
-    "retail": "",
-    "unemployment": "",
-    "HICP": "",
+    "EcSent": "2026-10-31",
+    "IPall": "2026-09-30",
+    "CONSindex": "2026-09-30",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
+    "HICP": "2026-10-31",
     "Brent": "2026-10-31",
     "STOXX": ""
    },
    "missing": {
-    "GDPlevel": "RuntimeError: namq_10_gdp: Expecting value: line 1 column 1 (char 0)",
-    "EcSent": "RuntimeError: teibs010: Expecting value: line 1 column 1 (char 0)",
-    "IPall": "RuntimeError: sts_inpr_m: Expecting value: line 1 column 1 (char 0)",
-    "CONSindex": "RuntimeError: sts_copr_m: Expecting value: line 1 column 1 (char 0)",
-    "retail": "RuntimeError: sts_trtu_m: Expecting value: line 1 column 1 (char 0)",
-    "unemployment": "RuntimeError: une_rt_m: Expecting value: line 1 column 1 (char 0)",
-    "HICP": "RuntimeError: prc_hicp_midx: Expecting value: line 1 column 1 (char 0)",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 27726
+   "bytes": 45184
   },
   {
    "area": "IT",
    "file": "IT_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 502,
    "cols": 10,
-   "cols_with_data": 2,
+   "cols_with_data": 9,
    "first": "1985-01-31",
    "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-10-31",
-    "EcSent": "",
-    "IPall": "",
-    "CONSindex": "",
-    "retail": "",
-    "unemployment": "",
-    "HICP": "",
+    "EcSent": "2026-10-31",
+    "IPall": "2026-09-30",
+    "CONSindex": "2026-08-31",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
+    "HICP": "2026-10-31",
     "Brent": "2026-10-31",
     "STOXX": ""
    },
    "missing": {
-    "GDPlevel": "RuntimeError: namq_10_gdp: Expecting value: line 1 column 1 (char 0)",
-    "EcSent": "RuntimeError: teibs010: Expecting value: line 1 column 1 (char 0)",
-    "IPall": "RuntimeError: sts_inpr_m: Expecting value: line 1 column 1 (char 0)",
-    "CONSindex": "RuntimeError: sts_copr_m: Expecting value: line 1 column 1 (char 0)",
-    "retail": "RuntimeError: sts_trtu_m: Expecting value: line 1 column 1 (char 0)",
-    "unemployment": "RuntimeError: une_rt_m: Expecting value: line 1 column 1 (char 0)",
-    "HICP": "RuntimeError: prc_hicp_midx: Expecting value: line 1 column 1 (char 0)",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 27723
+   "bytes": 44228
   },
   {
    "area": "FR",
    "file": "FR_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 502,
    "cols": 10,
-   "cols_with_data": 2,
+   "cols_with_data": 9,
    "first": "1985-01-31",
    "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-10-31",
-    "EcSent": "",
-    "IPall": "",
-    "CONSindex": "",
-    "retail": "",
-    "unemployment": "",
-    "HICP": "",
+    "EcSent": "2026-10-31",
+    "IPall": "2026-09-30",
+    "CONSindex": "2026-09-30",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
+    "HICP": "2026-10-31",
     "Brent": "2026-10-31",
     "STOXX": ""
    },
    "missing": {
-    "GDPlevel": "RuntimeError: namq_10_gdp: Expecting value: line 1 column 1 (char 0)",
-    "EcSent": "RuntimeError: teibs010: Expecting value: line 1 column 1 (char 0)",
-    "IPall": "RuntimeError: sts_inpr_m: Expecting value: line 1 column 1 (char 0)",
-    "CONSindex": "RuntimeError: sts_copr_m: Expecting value: line 1 column 1 (char 0)",
-    "retail": "RuntimeError: sts_trtu_m: Expecting value: line 1 column 1 (char 0)",
-    "unemployment": "RuntimeError: une_rt_m: Expecting value: line 1 column 1 (char 0)",
-    "HICP": "RuntimeError: prc_hicp_midx: Expecting value: line 1 column 1 (char 0)",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 27723
+   "bytes": 46576
   },
   {
    "area": "ES",
    "file": "ES_data_inspect_noreal_sent_levels_auth.xlsx",
    "rows": 502,
    "cols": 10,
-   "cols_with_data": 2,
+   "cols_with_data": 9,
    "first": "1985-01-31",
    "last": "2026-10-31",
    "coverage": {
-    "GDPyoy": "",
+    "GDPyoy": "2026-09-30",
     "EURIBOR 3M": "2026-10-31",
-    "EcSent": "",
-    "IPall": "",
-    "CONSindex": "",
-    "retail": "",
-    "unemployment": "",
-    "HICP": "",
+    "EcSent": "2026-10-31",
+    "IPall": "2026-09-30",
+    "CONSindex": "2026-08-31",
+    "retail": "2026-09-30",
+    "unemployment": "2026-09-30",
+    "HICP": "2026-10-31",
     "Brent": "2026-10-31",
     "STOXX": ""
    },
    "missing": {
-    "GDPlevel": "RuntimeError: namq_10_gdp: Expecting value: line 1 column 1 (char 0)",
-    "EcSent": "RuntimeError: teibs010: Expecting value: line 1 column 1 (char 0)",
-    "IPall": "RuntimeError: sts_inpr_m: Expecting value: line 1 column 1 (char 0)",
-    "CONSindex": "RuntimeError: sts_copr_m: Expecting value: line 1 column 1 (char 0)",
-    "retail": "RuntimeError: sts_trtu_m: Expecting value: line 1 column 1 (char 0)",
-    "unemployment": "RuntimeError: une_rt_m: Expecting value: line 1 column 1 (char 0)",
-    "HICP": "RuntimeError: prc_hicp_midx: Expecting value: line 1 column 1 (char 0)",
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 27722
+   "bytes": 45319
   },
   {
    "area": "US",
@@ -216,11 +174,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55236
+   "bytes": 55237
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 180988
+  "bytes": 312196
  }
 }
