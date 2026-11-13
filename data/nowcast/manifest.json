@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-12 08:59 UTC",
+ "built_at": "2026-11-13 08:51 UTC",
  "files": [
   {
    "area": "EU",
@@ -179,6 +179,6 @@
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 312196
+  "bytes": 312188
  }
 }
