@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-17 09:16 UTC",
+ "built_at": "2026-11-18 09:24 UTC",
  "files": [
   {
    "area": "EU",
@@ -24,7 +24,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43822
+   "bytes": 43826
   },
   {
    "area": "EA",
@@ -49,7 +49,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43672
+   "bytes": 43671
   },
   {
    "area": "DE",
@@ -74,7 +74,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45185
+   "bytes": 45187
   },
   {
    "area": "IT",
@@ -149,7 +149,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 45299
+   "bytes": 45300
   },
   {
    "area": "US",
@@ -163,9 +163,9 @@
     "GDPlevel": "2026-09-30",
     "TBILL3M": "2026-10-31",
     "ConsSent": "2026-09-30",
-    "IPall": "2026-09-30",
+    "IPall": "2026-10-31",
     "CONSspend": "2026-09-30",
-    "retail": "2026-09-30",
+    "retail": "2026-10-31",
     "unemployment": "2026-10-31",
     "CPI": "2026-10-31",
     "BrentUSD": "2026-10-31",
@@ -174,11 +174,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55236
+   "bytes": 55259
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 312134
+  "bytes": 312173
  }
 }
