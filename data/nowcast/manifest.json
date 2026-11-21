@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-20 09:40 UTC",
+ "built_at": "2026-11-21 09:15 UTC",
  "files": [
   {
    "area": "EU",
@@ -24,7 +24,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43847
+   "bytes": 43846
   },
   {
    "area": "EA",
@@ -49,7 +49,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 43714
+   "bytes": 43709
   },
   {
    "area": "DE",
@@ -89,7 +89,7 @@
     "EURIBOR 3M": "2026-10-31",
     "EcSent": "2026-10-31",
     "IPall": "2026-09-30",
-    "CONSindex": "2026-08-31",
+    "CONSindex": "2026-09-30",
     "retail": "2026-09-30",
     "unemployment": "2026-09-30",
     "HICP": "2026-10-31",
@@ -99,7 +99,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 44229
+   "bytes": 44253
   },
   {
    "area": "FR",
@@ -124,7 +124,7 @@
    "missing": {
     "STOXX": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 46571
+   "bytes": 46572
   },
   {
    "area": "ES",
@@ -162,7 +162,7 @@
    "coverage": {
     "GDPlevel": "2026-09-30",
     "TBILL3M": "2026-10-31",
-    "ConsSent": "2026-09-30",
+    "ConsSent": "2026-10-31",
     "IPall": "2026-10-31",
     "CONSspend": "2026-09-30",
     "retail": "2026-10-31",
@@ -174,11 +174,11 @@
    "missing": {
     "SP500": "ModuleNotFoundError: No module named 'yfinance'"
    },
-   "bytes": 55260
+   "bytes": 55268
   }
  ],
  "zip": {
   "file": "nowcast_datasets.zip",
-  "bytes": 312221
+  "bytes": 312237
  }
 }
